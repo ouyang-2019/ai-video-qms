@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "file": "relations.json",
+      "sha256": "70887d34268c2e5315a0febe80b40ec4bffe59a37be68402617168467a5e32e0"
+    },
+    {
+      "file": "metadata/image-taxonomy.json",
+      "sha256": "6d7caf7eb2d71821c7925bb32536cbe96cad55aaca6b592e904c9de10037c888"
+    },
+    {
+      "file": "metadata/method-references.json",
+      "sha256": "185537b326bd08900e46f760e8647b4cd2d3cd48d0c5d3035fa4d5d3c66ce4fd"
+    },
+    {
+      "file": "metadata/public-edition.json",
+      "sha256": "ffa16f712a80ff4e5051477e4669ef4bf7512d031b81ca6a68ba58723f2e45db"
+    }
+  ]
+}

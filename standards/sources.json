@@ -1,0 +1,560 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "source_id": "SRC-INTERNAL-DESIGN",
+      "source_kind": "internal",
+      "title": "AI视频全专业四级质量体系原创设计与内部生产规范",
+      "revision": "2.0.0",
+      "captured_at": "2026-09-08",
+      "license_status": "MIT authored public edition; external reference rights unchanged",
+      "verification": "structural",
+      "evidence_scope": "authored_process_guidance_not_generation_test",
+      "sha256": "37906159042ca1138288506fcbee4ff6fbeb167203704dabff929a817b6945d8",
+      "distribution": "metadata_only_original_text_not_included"
+    },
+    {
+      "source_id": "H3-OFFICIAL-SKILL",
+      "source_kind": "official",
+      "title": "H3-OFFICIAL-SKILL",
+      "url": "https://raw.githubusercontent.com/MiniMax-AI/MiniMax-H3/d21241f0a4b3acbb34c97dae47fa417b7065e438/skills/h3-prompt-writing/SKILL.md",
+      "captured_at": "2026-09-08",
+      "revision": "d21241f0a4b3acbb34c97dae47fa417b7065e438",
+      "license_status": "reference_only_not_inferred",
+      "verification": "structural",
+      "read_status": "body_read",
+      "evidence_scope": "official_text_review_not_api_or_visual_test",
+      "original_metadata": {
+        "id": "H3-OFFICIAL-SKILL",
+        "url": "https://github.com/MiniMax-AI/MiniMax-H3/blob/main/skills/h3-prompt-writing/SKILL.md",
+        "read_url": "https://raw.githubusercontent.com/MiniMax-AI/MiniMax-H3/main/skills/h3-prompt-writing/SKILL.md",
+        "owner": "MiniMax-AI",
+        "family": "minimax-h3",
+        "version": "main snapshot, commit unpinned",
+        "platform": "portable prompt-writing skill",
+        "authority": "official",
+        "read_status": "body_read",
+        "rule_types": [
+          "rewrite_contract",
+          "recommendation"
+        ],
+        "api_verified": false
+      },
+      "sha256": "a7000443588ca3f145e3b3fd8900f14e0325dc460bd811268fac89a9dc8e56d0",
+      "distribution": "metadata_only_original_text_not_included"
+    },
+    {
+      "source_id": "H3-OFFICIAL-BASE",
+      "source_kind": "official",
+      "title": "H3-OFFICIAL-BASE",
+      "url": "https://raw.githubusercontent.com/MiniMax-AI/MiniMax-H3/d21241f0a4b3acbb34c97dae47fa417b7065e438/skills/h3-prompt-writing/references/base-en.txt",
+      "captured_at": "2026-09-08",
+      "revision": "d21241f0a4b3acbb34c97dae47fa417b7065e438",
+      "license_status": "reference_only_not_inferred",
+      "verification": "structural",
+      "read_status": "relevant_sections_read",
+      "evidence_scope": "official_text_review_not_api_or_visual_test",
+      "original_metadata": {
+        "id": "H3-OFFICIAL-BASE",
+        "url": "https://raw.githubusercontent.com/MiniMax-AI/MiniMax-H3/main/skills/h3-prompt-writing/references/base-en.txt",
+        "owner": "MiniMax-AI",
+        "family": "minimax-h3",
+        "version": "main snapshot, commit unpinned",
+        "platform": "portable prompt-writing skill",
+        "modes": [
+          "T2VA",
+          "I2VA",
+          "FL2VA",
+          "L2VA"
+        ],
+        "authority": "official",
+        "read_status": "relevant_sections_read",
+        "rule_types": [
+          "rewrite_contract",
+          "recommendation"
+        ],
+        "api_verified": false
+      },
+      "sha256": "2cfebc096a6e08370f288d468d90b60f7f9bcb938f94bf090816e910e48e75fc",
+      "distribution": "metadata_only_original_text_not_included"
+    },
+    {
+      "source_id": "H3-OFFICIAL-REF",
+      "source_kind": "official",
+      "title": "H3-OFFICIAL-REF",
+      "url": "https://raw.githubusercontent.com/MiniMax-AI/MiniMax-H3/d21241f0a4b3acbb34c97dae47fa417b7065e438/skills/h3-prompt-writing/references/ref-en.txt",
+      "captured_at": "2026-09-08",
+      "revision": "d21241f0a4b3acbb34c97dae47fa417b7065e438",
+      "license_status": "reference_only_not_inferred",
+      "verification": "structural",
+      "read_status": "relevant_sections_read",
+      "evidence_scope": "official_text_review_not_api_or_visual_test",
+      "original_metadata": {
+        "id": "H3-OFFICIAL-REF",
+        "url": "https://raw.githubusercontent.com/MiniMax-AI/MiniMax-H3/main/skills/h3-prompt-writing/references/ref-en.txt",
+        "owner": "MiniMax-AI",
+        "family": "minimax-h3",
+        "version": "main snapshot, commit unpinned",
+        "platform": "portable prompt-writing skill",
+        "modes": [
+          "Ref2VA"
+        ],
+        "authority": "official",
+        "read_status": "relevant_sections_read",
+        "rule_types": [
+          "rewrite_contract"
+        ],
+        "api_verified": false
+      },
+      "sha256": "1e574f356716ad55612247ffb7bbccbcdb484ad96599d63c7dca1af186b1fab7",
+      "distribution": "metadata_only_original_text_not_included"
+    },
+    {
+      "source_id": "SEEDANCE-OFFICIAL-CARD",
+      "source_kind": "official",
+      "title": "SEEDANCE-OFFICIAL-CARD",
+      "url": "https://seed.bytedance.com/en/seedance2_0",
+      "captured_at": "2026-09-08",
+      "revision": "2.0",
+      "license_status": "reference_only_not_inferred",
+      "verification": "structural",
+      "read_status": "body_read",
+      "evidence_scope": "official_text_review_not_api_or_visual_test",
+      "original_metadata": {
+        "id": "SEEDANCE-OFFICIAL-CARD",
+        "url": "https://seed.bytedance.com/en/seedance2_0",
+        "owner": "ByteDance Seed",
+        "family": "seedance",
+        "version": "2.0",
+        "platform": "model capability page",
+        "authority": "official",
+        "read_status": "body_read",
+        "rule_types": [
+          "capability_statement"
+        ],
+        "api_verified": false
+      },
+      "distribution": "metadata_only_original_text_not_included"
+    },
+    {
+      "source_id": "SEEDANCE-BYTEPLUS-LAS",
+      "source_kind": "official",
+      "title": "SEEDANCE-BYTEPLUS-LAS",
+      "url": "https://docs.byteplus.com/en/docs/Byteplus_LAS/video_gen_enhanced",
+      "captured_at": "2026-09-08",
+      "revision": "2026-08-17",
+      "license_status": "reference_only_not_inferred",
+      "verification": "structural",
+      "read_status": "relevant_sections_read",
+      "evidence_scope": "official_text_review_not_api_or_visual_test",
+      "original_metadata": {
+        "id": "SEEDANCE-BYTEPLUS-LAS",
+        "url": "https://docs.byteplus.com/en/docs/Byteplus_LAS/video_gen_enhanced",
+        "owner": "BytePlus",
+        "family": "seedance",
+        "versions": [
+          "2.0",
+          "2.0-fast",
+          "2.0-mini",
+          "2.5"
+        ],
+        "model_ids": [
+          "dreamina-seedance-2-0-260128",
+          "dreamina-seedance-2-0-fast-260128",
+          "dreamina-seedance-2-0-mini-260615",
+          "dreamina-seedance-2-5-260628"
+        ],
+        "platform": "BytePlus LAS Enhanced/basic video generation",
+        "page_updated": "2026-08-17",
+        "authority": "official",
+        "read_status": "relevant_sections_read",
+        "rule_types": [
+          "api_contract",
+          "platform_contract",
+          "capability_statement"
+        ],
+        "api_verified": false,
+        "restriction": "Do not transfer LAS limits to ModelArk, Jimeng or third-party providers."
+      },
+      "distribution": "metadata_only_original_text_not_included"
+    },
+    {
+      "source_id": "SEEDANCE-MODELARK-PROMPT",
+      "source_kind": "official",
+      "title": "SEEDANCE-MODELARK-PROMPT",
+      "url": "https://docs.byteplus.com/en/docs/ModelArk/2222480",
+      "captured_at": "2026-09-08",
+      "revision": "2026-08-31",
+      "license_status": "reference_only_not_inferred",
+      "verification": "unverified",
+      "read_status": "title_only",
+      "evidence_scope": "official_text_review_not_api_or_visual_test",
+      "original_metadata": {
+        "id": "SEEDANCE-MODELARK-PROMPT",
+        "url": "https://docs.byteplus.com/en/docs/ModelArk/2222480",
+        "owner": "BytePlus",
+        "family": "seedance",
+        "version": "2.0 series",
+        "platform": "BytePlus ModelArk",
+        "authority": "official",
+        "read_status": "title_only",
+        "page_updated": "2026-08-31",
+        "rule_types": [],
+        "gap": "Body unavailable through web extraction."
+      },
+      "distribution": "metadata_only_original_text_not_included"
+    },
+    {
+      "source_id": "SEEDANCE-VOLC-PROMPT",
+      "source_kind": "official",
+      "title": "SEEDANCE-VOLC-PROMPT",
+      "url": "https://www.volcengine.com/docs/82379/2222480?lang=zh",
+      "captured_at": "2026-09-08",
+      "revision": "2.0 series",
+      "license_status": "reference_only_not_inferred",
+      "verification": "unverified",
+      "read_status": "fetch_failed",
+      "evidence_scope": "official_text_review_not_api_or_visual_test",
+      "original_metadata": {
+        "id": "SEEDANCE-VOLC-PROMPT",
+        "url": "https://www.volcengine.com/docs/82379/2222480?lang=zh",
+        "owner": "Volcengine",
+        "family": "seedance",
+        "version": "2.0 series",
+        "platform": "Volcengine Ark",
+        "authority": "official",
+        "read_status": "fetch_failed",
+        "rule_types": []
+      },
+      "distribution": "metadata_only_original_text_not_included"
+    },
+    {
+      "source_id": "SEEDANCE-VOLC-TUTORIAL",
+      "source_kind": "official",
+      "title": "SEEDANCE-VOLC-TUTORIAL",
+      "url": "https://www.volcengine.com/docs/82379/2291680?lang=zh",
+      "captured_at": "2026-09-08",
+      "revision": "2.0 series",
+      "license_status": "reference_only_not_inferred",
+      "verification": "unverified",
+      "read_status": "fetch_failed",
+      "evidence_scope": "official_text_review_not_api_or_visual_test",
+      "original_metadata": {
+        "id": "SEEDANCE-VOLC-TUTORIAL",
+        "url": "https://www.volcengine.com/docs/82379/2291680?lang=zh",
+        "owner": "Volcengine",
+        "family": "seedance",
+        "version": "2.0 series",
+        "platform": "Volcengine Ark",
+        "authority": "official",
+        "read_status": "fetch_failed",
+        "rule_types": []
+      },
+      "distribution": "metadata_only_original_text_not_included"
+    },
+    {
+      "source_id": "SEEDANCE-SD2-PE-CANDIDATE",
+      "source_kind": "imported",
+      "title": "SEEDANCE-SD2-PE-CANDIDATE",
+      "url": "https://arkdoc.tos-cn-beijing.volces.com/files/video-generation/SKILL.md",
+      "captured_at": "2026-09-08",
+      "revision": "unknown",
+      "license_status": "reference_only_not_inferred",
+      "verification": "unverified",
+      "read_status": "fetch_failed",
+      "evidence_scope": "official_text_review_not_api_or_visual_test",
+      "original_metadata": {
+        "id": "SEEDANCE-SD2-PE-CANDIDATE",
+        "url": "https://arkdoc.tos-cn-beijing.volces.com/files/video-generation/SKILL.md",
+        "discovered_from": "https://github.com/mqrox/seedance-2.0-prompt-skill/blob/main/build-seedance2-prompts/references/official-rules.md",
+        "owner": "Volcengine candidate, download provenance not independently verified",
+        "family": "seedance",
+        "version": "unknown",
+        "platform": "candidate sd2-pe skill",
+        "authority": "official_candidate",
+        "read_status": "fetch_failed",
+        "rule_types": [],
+        "gap": "Web retrieval failed; PowerShell request failed with authentication/TLS error. No rules imported."
+      },
+      "distribution": "metadata_only_original_text_not_included"
+    },
+    {
+      "source_id": "WAN-OPEN-2.2",
+      "source_kind": "official",
+      "title": "WAN-OPEN-2.2",
+      "url": "https://github.com/Wan-Video/Wan2.2",
+      "captured_at": "2026-09-08",
+      "revision": "2.2, main commit unpinned",
+      "license_status": "reference_only_not_inferred",
+      "verification": "structural",
+      "read_status": "relevant_sections_read",
+      "evidence_scope": "official_text_review_not_api_or_visual_test",
+      "original_metadata": {
+        "id": "WAN-OPEN-2.2",
+        "url": "https://github.com/Wan-Video/Wan2.2",
+        "owner": "Wan-Video",
+        "family": "wan",
+        "version": "2.2, main commit unpinned",
+        "platform": "open-source local inference",
+        "variants": [
+          "T2V-A14B",
+          "I2V-A14B",
+          "TI2V-5B",
+          "S2V-14B",
+          "Animate-14B"
+        ],
+        "authority": "official",
+        "read_status": "relevant_sections_read",
+        "rule_types": [
+          "local_inference_contract",
+          "recommendation",
+          "capability_statement"
+        ],
+        "execution_verified": false
+      },
+      "distribution": "metadata_only_original_text_not_included"
+    },
+    {
+      "source_id": "WAN-CLOUD-PROMPT",
+      "source_kind": "official",
+      "title": "WAN-CLOUD-PROMPT",
+      "url": "https://help.aliyun.com/zh/model-studio/text-to-video-prompt",
+      "captured_at": "2026-09-08",
+      "revision": "online-at-2026-09-08",
+      "license_status": "reference_only_not_inferred",
+      "verification": "structural",
+      "read_status": "relevant_sections_read",
+      "evidence_scope": "official_text_review_not_api_or_visual_test",
+      "original_metadata": {
+        "id": "WAN-CLOUD-PROMPT",
+        "url": "https://help.aliyun.com/zh/model-studio/text-to-video-prompt",
+        "owner": "Alibaba Cloud",
+        "family": "wan",
+        "versions": [
+          "2.5",
+          "2.6",
+          "2.7",
+          "3.0"
+        ],
+        "platform": "Alibaba Cloud Model Studio",
+        "authority": "official",
+        "read_status": "relevant_sections_read",
+        "rule_types": [
+          "recommendation",
+          "version_specific_prompt_convention"
+        ],
+        "restriction": "Version-specific audio, multi-shot and reference rules must not be generalized to open-source Wan2.2."
+      },
+      "distribution": "metadata_only_original_text_not_included"
+    },
+    {
+      "source_id": "WAN-CLOUD-R2V-2.6",
+      "source_kind": "official",
+      "title": "WAN-CLOUD-R2V-2.6",
+      "url": "https://help.aliyun.com/zh/model-studio/legacy-wan-reference-to-video-api-reference",
+      "captured_at": "2026-09-08",
+      "revision": "2.6",
+      "license_status": "reference_only_not_inferred",
+      "verification": "structural",
+      "read_status": "relevant_sections_read",
+      "evidence_scope": "official_text_review_not_api_or_visual_test",
+      "original_metadata": {
+        "id": "WAN-CLOUD-R2V-2.6",
+        "url": "https://help.aliyun.com/zh/model-studio/legacy-wan-reference-to-video-api-reference",
+        "owner": "Alibaba Cloud",
+        "family": "wan",
+        "version": "2.6",
+        "platform": "Alibaba Cloud Model Studio reference-to-video API",
+        "authority": "official",
+        "read_status": "relevant_sections_read",
+        "rule_types": [
+          "api_contract",
+          "platform_contract"
+        ],
+        "api_verified": false
+      },
+      "distribution": "metadata_only_original_text_not_included"
+    },
+    {
+      "source_id": "WAN-CLOUD-3.0",
+      "source_kind": "official",
+      "title": "WAN-CLOUD-3.0",
+      "url": "https://help.aliyun.com/zh/model-studio/wan3-video-generation-guide",
+      "captured_at": "2026-09-08",
+      "revision": "3.0",
+      "license_status": "reference_only_not_inferred",
+      "verification": "structural",
+      "read_status": "relevant_sections_read",
+      "evidence_scope": "official_text_review_not_api_or_visual_test",
+      "original_metadata": {
+        "id": "WAN-CLOUD-3.0",
+        "url": "https://help.aliyun.com/zh/model-studio/wan3-video-generation-guide",
+        "owner": "Alibaba Cloud",
+        "family": "wan",
+        "version": "3.0",
+        "model_ids": [
+          "wan3.0-video",
+          "wan3.0-video-prime"
+        ],
+        "platform": "Alibaba Cloud Model Studio",
+        "authority": "official",
+        "read_status": "relevant_sections_read",
+        "rule_types": [
+          "api_contract",
+          "capability_statement"
+        ],
+        "api_verified": false
+      },
+      "distribution": "metadata_only_original_text_not_included"
+    },
+    {
+      "source_id": "REPO-MiniMax-AI-MiniMax-H3",
+      "source_kind": "official",
+      "title": "MiniMax-AI/MiniMax-H3",
+      "url": "https://github.com/MiniMax-AI/MiniMax-H3",
+      "revision": "d21241f0a4b3acbb34c97dae47fa417b7065e438",
+      "captured_at": "2026-09-08",
+      "license_status": "check_per_file_and_media",
+      "verification": "structural",
+      "evidence_scope": "archive_hash_check_not_claim_validation",
+      "distribution": "metadata_only_original_text_not_included"
+    },
+    {
+      "source_id": "REPO-xianyu110-awesome-minimax-h3-prompts",
+      "source_kind": "community",
+      "title": "xianyu110/awesome-minimax-h3-prompts",
+      "url": "https://github.com/xianyu110/awesome-minimax-h3-prompts",
+      "revision": "d4a6e4a9aa1458311fc4f7d553d8f567535bd820",
+      "captured_at": "2026-09-08",
+      "license_status": "check_per_file_and_media",
+      "verification": "structural",
+      "evidence_scope": "archive_hash_check_not_claim_validation",
+      "distribution": "metadata_only_original_text_not_included"
+    },
+    {
+      "source_id": "REPO-LIUFelix2004-God-minmax-H3",
+      "source_kind": "community",
+      "title": "LIUFelix2004/God-minmax-H3",
+      "url": "https://github.com/LIUFelix2004/God-minmax-H3",
+      "revision": "b510e3736cda1f6bfab35288d3dd62e1e38679c5",
+      "captured_at": "2026-09-08",
+      "license_status": "check_per_file_and_media",
+      "verification": "structural",
+      "evidence_scope": "archive_hash_check_not_claim_validation",
+      "distribution": "metadata_only_original_text_not_included"
+    },
+    {
+      "source_id": "SRC-X-HISTORY-20260908",
+      "source_kind": "imported",
+      "title": "历史外部提示词采集来源登记（未分发原文）",
+      "captured_at": "2026-09-08",
+      "revision": "see_archive_summary_and_file_hashes",
+      "license_status": "per_original_author",
+      "verification": "unverified",
+      "evidence_scope": "collection_scope_not_exhaustive_history",
+      "distribution": "metadata_only_original_text_not_included",
+      "privacy": "local"
+    },
+    {
+      "source_id": "IMG-OPENAI-MODEL-20260909",
+      "source_kind": "official",
+      "title": "IMG-OPENAI-MODEL-20260909",
+      "url": "https://developers.openai.com/api/docs/models/gpt-image-2",
+      "captured_at": "2026-09-09",
+      "license_status": "reference_only_not_inferred",
+      "verification": "structural",
+      "evidence_scope": "official_documentation_review_not_api_test",
+      "privacy": "ai_allowed",
+      "findings": [
+        "存在 gpt-image-2 别名及固定快照 gpt-image-2-2026-04-21。"
+      ],
+      "distribution": "metadata_only_original_text_not_included"
+    },
+    {
+      "source_id": "IMG-OPENAI-GUIDE-20260909",
+      "source_kind": "official",
+      "title": "IMG-OPENAI-GUIDE-20260909",
+      "url": "https://developers.openai.com/api/docs/guides/image-generation",
+      "captured_at": "2026-09-09",
+      "license_status": "reference_only_not_inferred",
+      "verification": "structural",
+      "evidence_scope": "official_documentation_review_not_api_test",
+      "privacy": "ai_allowed",
+      "findings": [
+        "Earlier GPT Image models 章节：GPT Image 2 两边为16的倍数，最大边3840，总像素655360至8294400，长短边比不超过3；质量low/medium/high/auto；省略input_fidelity。"
+      ],
+      "distribution": "metadata_only_original_text_not_included"
+    },
+    {
+      "source_id": "IMG-OPENAI-GENERATE-20260909",
+      "source_kind": "official",
+      "title": "IMG-OPENAI-GENERATE-20260909",
+      "url": "https://developers.openai.com/api/reference/resources/images/methods/generate",
+      "captured_at": "2026-09-09",
+      "license_status": "reference_only_not_inferred",
+      "verification": "structural",
+      "evidence_scope": "official_documentation_review_not_api_test",
+      "privacy": "ai_allowed",
+      "findings": [
+        "POST /images/generations；prompt最长32000字符；n为1至10；png/jpeg/webp；GPT Image 2透明背景仍为preview，需png或webp。"
+      ],
+      "distribution": "metadata_only_original_text_not_included"
+    },
+    {
+      "source_id": "IMG-OPENAI-EDIT-20260909",
+      "source_kind": "official",
+      "title": "IMG-OPENAI-EDIT-20260909",
+      "url": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+      "captured_at": "2026-09-09",
+      "license_status": "reference_only_not_inferred",
+      "verification": "structural",
+      "evidence_scope": "official_documentation_review_not_api_test",
+      "privacy": "ai_allowed",
+      "findings": [
+        "POST /images/edits；参考图最多16张；当前JSON形式images数组元素使用file_id或image_url；mask为独立引用对象；GPT图像输出为b64_json，非url；超过2560x1440的输出为experimental。"
+      ],
+      "distribution": "metadata_only_original_text_not_included"
+    },
+    {
+      "source_id": "IMG-SEEDREAM-ARK-20260909",
+      "source_kind": "official",
+      "title": "IMG-SEEDREAM-ARK-20260909",
+      "url": "https://docs.byteplus.com/api/docs/ModelArk/1824121",
+      "captured_at": "2026-09-09",
+      "license_status": "reference_only_not_inferred",
+      "verification": "structural",
+      "evidence_scope": "official_documentation_review_not_api_test",
+      "privacy": "ai_allowed",
+      "findings": [
+        "BytePlus ModelArk版本seedream-4-5-251128；支持文本/单多图输入及单/多图输出；2K或4K，JPEG；参考图最多14张，输入与生成图总计不超过15；输入每张不超过30MB、总像素36000000、宽高各大于14、比例1/16至16；URL保留24小时。"
+      ],
+      "distribution": "metadata_only_original_text_not_included"
+    },
+    {
+      "source_id": "SRC-AWESOME-GPT-IMAGE2-20260909",
+      "source_kind": "community",
+      "title": "awesome-gpt-image-2 pinned prompt library",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+      "captured_at": "2026-09-24",
+      "license_status": "MIT repository license retained; third-party image rights not inferred",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "commit": "0dc09c46c8a30b1fdd89c18cc78a894dac2104e3",
+      "evidence_scope": "private upstream catalog reviewed separately; no prompts or media distributed in public edition",
+      "update_note": "Pinned upstream README changed only; cases, prompts, style library and templates are byte-identical to the previous release.",
+      "distribution": "metadata_only_original_text_not_included"
+    }
+  ],
+  "gaps": [
+    "Seedance ModelArk/Volcengine full prompt guide and official sd2-pe text not retrieved.",
+    "Seedance 1.0/1.5 and Wan2.1 need separate primary-source review.",
+    "H3 API transport schema not reviewed.",
+    "No paid generation, API execution or visual quality test performed.",
+    "GitHub commit SHAs and content hashes not captured in this research slice."
+  ],
+  "public_edition_notes": [
+    "Sources register citations and review history, not a redistribution license.",
+    "Model constraints are dated documentation snapshots, not live API validation.",
+    "External method Skill snapshots and private production records are omitted."
+  ]
+}

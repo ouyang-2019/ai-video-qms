@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "open_taxonomy": true,
+  "tasks": [
+    {
+      "id": "turnaround",
+      "label": "角色三视图",
+      "facet": "asset.turnaround",
+      "acceptance": "正侧背方向、同尺度基线、身体左右配饰、衣装背面连接；不得用三个任意姿势替代三视。"
+    },
+    {
+      "id": "portrait",
+      "label": "人物身份与形象",
+      "facet": "asset.portrait",
+      "acceptance": "脸型五官、年龄观感、发际线、身体比例；遮挡不得毁掉本次需要的识别点。"
+    },
+    {
+      "id": "expression",
+      "label": "表情与微表情参考",
+      "facet": "asset.expression",
+      "acceptance": "写清视线目标、眉眼嘴的可见幅度及左右差异；每格只锁一个状态，不能仅写开心悲伤；身份不随强度变化。"
+    },
+    {
+      "id": "pose_action",
+      "label": "姿态与动作分解",
+      "facet": "asset.pose_action",
+      "acceptance": "每姿势标支撑脚、重心、关节、握持和接触对象；时序拆解写起势接触随动终态，姿态合集不虚构时序。"
+    },
+    {
+      "id": "costume",
+      "label": "服装妆发与造型",
+      "facet": "asset.costume",
+      "acceptance": "同角色、衣片连接、材质厚度、扣件与左右标记；换装探索与批准连续性版本分开，头饰不能穿透发体。"
+    },
+    {
+      "id": "prop",
+      "label": "道具与武器资产",
+      "facet": "asset.prop",
+      "acceptance": "轮廓尺寸、零件连接、材料磨损、开闭装载状态、角色持握点；无因换手、比例改变、功能结构不成立拒收。"
+    },
+    {
+      "id": "vehicle",
+      "label": "载具与机械资产",
+      "facet": "asset.vehicle",
+      "acceptance": "轴距轮距、座舱出入口、机械连接与运动间隙、角色尺度；视角变换不改零件数量，展示图不充当工程制造图。"
+    },
+    {
+      "id": "creature",
+      "label": "生物与非人角色",
+      "facet": "asset.creature",
+      "acceptance": "肢体数量、骨骼关节、重心、表皮鳞羽方向、物种设定；不同视角解剖对应，风格化差异需有设计基线。"
+    },
+    {
+      "id": "scene",
+      "label": "场景与环境母版",
+      "facet": "asset.scene",
+      "acceptance": "门窗地标拓扑、尺度、通道、机位、光源世界位置；反打不能凭空增加结构。"
+    },
+    {
+      "id": "spatial_plan",
+      "label": "空间平面与站位图",
+      "facet": "asset.spatial_plan",
+      "acceptance": "方向基准、比例或非比例声明、门窗与人物坐标、180度轴线和通行路线；俯视示意不假装可测量建筑图。"
+    },
+    {
+      "id": "atmosphere",
+      "label": "光照天气与氛围",
+      "facet": "asset.atmosphere",
+      "acceptance": "固定空间下的主光方向、色温意图、雾雨可见度、湿润和投影状态；天气改变须同步物面与服装状态。"
+    },
+    {
+      "id": "material",
+      "label": "材质纹理与细节",
+      "facet": "asset.material",
+      "acceptance": "材质尺度、接缝、方向性、粗糙与透光的可见表现；贴图平铺需实际验接缝，概念图不宣称已含PBR通道。"
+    },
+    {
+      "id": "storyboard",
+      "label": "单镜分镜图",
+      "facet": "asset.storyboard",
+      "acceptance": "明确一个镜号、一个瞬间、机位轴侧、站位视线、持物与前后镜状态；单画面不同时塞入互斥时间。"
+    },
+    {
+      "id": "storyboard_sequence",
+      "label": "故事板与叙事序列",
+      "facet": "asset.storyboard_sequence",
+      "acceptance": "每格对应信息或情节推进、人物目标和因果变化；按阅读顺序登记镜号、动作终初态和转场，漂亮合集不等于叙事。"
+    },
+    {
+      "id": "keyframe",
+      "label": "关键帧与首尾帧",
+      "facet": "asset.keyframe",
+      "acceptance": "登记同一镜的时点与动作阶段，首尾两张分别列姿态位置持物遮挡；中间可实现路径须在动作计划中说明。"
+    },
+    {
+      "id": "style_board",
+      "label": "风格板与视觉开发",
+      "facet": "asset.style_board",
+      "acceptance": "主色、材质、线条或写实程度、光照与构图各自职责；不同来源只借声明部分，冲突样式先作取舍再出图。"
+    },
+    {
+      "id": "vfx",
+      "label": "特效与变形状态设计",
+      "facet": "asset.vfx",
+      "acceptance": "起点、作用对象、当前阶段、遮挡和受光反馈；多状态分格，单帧不声称真实粒子模拟或时间一致性。"
+    },
+    {
+      "id": "graphic",
+      "label": "画内图文与标识",
+      "facet": "asset.graphic",
+      "acceptance": "逐字文本、字体层级、符号位置和留白，检查错字重影；视频场景内标识须匹配透视和物面。"
+    },
+    {
+      "id": "promotion",
+      "label": "海报封面与宣传图",
+      "facet": "asset.promotion",
+      "acceptance": "传播目标、角色身份、标题可读性、安全裁切区、平台画幅；宣传夸张不得被当作正片连续性资产。"
+    }
+  ],
+  "layouts": [
+    {
+      "id": "single",
+      "label": "单画面",
+      "facet": "layout.single"
+    },
+    {
+      "id": "three_view",
+      "label": "正侧背视图板",
+      "facet": "layout.three_view"
+    },
+    {
+      "id": "grid_2x2",
+      "label": "四宫格",
+      "facet": "layout.grid_2x2"
+    },
+    {
+      "id": "grid_3x3",
+      "label": "九宫格",
+      "facet": "layout.grid_3x3"
+    },
+    {
+      "id": "grid_4x4",
+      "label": "十六宫格",
+      "facet": "layout.grid_4x4"
+    },
+    {
+      "id": "strip",
+      "label": "横向或纵向条带",
+      "facet": "layout.strip"
+    },
+    {
+      "id": "contact_sheet",
+      "label": "自定义多格板",
+      "facet": "layout.contact_sheet"
+    },
+    {
+      "id": "exploded",
+      "label": "爆炸分解",
+      "facet": "layout.exploded"
+    },
+    {
+      "id": "cutaway",
+      "label": "剖面",
+      "facet": "layout.cutaway"
+    },
+    {
+      "id": "plan",
+      "label": "平面或俯视示意",
+      "facet": "layout.plan"
+    }
+  ],
+  "panel_semantics": [
+    "single_state",
+    "temporal_sequence",
+    "same_time_multiview",
+    "independent_collection"
+  ],
+  "other_axes": [
+    "subject_ids",
+    "content_tags",
+    "production_stage",
+    "model_version_platform_mode",
+    "approval_status"
+  ],
+  "extension_rule": "Unknown purpose remains an explicit gap; propose a versioned task and observable acceptance before routing. Never force it into the nearest existing category."
+}

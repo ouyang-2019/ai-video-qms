@@ -1,0 +1,5928 @@
+{
+  "schema_version": 1,
+  "title": "AI视频生产质量管理体系",
+  "version": "2.0.5-public.1",
+  "release_required": true,
+  "documents": [
+    {
+      "id": "QM-001",
+      "title": "AI视频生产质量手册",
+      "level": 1,
+      "kind": "manual",
+      "version": "2.0.4",
+      "file": "documents/governance/QM-001.md",
+      "stages": [
+        "all"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": []
+    },
+    {
+      "id": "QM-H3",
+      "title": "MiniMax H3系列总规范",
+      "level": 1,
+      "kind": "manual",
+      "version": "1.0.0",
+      "file": "documents/models/h3/QM-H3.md",
+      "stages": [
+        "video"
+      ],
+      "models": [
+        "h3"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "H3-OFFICIAL-SKILL",
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "QM-001"
+      ]
+    },
+    {
+      "id": "QM-SEEDANCE",
+      "title": "Seedance系列总规范",
+      "level": 1,
+      "kind": "manual",
+      "version": "1.0.0",
+      "file": "documents/models/seedance/QM-SEEDANCE.md",
+      "stages": [
+        "video"
+      ],
+      "models": [
+        "seedance"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SEEDANCE-BYTEPLUS-LAS",
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "QM-001"
+      ]
+    },
+    {
+      "id": "QM-WAN",
+      "title": "Wan系列总规范",
+      "level": 1,
+      "kind": "manual",
+      "version": "1.0.0",
+      "file": "documents/models/wan/QM-WAN.md",
+      "stages": [
+        "video"
+      ],
+      "models": [
+        "wan"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "WAN-OPEN-2.2",
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "QM-001"
+      ]
+    },
+    {
+      "id": "PR-ASSET",
+      "title": "视觉资产开发程序",
+      "level": 2,
+      "kind": "procedure",
+      "version": "1.0.3",
+      "file": "documents/common/PR-ASSET.md",
+      "stages": [
+        "assets"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "privacy": "ai_allowed",
+      "requires": [
+        "QM-001"
+      ]
+    },
+    {
+      "id": "PR-H3",
+      "title": "H3视频提示词准备与生成交接程序",
+      "level": 2,
+      "kind": "procedure",
+      "version": "1.0.0",
+      "file": "documents/models/h3/PR-H3.md",
+      "stages": [
+        "video"
+      ],
+      "models": [
+        "h3"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "prompt-only"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "H3-OFFICIAL-SKILL",
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "QM-H3"
+      ]
+    },
+    {
+      "id": "PR-QC",
+      "title": "提示词、资产和成片检验及返工程序",
+      "level": 2,
+      "kind": "procedure",
+      "version": "1.0.1",
+      "file": "documents/governance/PR-QC.md",
+      "stages": [
+        "review"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "QM-001"
+      ]
+    },
+    {
+      "id": "PR-SCRIPT",
+      "title": "剧本开发程序",
+      "level": 2,
+      "kind": "procedure",
+      "version": "1.0.0",
+      "file": "documents/common/PR-SCRIPT.md",
+      "stages": [
+        "script"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "privacy": "ai_allowed",
+      "requires": [
+        "QM-001"
+      ]
+    },
+    {
+      "id": "PR-SEEDANCE",
+      "title": "Seedance视频生成准备程序",
+      "level": 2,
+      "kind": "procedure",
+      "version": "1.0.0",
+      "file": "documents/models/seedance/PR-SEEDANCE.md",
+      "stages": [
+        "video"
+      ],
+      "models": [
+        "seedance"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "byteplus-las"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SEEDANCE-BYTEPLUS-LAS",
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "QM-SEEDANCE"
+      ]
+    },
+    {
+      "id": "PR-SOURCE",
+      "title": "来源采集、文件修订与发布程序",
+      "level": 2,
+      "kind": "procedure",
+      "version": "1.0.0",
+      "file": "documents/governance/PR-SOURCE.md",
+      "stages": [
+        "governance"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "QM-001"
+      ]
+    },
+    {
+      "id": "PR-STORYBOARD",
+      "title": "分镜与声画设计程序",
+      "level": 2,
+      "kind": "procedure",
+      "version": "1.0.1",
+      "file": "documents/common/PR-STORYBOARD.md",
+      "stages": [
+        "storyboard"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "privacy": "ai_allowed",
+      "requires": [
+        "QM-001"
+      ]
+    },
+    {
+      "id": "PR-V2-ACTION-VFX",
+      "title": "动作接触与特效因果设计程序",
+      "level": 2,
+      "kind": "procedure",
+      "version": "2.0.1",
+      "file": "documents/production/PR-V2-ACTION-VFX.md",
+      "stages": [
+        "storyboard"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "QM-001"
+      ],
+      "facets": [
+        "action.contact",
+        "action.physics",
+        "vfx.lifecycle"
+      ],
+      "method_source_refs": [
+        {
+          "sha256": "a724c9b223e637e0cbe4ea93364d9e9838061f52d8453ac5d1692fce59ec6396",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "动作接触与特效因果设计程序：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        }
+      ]
+    },
+    {
+      "id": "PR-V2-BLOCKING",
+      "title": "站位视线与道具调度程序",
+      "level": 2,
+      "kind": "procedure",
+      "version": "2.0.1",
+      "file": "documents/production/PR-V2-BLOCKING.md",
+      "stages": [
+        "assets",
+        "storyboard"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "QM-001"
+      ],
+      "facets": [
+        "blocking.space",
+        "blocking.axis",
+        "props.handoff"
+      ],
+      "method_source_refs": [
+        {
+          "sha256": "d6c77652bc3e57c96a87f00002166114d4544442608e053b2932b38f9427bea7",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "站位视线与道具调度程序：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        },
+        {
+          "sha256": "a724c9b223e637e0cbe4ea93364d9e9838061f52d8453ac5d1692fce59ec6396",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "站位视线与道具调度程序：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        }
+      ]
+    },
+    {
+      "id": "PR-V2-CAMERA-ART",
+      "title": "摄影美术与参考资产联审程序",
+      "level": 2,
+      "kind": "procedure",
+      "version": "2.0.1",
+      "file": "documents/production/PR-V2-CAMERA-ART.md",
+      "stages": [
+        "assets",
+        "storyboard"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "QM-001"
+      ],
+      "facets": [
+        "camera.composition",
+        "camera.motion",
+        "art.light",
+        "art.material"
+      ],
+      "method_source_refs": [
+        {
+          "sha256": "0afa64d4a34faac8d5ca539a8dd2ce0bbd9dc2bd9d1baef869e1803e47f434cb",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "摄影美术与参考资产联审程序：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        },
+        {
+          "sha256": "88510080379074246c01938f46bddb32bbc5693b9e165ca7a17c165c9f0950f0",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "摄影美术与参考资产联审程序：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        }
+      ]
+    },
+    {
+      "id": "PR-V2-CONTINUITY-QC",
+      "title": "跨镜头连续性与成片缺陷闭环程序",
+      "level": 2,
+      "kind": "procedure",
+      "version": "2.0.1",
+      "file": "documents/production/PR-V2-CONTINUITY-QC.md",
+      "stages": [
+        "review"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "QM-001"
+      ],
+      "facets": [
+        "continuity.state",
+        "quality.inspect"
+      ],
+      "method_source_refs": [
+        {
+          "sha256": "d6c77652bc3e57c96a87f00002166114d4544442608e053b2932b38f9427bea7",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "跨镜头连续性与成片缺陷闭环程序：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        }
+      ]
+    },
+    {
+      "id": "PR-V2-CORPUS",
+      "title": "存量Skill与提示词逐项分类、调用及修订程序",
+      "level": 2,
+      "kind": "procedure",
+      "version": "2.0.0",
+      "file": "documents/governance/PR-V2-CORPUS.md",
+      "stages": [
+        "governance"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "QM-001"
+      ]
+    },
+    {
+      "id": "PR-V2-PERFORMANCE",
+      "title": "角色表演设计与排演程序",
+      "level": 2,
+      "kind": "procedure",
+      "version": "2.0.1",
+      "file": "documents/production/PR-V2-PERFORMANCE.md",
+      "stages": [
+        "script",
+        "storyboard"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "QM-001"
+      ],
+      "facets": [
+        "performance.objective",
+        "performance.body",
+        "performance.face"
+      ],
+      "method_source_refs": [
+        {
+          "sha256": "75bb8a1c55533319a86ad7ab7432dd633f5202f44cb3dcab12e78828f2457537",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "角色表演设计与排演程序：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        },
+        {
+          "sha256": "2af434e78c2056eae5615238875538432746b8d9ec8274ee7db48c09e598a33f",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "角色表演设计与排演程序：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        }
+      ]
+    },
+    {
+      "id": "PR-V2-SOUND-EDIT",
+      "title": "对白声音与剪辑整合程序",
+      "level": 2,
+      "kind": "procedure",
+      "version": "2.0.1",
+      "file": "documents/production/PR-V2-SOUND-EDIT.md",
+      "stages": [
+        "script",
+        "storyboard"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "QM-001"
+      ],
+      "facets": [
+        "audio.prosody",
+        "audio.foley",
+        "edit.rhythm"
+      ],
+      "method_source_refs": [
+        {
+          "sha256": "3be02d56cd84f0a09c4a832ea6364aa94c888824957377d06c32dd870aa6a0fc",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "对白声音与剪辑整合程序：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        },
+        {
+          "sha256": "d6c77652bc3e57c96a87f00002166114d4544442608e053b2932b38f9427bea7",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "对白声音与剪辑整合程序：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        }
+      ]
+    },
+    {
+      "id": "PR-V2-STORY-DIRECTION",
+      "title": "编剧与导演意图转译程序",
+      "level": 2,
+      "kind": "procedure",
+      "version": "2.0.1",
+      "file": "documents/production/PR-V2-STORY-DIRECTION.md",
+      "stages": [
+        "script",
+        "storyboard"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "QM-001"
+      ],
+      "facets": [
+        "script.beat",
+        "directing.intent"
+      ],
+      "method_source_refs": [
+        {
+          "sha256": "d6c77652bc3e57c96a87f00002166114d4544442608e053b2932b38f9427bea7",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "编剧与导演意图转译程序：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        }
+      ]
+    },
+    {
+      "id": "PR-WAN-CLOUD",
+      "title": "Wan云端视频生成准备程序",
+      "level": 2,
+      "kind": "procedure",
+      "version": "1.0.0",
+      "file": "documents/models/wan/PR-WAN-CLOUD.md",
+      "stages": [
+        "video"
+      ],
+      "models": [
+        "wan"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "aliyun-model-studio"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "WAN-CLOUD-PROMPT",
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "QM-WAN"
+      ]
+    },
+    {
+      "id": "PR-WAN-OPEN",
+      "title": "Wan开源视频生成准备程序",
+      "level": 2,
+      "kind": "procedure",
+      "version": "1.0.0",
+      "file": "documents/models/wan/PR-WAN-OPEN.md",
+      "stages": [
+        "video"
+      ],
+      "models": [
+        "wan"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "open-source"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "WAN-OPEN-2.2",
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "QM-WAN"
+      ]
+    },
+    {
+      "id": "SOP-ACTING",
+      "title": "角色表演描述作业指导",
+      "level": 3,
+      "kind": "sop",
+      "version": "1.0.0",
+      "file": "documents/common/SOP-ACTING.md",
+      "stages": [
+        "storyboard"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "privacy": "ai_allowed",
+      "requires": [
+        "PR-STORYBOARD"
+      ]
+    },
+    {
+      "id": "SOP-ASSET-SCENE",
+      "title": "场景空间与道具设计作业指导",
+      "level": 3,
+      "kind": "sop",
+      "version": "1.0.0",
+      "file": "documents/common/SOP-ASSET-SCENE.md",
+      "stages": [
+        "assets"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "privacy": "ai_allowed",
+      "requires": [
+        "PR-ASSET"
+      ]
+    },
+    {
+      "id": "SOP-ASSET-TURNAROUND",
+      "title": "角色三视图设计作业指导",
+      "level": 3,
+      "kind": "sop",
+      "version": "1.0.0",
+      "file": "documents/common/SOP-ASSET-TURNAROUND.md",
+      "stages": [
+        "assets"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "privacy": "ai_allowed",
+      "requires": [
+        "PR-ASSET"
+      ]
+    },
+    {
+      "id": "SOP-H3-FL2VA",
+      "title": "H3 FL2VA提示词编写SOP",
+      "level": 3,
+      "kind": "sop",
+      "version": "1.0.0",
+      "file": "documents/models/h3/SOP-H3-FL2VA.md",
+      "stages": [
+        "video"
+      ],
+      "models": [
+        "h3"
+      ],
+      "model_versions": [
+        "h3"
+      ],
+      "platforms": [
+        "prompt-only"
+      ],
+      "modes": [
+        "FL2VA"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "H3-OFFICIAL-BASE",
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-H3"
+      ]
+    },
+    {
+      "id": "SOP-H3-I2VA",
+      "title": "H3 I2VA提示词编写SOP",
+      "level": 3,
+      "kind": "sop",
+      "version": "1.0.0",
+      "file": "documents/models/h3/SOP-H3-I2VA.md",
+      "stages": [
+        "video"
+      ],
+      "models": [
+        "h3"
+      ],
+      "model_versions": [
+        "h3"
+      ],
+      "platforms": [
+        "prompt-only"
+      ],
+      "modes": [
+        "I2VA"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "H3-OFFICIAL-BASE",
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-H3"
+      ]
+    },
+    {
+      "id": "SOP-H3-L2VA",
+      "title": "H3 L2VA提示词编写SOP",
+      "level": 3,
+      "kind": "sop",
+      "version": "1.0.0",
+      "file": "documents/models/h3/SOP-H3-L2VA.md",
+      "stages": [
+        "video"
+      ],
+      "models": [
+        "h3"
+      ],
+      "model_versions": [
+        "h3"
+      ],
+      "platforms": [
+        "prompt-only"
+      ],
+      "modes": [
+        "L2VA"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "H3-OFFICIAL-BASE",
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-H3"
+      ]
+    },
+    {
+      "id": "SOP-H3-REF2VA",
+      "title": "H3 Ref2VA提示词编写SOP",
+      "level": 3,
+      "kind": "sop",
+      "version": "1.0.0",
+      "file": "documents/models/h3/SOP-H3-REF2VA.md",
+      "stages": [
+        "video"
+      ],
+      "models": [
+        "h3"
+      ],
+      "model_versions": [
+        "h3"
+      ],
+      "platforms": [
+        "prompt-only"
+      ],
+      "modes": [
+        "Ref2VA"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "H3-OFFICIAL-REF",
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-H3"
+      ]
+    },
+    {
+      "id": "SOP-H3-T2VA",
+      "title": "H3 T2VA提示词编写SOP",
+      "level": 3,
+      "kind": "sop",
+      "version": "1.0.0",
+      "file": "documents/models/h3/SOP-H3-T2VA.md",
+      "stages": [
+        "video"
+      ],
+      "models": [
+        "h3"
+      ],
+      "model_versions": [
+        "h3"
+      ],
+      "platforms": [
+        "prompt-only"
+      ],
+      "modes": [
+        "T2VA"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "H3-OFFICIAL-BASE",
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-H3"
+      ]
+    },
+    {
+      "id": "SOP-QC",
+      "title": "逐镜检查与最小返工SOP",
+      "level": 3,
+      "kind": "sop",
+      "version": "1.0.0",
+      "file": "documents/governance/SOP-QC.md",
+      "stages": [
+        "review"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-QC"
+      ]
+    },
+    {
+      "id": "SOP-SCRIPT-FAMILY",
+      "title": "家庭Q版喜剧剧本作业指导",
+      "level": 3,
+      "kind": "sop",
+      "version": "1.0.0",
+      "file": "documents/common/SOP-SCRIPT-FAMILY.md",
+      "stages": [
+        "script"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [
+        "family-q"
+      ],
+      "status": "released",
+      "verification": "structural",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "privacy": "ai_allowed",
+      "requires": [
+        "SOP-SCRIPT-GENERAL"
+      ]
+    },
+    {
+      "id": "SOP-SCRIPT-GENERAL",
+      "title": "通用剧本编写作业指导",
+      "level": 3,
+      "kind": "sop",
+      "version": "1.0.0",
+      "file": "documents/common/SOP-SCRIPT-GENERAL.md",
+      "stages": [
+        "script"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "privacy": "ai_allowed",
+      "requires": [
+        "PR-SCRIPT"
+      ]
+    },
+    {
+      "id": "SOP-SCRIPT-XIANXIA",
+      "title": "仙侠动作剧本作业指导",
+      "level": 3,
+      "kind": "sop",
+      "version": "1.0.0",
+      "file": "documents/common/SOP-SCRIPT-XIANXIA.md",
+      "stages": [
+        "script"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [
+        "xianxia"
+      ],
+      "status": "released",
+      "verification": "structural",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "privacy": "ai_allowed",
+      "requires": [
+        "SOP-SCRIPT-GENERAL"
+      ]
+    },
+    {
+      "id": "SOP-SEEDANCE-20-I2V",
+      "title": "Seedance 2.0 LAS I2V提示词准备SOP",
+      "level": 3,
+      "kind": "sop",
+      "version": "1.0.0",
+      "file": "documents/models/seedance/SOP-SEEDANCE-20-I2V.md",
+      "stages": [
+        "video"
+      ],
+      "models": [
+        "seedance"
+      ],
+      "model_versions": [
+        "2.0"
+      ],
+      "platforms": [
+        "byteplus-las"
+      ],
+      "modes": [
+        "I2V"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SEEDANCE-BYTEPLUS-LAS",
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-SEEDANCE"
+      ]
+    },
+    {
+      "id": "SOP-SEEDANCE-20-REF",
+      "title": "Seedance 2.0 LAS REF提示词准备SOP",
+      "level": 3,
+      "kind": "sop",
+      "version": "1.0.0",
+      "file": "documents/models/seedance/SOP-SEEDANCE-20-REF.md",
+      "stages": [
+        "video"
+      ],
+      "models": [
+        "seedance"
+      ],
+      "model_versions": [
+        "2.0"
+      ],
+      "platforms": [
+        "byteplus-las"
+      ],
+      "modes": [
+        "REF"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SEEDANCE-BYTEPLUS-LAS",
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-SEEDANCE"
+      ]
+    },
+    {
+      "id": "SOP-SEEDANCE-20-T2V",
+      "title": "Seedance 2.0 LAS T2V提示词准备SOP",
+      "level": 3,
+      "kind": "sop",
+      "version": "1.0.0",
+      "file": "documents/models/seedance/SOP-SEEDANCE-20-T2V.md",
+      "stages": [
+        "video"
+      ],
+      "models": [
+        "seedance"
+      ],
+      "model_versions": [
+        "2.0"
+      ],
+      "platforms": [
+        "byteplus-las"
+      ],
+      "modes": [
+        "T2V"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SEEDANCE-BYTEPLUS-LAS",
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-SEEDANCE"
+      ]
+    },
+    {
+      "id": "SOP-SEEDANCE-25-I2V",
+      "title": "Seedance 2.5 LAS I2V提示词准备SOP",
+      "level": 3,
+      "kind": "sop",
+      "version": "1.0.0",
+      "file": "documents/models/seedance/SOP-SEEDANCE-25-I2V.md",
+      "stages": [
+        "video"
+      ],
+      "models": [
+        "seedance"
+      ],
+      "model_versions": [
+        "2.5"
+      ],
+      "platforms": [
+        "byteplus-las"
+      ],
+      "modes": [
+        "I2V"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SEEDANCE-BYTEPLUS-LAS",
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-SEEDANCE"
+      ]
+    },
+    {
+      "id": "SOP-SEEDANCE-25-REF",
+      "title": "Seedance 2.5 LAS REF提示词准备SOP",
+      "level": 3,
+      "kind": "sop",
+      "version": "1.0.0",
+      "file": "documents/models/seedance/SOP-SEEDANCE-25-REF.md",
+      "stages": [
+        "video"
+      ],
+      "models": [
+        "seedance"
+      ],
+      "model_versions": [
+        "2.5"
+      ],
+      "platforms": [
+        "byteplus-las"
+      ],
+      "modes": [
+        "REF"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SEEDANCE-BYTEPLUS-LAS",
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-SEEDANCE"
+      ]
+    },
+    {
+      "id": "SOP-SEEDANCE-25-T2V",
+      "title": "Seedance 2.5 LAS T2V提示词准备SOP",
+      "level": 3,
+      "kind": "sop",
+      "version": "1.0.0",
+      "file": "documents/models/seedance/SOP-SEEDANCE-25-T2V.md",
+      "stages": [
+        "video"
+      ],
+      "models": [
+        "seedance"
+      ],
+      "model_versions": [
+        "2.5"
+      ],
+      "platforms": [
+        "byteplus-las"
+      ],
+      "modes": [
+        "T2V"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SEEDANCE-BYTEPLUS-LAS",
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-SEEDANCE"
+      ]
+    },
+    {
+      "id": "SOP-SEGMENT-CONTINUITY",
+      "title": "分段视频接力与拼接设计SOP",
+      "level": 3,
+      "kind": "sop",
+      "version": "1.0.0",
+      "file": "documents/common/SOP-SEGMENT-CONTINUITY.md",
+      "stages": [
+        "storyboard"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "REPO-LIUFelix2004-God-minmax-H3",
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-STORYBOARD"
+      ]
+    },
+    {
+      "id": "SOP-SHOT-ACTION",
+      "title": "动作拆解与接触关系作业指导",
+      "level": 3,
+      "kind": "sop",
+      "version": "1.0.0",
+      "file": "documents/common/SOP-SHOT-ACTION.md",
+      "stages": [
+        "storyboard"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "privacy": "ai_allowed",
+      "requires": [
+        "PR-STORYBOARD"
+      ]
+    },
+    {
+      "id": "SOP-SHOT-CONTINUITY",
+      "title": "时间轴与跨镜连续性作业指导",
+      "level": 3,
+      "kind": "sop",
+      "version": "1.0.0",
+      "file": "documents/common/SOP-SHOT-CONTINUITY.md",
+      "stages": [
+        "storyboard"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "privacy": "ai_allowed",
+      "requires": [
+        "PR-STORYBOARD"
+      ]
+    },
+    {
+      "id": "SOP-SHOT-DIALOGUE",
+      "title": "对白场景分镜作业指导",
+      "level": 3,
+      "kind": "sop",
+      "version": "1.0.0",
+      "file": "documents/common/SOP-SHOT-DIALOGUE.md",
+      "stages": [
+        "storyboard"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "privacy": "ai_allowed",
+      "requires": [
+        "PR-STORYBOARD"
+      ]
+    },
+    {
+      "id": "SOP-SOUND",
+      "title": "声画事件设计与检查作业指导",
+      "level": 3,
+      "kind": "sop",
+      "version": "1.0.0",
+      "file": "documents/common/SOP-SOUND.md",
+      "stages": [
+        "storyboard"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "privacy": "ai_allowed",
+      "requires": [
+        "PR-STORYBOARD"
+      ]
+    },
+    {
+      "id": "SOP-SOURCE-REVIEW",
+      "title": "候选规范审查与差异发布SOP",
+      "level": 3,
+      "kind": "sop",
+      "version": "1.0.0",
+      "file": "documents/governance/SOP-SOURCE-REVIEW.md",
+      "stages": [
+        "governance"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-SOURCE"
+      ]
+    },
+    {
+      "id": "SOP-V2-ACTION-CONTACT",
+      "title": "动作接触、受力与反应",
+      "level": 3,
+      "kind": "sop",
+      "version": "2.0.2",
+      "file": "documents/production/SOP-V2-ACTION-CONTACT.md",
+      "stages": [
+        "craft"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-V2-ACTION-VFX"
+      ],
+      "facets": [
+        "action.physics",
+        "action.combat",
+        "action.contact"
+      ],
+      "method_source_refs": [
+        {
+          "sha256": "a724c9b223e637e0cbe4ea93364d9e9838061f52d8453ac5d1692fce59ec6396",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "动作接触、受力与反应：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        }
+      ]
+    },
+    {
+      "id": "SOP-V2-AXIS",
+      "title": "轴线、反打与跨轴交代",
+      "level": 3,
+      "kind": "sop",
+      "version": "2.0.1",
+      "file": "documents/production/SOP-V2-AXIS.md",
+      "stages": [
+        "craft"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-V2-BLOCKING"
+      ],
+      "facets": [
+        "blocking.position",
+        "blocking.axis",
+        "directing.storyboard"
+      ],
+      "method_source_refs": [
+        {
+          "sha256": "d6c77652bc3e57c96a87f00002166114d4544442608e053b2932b38f9427bea7",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "轴线、反打与跨轴交代：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        },
+        {
+          "sha256": "a724c9b223e637e0cbe4ea93364d9e9838061f52d8453ac5d1692fce59ec6396",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "轴线、反打与跨轴交代：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        }
+      ]
+    },
+    {
+      "id": "SOP-V2-BEAT",
+      "title": "场景因果与节拍编写",
+      "level": 3,
+      "kind": "sop",
+      "version": "2.0.1",
+      "file": "documents/production/SOP-V2-BEAT.md",
+      "stages": [
+        "craft"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-V2-STORY-DIRECTION"
+      ],
+      "facets": [
+        "script.structure",
+        "script.beat"
+      ],
+      "method_source_refs": [
+        {
+          "sha256": "d6c77652bc3e57c96a87f00002166114d4544442608e053b2932b38f9427bea7",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "场景因果与节拍编写：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        }
+      ]
+    },
+    {
+      "id": "SOP-V2-BLOCKING-POSITION",
+      "title": "人物站位、走位与重心停点",
+      "level": 3,
+      "kind": "sop",
+      "version": "2.0.2",
+      "file": "documents/production/SOP-V2-BLOCKING-POSITION.md",
+      "stages": [
+        "craft"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-V2-BLOCKING"
+      ],
+      "facets": [
+        "blocking.position",
+        "performance.body",
+        "blocking.space"
+      ],
+      "method_source_refs": [
+        {
+          "sha256": "d6c77652bc3e57c96a87f00002166114d4544442608e053b2932b38f9427bea7",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "人物站位、走位与重心停点：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        },
+        {
+          "sha256": "a724c9b223e637e0cbe4ea93364d9e9838061f52d8453ac5d1692fce59ec6396",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "人物站位、走位与重心停点：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        }
+      ]
+    },
+    {
+      "id": "SOP-V2-BREATH",
+      "title": "呼吸、吞咽与身体停顿",
+      "level": 3,
+      "kind": "sop",
+      "version": "2.0.1",
+      "file": "documents/production/SOP-V2-BREATH.md",
+      "stages": [
+        "craft"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-V2-PERFORMANCE"
+      ],
+      "facets": [
+        "performance.breath",
+        "performance.body"
+      ],
+      "method_source_refs": [
+        {
+          "sha256": "75bb8a1c55533319a86ad7ab7432dd633f5202f44cb3dcab12e78828f2457537",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "呼吸、吞咽与身体停顿：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        },
+        {
+          "sha256": "2af434e78c2056eae5615238875538432746b8d9ec8274ee7db48c09e598a33f",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "呼吸、吞咽与身体停顿：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        }
+      ]
+    },
+    {
+      "id": "SOP-V2-CAMERA-MOVE",
+      "title": "运镜路径、动机与终点",
+      "level": 3,
+      "kind": "sop",
+      "version": "2.0.1",
+      "file": "documents/production/SOP-V2-CAMERA-MOVE.md",
+      "stages": [
+        "craft"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-V2-CAMERA-ART"
+      ],
+      "facets": [
+        "camera.motion",
+        "directing.intent"
+      ],
+      "method_source_refs": [
+        {
+          "sha256": "0afa64d4a34faac8d5ca539a8dd2ce0bbd9dc2bd9d1baef869e1803e47f434cb",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "运镜路径、动机与终点：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        },
+        {
+          "sha256": "88510080379074246c01938f46bddb32bbc5693b9e165ca7a17c165c9f0950f0",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "运镜路径、动机与终点：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        }
+      ]
+    },
+    {
+      "id": "SOP-V2-CHARACTER-SHEET",
+      "title": "角色三视图、比例与身份锚点",
+      "level": 3,
+      "kind": "sop",
+      "version": "2.0.1",
+      "file": "documents/production/SOP-V2-CHARACTER-SHEET.md",
+      "stages": [
+        "craft"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-V2-CAMERA-ART"
+      ],
+      "facets": [
+        "art.character",
+        "continuity.identity"
+      ],
+      "method_source_refs": [
+        {
+          "sha256": "88510080379074246c01938f46bddb32bbc5693b9e165ca7a17c165c9f0950f0",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "角色三视图、比例与身份锚点：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        }
+      ]
+    },
+    {
+      "id": "SOP-V2-COLOR-MATERIAL",
+      "title": "色彩层次与表面材质",
+      "level": 3,
+      "kind": "sop",
+      "version": "2.0.2",
+      "file": "documents/production/SOP-V2-COLOR-MATERIAL.md",
+      "stages": [
+        "craft"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-V2-CAMERA-ART"
+      ],
+      "facets": [
+        "art.color",
+        "art.costume",
+        "art.scene",
+        "art.material"
+      ],
+      "method_source_refs": [
+        {
+          "sha256": "0afa64d4a34faac8d5ca539a8dd2ce0bbd9dc2bd9d1baef869e1803e47f434cb",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "色彩层次与表面材质：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        },
+        {
+          "sha256": "88510080379074246c01938f46bddb32bbc5693b9e165ca7a17c165c9f0950f0",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "色彩层次与表面材质：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        }
+      ]
+    },
+    {
+      "id": "SOP-V2-COMPOSITION",
+      "title": "景别、构图与注意中心",
+      "level": 3,
+      "kind": "sop",
+      "version": "2.0.1",
+      "file": "documents/production/SOP-V2-COMPOSITION.md",
+      "stages": [
+        "craft"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-V2-CAMERA-ART"
+      ],
+      "facets": [
+        "camera.composition",
+        "directing.storyboard"
+      ],
+      "method_source_refs": [
+        {
+          "sha256": "0afa64d4a34faac8d5ca539a8dd2ce0bbd9dc2bd9d1baef869e1803e47f434cb",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "景别、构图与注意中心：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        },
+        {
+          "sha256": "88510080379074246c01938f46bddb32bbc5693b9e165ca7a17c165c9f0950f0",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "景别、构图与注意中心：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        }
+      ]
+    },
+    {
+      "id": "SOP-V2-CONTINUITY",
+      "title": "首尾状态继承与逐镜连续性检查",
+      "level": 3,
+      "kind": "sop",
+      "version": "2.0.1",
+      "file": "documents/production/SOP-V2-CONTINUITY.md",
+      "stages": [
+        "craft"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-V2-CONTINUITY-QC"
+      ],
+      "facets": [
+        "continuity.identity",
+        "continuity.state",
+        "quality.review"
+      ],
+      "method_source_refs": [
+        {
+          "sha256": "d6c77652bc3e57c96a87f00002166114d4544442608e053b2932b38f9427bea7",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "首尾状态继承与逐镜连续性检查：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        }
+      ]
+    },
+    {
+      "id": "SOP-V2-COSTUME",
+      "title": "服装材质、穿戴层次与动作连续性",
+      "level": 3,
+      "kind": "sop",
+      "version": "2.0.1",
+      "file": "documents/production/SOP-V2-COSTUME.md",
+      "stages": [
+        "craft"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-V2-CAMERA-ART"
+      ],
+      "facets": [
+        "art.costume",
+        "art.character",
+        "continuity.identity"
+      ],
+      "method_source_refs": [
+        {
+          "sha256": "88510080379074246c01938f46bddb32bbc5693b9e165ca7a17c165c9f0950f0",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "服装材质、穿戴层次与动作连续性：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        }
+      ]
+    },
+    {
+      "id": "SOP-V2-DEFECT",
+      "title": "成片缺陷定位、纠正与复验",
+      "level": 3,
+      "kind": "sop",
+      "version": "2.0.2",
+      "file": "documents/production/SOP-V2-DEFECT.md",
+      "stages": [
+        "craft"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-V2-CONTINUITY-QC"
+      ],
+      "facets": [
+        "quality.review",
+        "continuity.state",
+        "quality.inspect"
+      ],
+      "method_source_refs": [
+        {
+          "sha256": "d6c77652bc3e57c96a87f00002166114d4544442608e053b2932b38f9427bea7",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "成片缺陷定位、纠正与复验：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        }
+      ]
+    },
+    {
+      "id": "SOP-V2-DIRECTOR-INTENT",
+      "title": "导演视点与信息揭示",
+      "level": 3,
+      "kind": "sop",
+      "version": "2.0.1",
+      "file": "documents/production/SOP-V2-DIRECTOR-INTENT.md",
+      "stages": [
+        "craft"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-V2-STORY-DIRECTION"
+      ],
+      "facets": [
+        "directing.intent",
+        "directing.storyboard"
+      ],
+      "method_source_refs": [
+        {
+          "sha256": "d6c77652bc3e57c96a87f00002166114d4544442608e053b2932b38f9427bea7",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "导演视点与信息揭示：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        }
+      ]
+    },
+    {
+      "id": "SOP-V2-EDIT",
+      "title": "动作衔接、转场与剪辑节奏",
+      "level": 3,
+      "kind": "sop",
+      "version": "2.0.1",
+      "file": "documents/production/SOP-V2-EDIT.md",
+      "stages": [
+        "craft"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-V2-SOUND-EDIT"
+      ],
+      "facets": [
+        "edit.transition",
+        "edit.rhythm",
+        "directing.storyboard"
+      ],
+      "method_source_refs": [
+        {
+          "sha256": "3be02d56cd84f0a09c4a832ea6364aa94c888824957377d06c32dd870aa6a0fc",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "动作衔接、转场与剪辑节奏：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        },
+        {
+          "sha256": "d6c77652bc3e57c96a87f00002166114d4544442608e053b2932b38f9427bea7",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "动作衔接、转场与剪辑节奏：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        }
+      ]
+    },
+    {
+      "id": "SOP-V2-EMBODIED",
+      "title": "情绪意图转可见身体行为",
+      "level": 3,
+      "kind": "sop",
+      "version": "2.0.1",
+      "file": "documents/production/SOP-V2-EMBODIED.md",
+      "stages": [
+        "craft"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-V2-PERFORMANCE"
+      ],
+      "facets": [
+        "performance.body",
+        "performance.objective"
+      ],
+      "method_source_refs": [
+        {
+          "sha256": "75bb8a1c55533319a86ad7ab7432dd633f5202f44cb3dcab12e78828f2457537",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "情绪意图转可见身体行为：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        },
+        {
+          "sha256": "2af434e78c2056eae5615238875538432746b8d9ec8274ee7db48c09e598a33f",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "情绪意图转可见身体行为：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        }
+      ]
+    },
+    {
+      "id": "SOP-V2-EXPRESSION",
+      "title": "面部表情形态与表情参考图",
+      "level": 3,
+      "kind": "sop",
+      "version": "2.0.2",
+      "file": "documents/production/SOP-V2-EXPRESSION.md",
+      "stages": [
+        "craft"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-V2-PERFORMANCE"
+      ],
+      "facets": [
+        "performance.expression",
+        "art.character",
+        "performance.face"
+      ],
+      "method_source_refs": [
+        {
+          "sha256": "2af434e78c2056eae5615238875538432746b8d9ec8274ee7db48c09e598a33f",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "面部表情形态与表情参考图：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        },
+        {
+          "sha256": "88510080379074246c01938f46bddb32bbc5693b9e165ca7a17c165c9f0950f0",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "面部表情形态与表情参考图：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        }
+      ]
+    },
+    {
+      "id": "SOP-V2-EYES",
+      "title": "目光目标、视线转移与眨眼",
+      "level": 3,
+      "kind": "sop",
+      "version": "2.0.1",
+      "file": "documents/production/SOP-V2-EYES.md",
+      "stages": [
+        "craft"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-V2-PERFORMANCE"
+      ],
+      "facets": [
+        "performance.eyes",
+        "blocking.interaction"
+      ],
+      "method_source_refs": [
+        {
+          "sha256": "75bb8a1c55533319a86ad7ab7432dd633f5202f44cb3dcab12e78828f2457537",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "目光目标、视线转移与眨眼：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        },
+        {
+          "sha256": "2af434e78c2056eae5615238875538432746b8d9ec8274ee7db48c09e598a33f",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "目光目标、视线转移与眨眼：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        }
+      ]
+    },
+    {
+      "id": "SOP-V2-FOCUS",
+      "title": "焦点归属、景深与转焦",
+      "level": 3,
+      "kind": "sop",
+      "version": "2.0.1",
+      "file": "documents/production/SOP-V2-FOCUS.md",
+      "stages": [
+        "craft"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-V2-CAMERA-ART"
+      ],
+      "facets": [
+        "camera.lens",
+        "camera.focus"
+      ],
+      "method_source_refs": [
+        {
+          "sha256": "0afa64d4a34faac8d5ca539a8dd2ce0bbd9dc2bd9d1baef869e1803e47f434cb",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "焦点归属、景深与转焦：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        },
+        {
+          "sha256": "88510080379074246c01938f46bddb32bbc5693b9e165ca7a17c165c9f0950f0",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "焦点归属、景深与转焦：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        }
+      ]
+    },
+    {
+      "id": "SOP-V2-FOLEY",
+      "title": "拟音、环境声与声源空间",
+      "level": 3,
+      "kind": "sop",
+      "version": "2.0.2",
+      "file": "documents/production/SOP-V2-FOLEY.md",
+      "stages": [
+        "craft"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-V2-SOUND-EDIT"
+      ],
+      "facets": [
+        "audio.sfx",
+        "action.physics",
+        "audio.foley"
+      ],
+      "method_source_refs": [
+        {
+          "sha256": "3be02d56cd84f0a09c4a832ea6364aa94c888824957377d06c32dd870aa6a0fc",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "拟音、环境声与声源空间：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        },
+        {
+          "sha256": "d6c77652bc3e57c96a87f00002166114d4544442608e053b2932b38f9427bea7",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "拟音、环境声与声源空间：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        }
+      ]
+    },
+    {
+      "id": "SOP-V2-LENS",
+      "title": "机位距离、焦段意图与透视",
+      "level": 3,
+      "kind": "sop",
+      "version": "2.0.1",
+      "file": "documents/production/SOP-V2-LENS.md",
+      "stages": [
+        "craft"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-V2-CAMERA-ART"
+      ],
+      "facets": [
+        "camera.lens",
+        "camera.composition"
+      ],
+      "method_source_refs": [
+        {
+          "sha256": "0afa64d4a34faac8d5ca539a8dd2ce0bbd9dc2bd9d1baef869e1803e47f434cb",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "机位距离、焦段意图与透视：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        },
+        {
+          "sha256": "88510080379074246c01938f46bddb32bbc5693b9e165ca7a17c165c9f0950f0",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "机位距离、焦段意图与透视：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        }
+      ]
+    },
+    {
+      "id": "SOP-V2-LIGHT",
+      "title": "光源方向、阴影与交互照明",
+      "level": 3,
+      "kind": "sop",
+      "version": "2.0.1",
+      "file": "documents/production/SOP-V2-LIGHT.md",
+      "stages": [
+        "craft"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-V2-CAMERA-ART"
+      ],
+      "facets": [
+        "art.light",
+        "art.scene"
+      ],
+      "method_source_refs": [
+        {
+          "sha256": "0afa64d4a34faac8d5ca539a8dd2ce0bbd9dc2bd9d1baef869e1803e47f434cb",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "光源方向、阴影与交互照明：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        },
+        {
+          "sha256": "88510080379074246c01938f46bddb32bbc5693b9e165ca7a17c165c9f0950f0",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "光源方向、阴影与交互照明：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        }
+      ]
+    },
+    {
+      "id": "SOP-V2-LISTENING",
+      "title": "听者反应与群像表演",
+      "level": 3,
+      "kind": "sop",
+      "version": "2.0.1",
+      "file": "documents/production/SOP-V2-LISTENING.md",
+      "stages": [
+        "craft"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-V2-PERFORMANCE"
+      ],
+      "facets": [
+        "performance.body",
+        "performance.eyes",
+        "blocking.interaction"
+      ],
+      "method_source_refs": [
+        {
+          "sha256": "75bb8a1c55533319a86ad7ab7432dd633f5202f44cb3dcab12e78828f2457537",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "听者反应与群像表演：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        },
+        {
+          "sha256": "2af434e78c2056eae5615238875538432746b8d9ec8274ee7db48c09e598a33f",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "听者反应与群像表演：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        }
+      ]
+    },
+    {
+      "id": "SOP-V2-LOCOMOTION",
+      "title": "行走奔跑跳跃与落地",
+      "level": 3,
+      "kind": "sop",
+      "version": "2.0.1",
+      "file": "documents/production/SOP-V2-LOCOMOTION.md",
+      "stages": [
+        "craft"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-V2-ACTION-VFX"
+      ],
+      "facets": [
+        "action.physics",
+        "performance.body"
+      ],
+      "method_source_refs": [
+        {
+          "sha256": "a724c9b223e637e0cbe4ea93364d9e9838061f52d8453ac5d1692fce59ec6396",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "行走奔跑跳跃与落地：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        }
+      ]
+    },
+    {
+      "id": "SOP-V2-MICROEXPRESSION",
+      "title": "细微面部动作与短暂表演节拍",
+      "level": 3,
+      "kind": "sop",
+      "version": "2.0.1",
+      "file": "documents/production/SOP-V2-MICROEXPRESSION.md",
+      "stages": [
+        "craft"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-V2-PERFORMANCE"
+      ],
+      "facets": [
+        "performance.microexpression",
+        "performance.expression"
+      ],
+      "method_source_refs": [
+        {
+          "sha256": "2af434e78c2056eae5615238875538432746b8d9ec8274ee7db48c09e598a33f",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "细微面部动作与短暂表演节拍：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        },
+        {
+          "sha256": "75bb8a1c55533319a86ad7ab7432dd633f5202f44cb3dcab12e78828f2457537",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "细微面部动作与短暂表演节拍：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        }
+      ]
+    },
+    {
+      "id": "SOP-V2-MUSIC",
+      "title": "音乐动机、节奏与跨镜声轨",
+      "level": 3,
+      "kind": "sop",
+      "version": "2.0.1",
+      "file": "documents/production/SOP-V2-MUSIC.md",
+      "stages": [
+        "craft"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-V2-SOUND-EDIT"
+      ],
+      "facets": [
+        "audio.music",
+        "edit.rhythm"
+      ],
+      "method_source_refs": [
+        {
+          "sha256": "3be02d56cd84f0a09c4a832ea6364aa94c888824957377d06c32dd870aa6a0fc",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "音乐动机、节奏与跨镜声轨：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        },
+        {
+          "sha256": "d6c77652bc3e57c96a87f00002166114d4544442608e053b2932b38f9427bea7",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "音乐动机、节奏与跨镜声轨：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        }
+      ]
+    },
+    {
+      "id": "SOP-V2-PROP-HANDOFF",
+      "title": "道具持有、使用与交接",
+      "level": 3,
+      "kind": "sop",
+      "version": "2.0.1",
+      "file": "documents/production/SOP-V2-PROP-HANDOFF.md",
+      "stages": [
+        "craft"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-V2-BLOCKING"
+      ],
+      "facets": [
+        "props.state",
+        "props.handoff",
+        "blocking.interaction"
+      ],
+      "method_source_refs": [
+        {
+          "sha256": "d6c77652bc3e57c96a87f00002166114d4544442608e053b2932b38f9427bea7",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "道具持有、使用与交接：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        },
+        {
+          "sha256": "a724c9b223e637e0cbe4ea93364d9e9838061f52d8453ac5d1692fce59ec6396",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "道具持有、使用与交接：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        }
+      ]
+    },
+    {
+      "id": "SOP-V2-SCENE",
+      "title": "场景空间、尺度与环境状态",
+      "level": 3,
+      "kind": "sop",
+      "version": "2.0.1",
+      "file": "documents/production/SOP-V2-SCENE.md",
+      "stages": [
+        "craft"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-V2-CAMERA-ART"
+      ],
+      "facets": [
+        "art.scene",
+        "blocking.position",
+        "continuity.state"
+      ],
+      "method_source_refs": [
+        {
+          "sha256": "0afa64d4a34faac8d5ca539a8dd2ce0bbd9dc2bd9d1baef869e1803e47f434cb",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "场景空间、尺度与环境状态：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        },
+        {
+          "sha256": "88510080379074246c01938f46bddb32bbc5693b9e165ca7a17c165c9f0950f0",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "场景空间、尺度与环境状态：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        }
+      ]
+    },
+    {
+      "id": "SOP-V2-SUBTEXT",
+      "title": "潜台词与行为反差",
+      "level": 3,
+      "kind": "sop",
+      "version": "2.0.1",
+      "file": "documents/production/SOP-V2-SUBTEXT.md",
+      "stages": [
+        "craft"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-V2-STORY-DIRECTION"
+      ],
+      "facets": [
+        "script.dialogue",
+        "performance.objective"
+      ],
+      "method_source_refs": [
+        {
+          "sha256": "75bb8a1c55533319a86ad7ab7432dd633f5202f44cb3dcab12e78828f2457537",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "潜台词与行为反差：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        }
+      ]
+    },
+    {
+      "id": "SOP-V2-TRANSFORM",
+      "title": "变身召唤与法阵空间设计",
+      "level": 3,
+      "kind": "sop",
+      "version": "2.0.1",
+      "file": "documents/production/SOP-V2-TRANSFORM.md",
+      "stages": [
+        "craft"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-V2-ACTION-VFX"
+      ],
+      "facets": [
+        "vfx.mechanism",
+        "continuity.identity"
+      ],
+      "method_source_refs": [
+        {
+          "sha256": "a724c9b223e637e0cbe4ea93364d9e9838061f52d8453ac5d1692fce59ec6396",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "变身召唤与法阵空间设计：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        }
+      ]
+    },
+    {
+      "id": "SOP-V2-VFX-LIFECYCLE",
+      "title": "特效来源、阶段与消散",
+      "level": 3,
+      "kind": "sop",
+      "version": "2.0.1",
+      "file": "documents/production/SOP-V2-VFX-LIFECYCLE.md",
+      "stages": [
+        "craft"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-V2-ACTION-VFX"
+      ],
+      "facets": [
+        "vfx.mechanism",
+        "vfx.lifecycle"
+      ],
+      "method_source_refs": [
+        {
+          "sha256": "a724c9b223e637e0cbe4ea93364d9e9838061f52d8453ac5d1692fce59ec6396",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "特效来源、阶段与消散：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        }
+      ]
+    },
+    {
+      "id": "SOP-V2-VFX-OCCLUSION",
+      "title": "特效遮挡、碰撞与交互光",
+      "level": 3,
+      "kind": "sop",
+      "version": "2.0.1",
+      "file": "documents/production/SOP-V2-VFX-OCCLUSION.md",
+      "stages": [
+        "craft"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-V2-ACTION-VFX"
+      ],
+      "facets": [
+        "vfx.mechanism",
+        "art.light"
+      ],
+      "method_source_refs": [
+        {
+          "sha256": "a724c9b223e637e0cbe4ea93364d9e9838061f52d8453ac5d1692fce59ec6396",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "特效遮挡、碰撞与交互光：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        }
+      ]
+    },
+    {
+      "id": "SOP-V2-VOICE",
+      "title": "声线身份、语气重音与对白停顿",
+      "level": 3,
+      "kind": "sop",
+      "version": "2.0.2",
+      "file": "documents/production/SOP-V2-VOICE.md",
+      "stages": [
+        "craft"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-V2-SOUND-EDIT"
+      ],
+      "facets": [
+        "audio.voice",
+        "script.dialogue",
+        "performance.breath",
+        "audio.prosody"
+      ],
+      "method_source_refs": [
+        {
+          "sha256": "3be02d56cd84f0a09c4a832ea6364aa94c888824957377d06c32dd870aa6a0fc",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "声线身份、语气重音与对白停顿：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        },
+        {
+          "sha256": "75bb8a1c55533319a86ad7ab7432dd633f5202f44cb3dcab12e78828f2457537",
+          "captured_at": "2026-09-09",
+          "reference_granularity": "whole_skill_as_explicitly_cited",
+          "adopted_scope": "声线身份、语气重音与对白停顿：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+          "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+          "status": "source_identity_pinned_not_claiming_clause_equivalence"
+        }
+      ]
+    },
+    {
+      "id": "SOP-WAN-22-I2V",
+      "title": "Wan 2.2 open-source I2V准备SOP",
+      "level": 3,
+      "kind": "sop",
+      "version": "1.0.0",
+      "file": "documents/models/wan/SOP-WAN-22-I2V.md",
+      "stages": [
+        "video"
+      ],
+      "models": [
+        "wan"
+      ],
+      "model_versions": [
+        "2.2"
+      ],
+      "platforms": [
+        "open-source"
+      ],
+      "modes": [
+        "I2V"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "WAN-OPEN-2.2",
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-WAN-OPEN"
+      ]
+    },
+    {
+      "id": "SOP-WAN-22-T2V",
+      "title": "Wan 2.2 open-source T2V准备SOP",
+      "level": 3,
+      "kind": "sop",
+      "version": "1.0.0",
+      "file": "documents/models/wan/SOP-WAN-22-T2V.md",
+      "stages": [
+        "video"
+      ],
+      "models": [
+        "wan"
+      ],
+      "model_versions": [
+        "2.2"
+      ],
+      "platforms": [
+        "open-source"
+      ],
+      "modes": [
+        "T2V"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "WAN-OPEN-2.2",
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-WAN-OPEN"
+      ]
+    },
+    {
+      "id": "SOP-WAN-26-REF",
+      "title": "Wan 2.6 aliyun-model-studio REF准备SOP",
+      "level": 3,
+      "kind": "sop",
+      "version": "1.0.0",
+      "file": "documents/models/wan/SOP-WAN-26-REF.md",
+      "stages": [
+        "video"
+      ],
+      "models": [
+        "wan"
+      ],
+      "model_versions": [
+        "2.6"
+      ],
+      "platforms": [
+        "aliyun-model-studio"
+      ],
+      "modes": [
+        "REF"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "WAN-CLOUD-R2V-2.6",
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-WAN-CLOUD"
+      ]
+    },
+    {
+      "id": "SOP-WAN-30-EDIT",
+      "title": "Wan 3.0 aliyun-model-studio EDIT准备SOP",
+      "level": 3,
+      "kind": "sop",
+      "version": "1.0.0",
+      "file": "documents/models/wan/SOP-WAN-30-EDIT.md",
+      "stages": [
+        "video"
+      ],
+      "models": [
+        "wan"
+      ],
+      "model_versions": [
+        "3.0"
+      ],
+      "platforms": [
+        "aliyun-model-studio"
+      ],
+      "modes": [
+        "EDIT"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "WAN-CLOUD-3.0",
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-WAN-CLOUD"
+      ]
+    },
+    {
+      "id": "SOP-WAN-30-EXTEND",
+      "title": "Wan 3.0 aliyun-model-studio EXTEND准备SOP",
+      "level": 3,
+      "kind": "sop",
+      "version": "1.0.0",
+      "file": "documents/models/wan/SOP-WAN-30-EXTEND.md",
+      "stages": [
+        "video"
+      ],
+      "models": [
+        "wan"
+      ],
+      "model_versions": [
+        "3.0"
+      ],
+      "platforms": [
+        "aliyun-model-studio"
+      ],
+      "modes": [
+        "EXTEND"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "WAN-CLOUD-3.0",
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-WAN-CLOUD"
+      ]
+    },
+    {
+      "id": "SOP-WAN-30-I2V",
+      "title": "Wan 3.0 aliyun-model-studio I2V准备SOP",
+      "level": 3,
+      "kind": "sop",
+      "version": "1.0.0",
+      "file": "documents/models/wan/SOP-WAN-30-I2V.md",
+      "stages": [
+        "video"
+      ],
+      "models": [
+        "wan"
+      ],
+      "model_versions": [
+        "3.0"
+      ],
+      "platforms": [
+        "aliyun-model-studio"
+      ],
+      "modes": [
+        "I2V"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "WAN-CLOUD-3.0",
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-WAN-CLOUD"
+      ]
+    },
+    {
+      "id": "SOP-WAN-30-REF",
+      "title": "Wan 3.0 aliyun-model-studio REF准备SOP",
+      "level": 3,
+      "kind": "sop",
+      "version": "1.0.0",
+      "file": "documents/models/wan/SOP-WAN-30-REF.md",
+      "stages": [
+        "video"
+      ],
+      "models": [
+        "wan"
+      ],
+      "model_versions": [
+        "3.0"
+      ],
+      "platforms": [
+        "aliyun-model-studio"
+      ],
+      "modes": [
+        "REF"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "WAN-CLOUD-3.0",
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-WAN-CLOUD"
+      ]
+    },
+    {
+      "id": "SOP-WAN-30-T2V",
+      "title": "Wan 3.0 aliyun-model-studio T2V准备SOP",
+      "level": 3,
+      "kind": "sop",
+      "version": "1.0.0",
+      "file": "documents/models/wan/SOP-WAN-30-T2V.md",
+      "stages": [
+        "video"
+      ],
+      "models": [
+        "wan"
+      ],
+      "model_versions": [
+        "3.0"
+      ],
+      "platforms": [
+        "aliyun-model-studio"
+      ],
+      "modes": [
+        "T2V"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "WAN-CLOUD-3.0",
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-WAN-CLOUD"
+      ]
+    },
+    {
+      "id": "FR-V2-ACTION-VFX",
+      "title": "动作接触与特效生命周期表",
+      "level": 4,
+      "kind": "template",
+      "version": "2.0.1",
+      "file": "documents/production/FR-V2-ACTION-VFX.md",
+      "stages": [
+        "craft"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "SOP-V2-ACTION-CONTACT",
+        "SOP-V2-VFX-LIFECYCLE",
+        "SOP-V2-VFX-OCCLUSION",
+        "SOP-V2-LOCOMOTION",
+        "SOP-V2-TRANSFORM"
+      ],
+      "facets": [
+        "action.physics",
+        "vfx.mechanism",
+        "action.contact"
+      ]
+    },
+    {
+      "id": "FR-V2-ASSET",
+      "title": "角色服装场景摄影资产联审表",
+      "level": 4,
+      "kind": "template",
+      "version": "2.0.1",
+      "file": "documents/production/FR-V2-ASSET.md",
+      "stages": [
+        "craft"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "SOP-V2-CHARACTER-SHEET",
+        "SOP-V2-COSTUME",
+        "SOP-V2-SCENE",
+        "SOP-V2-LIGHT",
+        "SOP-V2-COLOR-MATERIAL"
+      ],
+      "facets": [
+        "art.character",
+        "art.costume",
+        "art.scene",
+        "art.light",
+        "art.material"
+      ]
+    },
+    {
+      "id": "FR-V2-AUDIO-EDIT",
+      "title": "对白语气声音与剪辑时间表",
+      "level": 4,
+      "kind": "template",
+      "version": "2.0.1",
+      "file": "documents/production/FR-V2-AUDIO-EDIT.md",
+      "stages": [
+        "craft"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "SOP-V2-VOICE",
+        "SOP-V2-FOLEY",
+        "SOP-V2-MUSIC",
+        "SOP-V2-EDIT"
+      ],
+      "facets": [
+        "audio.voice",
+        "audio.sfx",
+        "audio.music",
+        "edit.rhythm",
+        "audio.prosody",
+        "audio.foley"
+      ]
+    },
+    {
+      "id": "FR-V2-PERFORMANCE",
+      "title": "人物身体化表演轨表",
+      "level": 4,
+      "kind": "template",
+      "version": "2.0.1",
+      "file": "documents/production/FR-V2-PERFORMANCE.md",
+      "stages": [
+        "craft"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "SOP-V2-EMBODIED",
+        "SOP-V2-MICROEXPRESSION",
+        "SOP-ACTING",
+        "SOP-V2-BREATH",
+        "SOP-V2-EXPRESSION",
+        "SOP-V2-EYES",
+        "SOP-V2-LISTENING",
+        "SOP-V2-SUBTEXT"
+      ],
+      "facets": [
+        "performance.body",
+        "performance.microexpression",
+        "performance.eyes",
+        "performance.breath",
+        "performance.face"
+      ]
+    },
+    {
+      "id": "FR-V2-QC",
+      "title": "逐镜验收与缺陷纠正记录",
+      "level": 4,
+      "kind": "template",
+      "version": "2.0.1",
+      "file": "documents/production/FR-V2-QC.md",
+      "stages": [
+        "craft"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "SOP-V2-DEFECT",
+        "SOP-V2-CONTINUITY"
+      ],
+      "facets": [
+        "quality.review",
+        "continuity.state",
+        "quality.inspect"
+      ]
+    },
+    {
+      "id": "FR-V2-SCENE",
+      "title": "场景节拍与导演信息表",
+      "level": 4,
+      "kind": "template",
+      "version": "2.0.0",
+      "file": "documents/production/FR-V2-SCENE.md",
+      "stages": [
+        "craft"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "SOP-V2-BEAT",
+        "SOP-V2-DIRECTOR-INTENT"
+      ],
+      "facets": [
+        "script.structure",
+        "directing.intent"
+      ]
+    },
+    {
+      "id": "FR-V2-SHOT",
+      "title": "完整单镜头生产交接卡",
+      "level": 4,
+      "kind": "template",
+      "version": "2.0.1",
+      "file": "documents/production/FR-V2-SHOT.md",
+      "stages": [
+        "craft"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "SOP-V2-DIRECTOR-INTENT",
+        "SOP-V2-CAMERA-MOVE",
+        "SOP-V2-EMBODIED",
+        "SOP-V2-COMPOSITION",
+        "SOP-V2-FOCUS",
+        "SOP-V2-LENS"
+      ],
+      "facets": [
+        "directing.storyboard",
+        "camera.motion",
+        "performance.body"
+      ]
+    },
+    {
+      "id": "FR-V2-SPACE-PROP",
+      "title": "站位轴线与道具状态账本",
+      "level": 4,
+      "kind": "template",
+      "version": "2.0.1",
+      "file": "documents/production/FR-V2-SPACE-PROP.md",
+      "stages": [
+        "craft"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "SOP-V2-BLOCKING-POSITION",
+        "SOP-V2-AXIS",
+        "SOP-V2-PROP-HANDOFF"
+      ],
+      "facets": [
+        "blocking.position",
+        "props.state",
+        "blocking.space"
+      ]
+    },
+    {
+      "id": "TPL-ASSET",
+      "title": "角色场景道具资产设定与验收模板",
+      "level": 4,
+      "kind": "template",
+      "version": "1.0.0",
+      "file": "documents/common/TPL-ASSET.md",
+      "stages": [
+        "assets"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "privacy": "ai_allowed",
+      "requires": [
+        "SOP-ASSET-TURNAROUND",
+        "SOP-ASSET-SCENE"
+      ]
+    },
+    {
+      "id": "TPL-BRIEF",
+      "title": "AI视频创作需求单模板",
+      "level": 4,
+      "kind": "template",
+      "version": "1.0.0",
+      "file": "documents/common/TPL-BRIEF.md",
+      "stages": [
+        "script"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "privacy": "ai_allowed",
+      "requires": [
+        "SOP-SCRIPT-GENERAL"
+      ]
+    },
+    {
+      "id": "TPL-CHANGE",
+      "title": "规范变更与来源采纳记录模板",
+      "level": 4,
+      "kind": "template",
+      "version": "1.0.0",
+      "file": "documents/governance/TPL-CHANGE.md",
+      "stages": [
+        "governance"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "SOP-SOURCE-REVIEW"
+      ]
+    },
+    {
+      "id": "TPL-GENERATION-RECORD",
+      "title": "视频生成批次追溯记录模板",
+      "level": 4,
+      "kind": "template",
+      "version": "1.0.0",
+      "file": "documents/governance/TPL-GENERATION-RECORD.md",
+      "stages": [
+        "video"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "QM-001"
+      ]
+    },
+    {
+      "id": "TPL-H3-FL2VA",
+      "title": "H3 FL2VA提示词模板",
+      "level": 4,
+      "kind": "template",
+      "version": "1.0.0",
+      "file": "documents/models/h3/TPL-H3-FL2VA.md",
+      "stages": [
+        "video"
+      ],
+      "models": [
+        "h3"
+      ],
+      "model_versions": [
+        "h3"
+      ],
+      "platforms": [
+        "prompt-only"
+      ],
+      "modes": [
+        "FL2VA"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "H3-OFFICIAL-BASE"
+      ],
+      "requires": [
+        "SOP-H3-FL2VA"
+      ]
+    },
+    {
+      "id": "TPL-H3-I2VA",
+      "title": "H3 I2VA提示词模板",
+      "level": 4,
+      "kind": "template",
+      "version": "1.0.0",
+      "file": "documents/models/h3/TPL-H3-I2VA.md",
+      "stages": [
+        "video"
+      ],
+      "models": [
+        "h3"
+      ],
+      "model_versions": [
+        "h3"
+      ],
+      "platforms": [
+        "prompt-only"
+      ],
+      "modes": [
+        "I2VA"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "H3-OFFICIAL-BASE"
+      ],
+      "requires": [
+        "SOP-H3-I2VA"
+      ]
+    },
+    {
+      "id": "TPL-H3-L2VA",
+      "title": "H3 L2VA提示词模板",
+      "level": 4,
+      "kind": "template",
+      "version": "1.0.0",
+      "file": "documents/models/h3/TPL-H3-L2VA.md",
+      "stages": [
+        "video"
+      ],
+      "models": [
+        "h3"
+      ],
+      "model_versions": [
+        "h3"
+      ],
+      "platforms": [
+        "prompt-only"
+      ],
+      "modes": [
+        "L2VA"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "H3-OFFICIAL-BASE"
+      ],
+      "requires": [
+        "SOP-H3-L2VA"
+      ]
+    },
+    {
+      "id": "TPL-H3-REF2VA",
+      "title": "H3 Ref2VA提示词模板",
+      "level": 4,
+      "kind": "template",
+      "version": "1.0.0",
+      "file": "documents/models/h3/TPL-H3-REF2VA.md",
+      "stages": [
+        "video"
+      ],
+      "models": [
+        "h3"
+      ],
+      "model_versions": [
+        "h3"
+      ],
+      "platforms": [
+        "prompt-only"
+      ],
+      "modes": [
+        "Ref2VA"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "H3-OFFICIAL-REF"
+      ],
+      "requires": [
+        "SOP-H3-REF2VA"
+      ]
+    },
+    {
+      "id": "TPL-H3-T2VA",
+      "title": "H3 T2VA提示词模板",
+      "level": 4,
+      "kind": "template",
+      "version": "1.0.0",
+      "file": "documents/models/h3/TPL-H3-T2VA.md",
+      "stages": [
+        "video"
+      ],
+      "models": [
+        "h3"
+      ],
+      "model_versions": [
+        "h3"
+      ],
+      "platforms": [
+        "prompt-only"
+      ],
+      "modes": [
+        "T2VA"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "H3-OFFICIAL-BASE"
+      ],
+      "requires": [
+        "SOP-H3-T2VA"
+      ]
+    },
+    {
+      "id": "TPL-QC",
+      "title": "质量检验与偏差记录模板",
+      "level": 4,
+      "kind": "template",
+      "version": "1.0.0",
+      "file": "documents/governance/TPL-QC.md",
+      "stages": [
+        "review"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "SOP-QC"
+      ]
+    },
+    {
+      "id": "TPL-SCRIPT",
+      "title": "场景剧本与跨集记忆模板",
+      "level": 4,
+      "kind": "template",
+      "version": "1.0.0",
+      "file": "documents/common/TPL-SCRIPT.md",
+      "stages": [
+        "script"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "privacy": "ai_allowed",
+      "requires": [
+        "SOP-SCRIPT-GENERAL"
+      ]
+    },
+    {
+      "id": "TPL-SEEDANCE-20-I2V",
+      "title": "Seedance 2.0 LAS I2V模板",
+      "level": 4,
+      "kind": "template",
+      "version": "1.0.0",
+      "file": "documents/models/seedance/TPL-SEEDANCE-20-I2V.md",
+      "stages": [
+        "video"
+      ],
+      "models": [
+        "seedance"
+      ],
+      "model_versions": [
+        "2.0"
+      ],
+      "platforms": [
+        "byteplus-las"
+      ],
+      "modes": [
+        "I2V"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SEEDANCE-BYTEPLUS-LAS",
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "SOP-SEEDANCE-20-I2V"
+      ]
+    },
+    {
+      "id": "TPL-SEEDANCE-20-REF",
+      "title": "Seedance 2.0 LAS REF模板",
+      "level": 4,
+      "kind": "template",
+      "version": "1.0.0",
+      "file": "documents/models/seedance/TPL-SEEDANCE-20-REF.md",
+      "stages": [
+        "video"
+      ],
+      "models": [
+        "seedance"
+      ],
+      "model_versions": [
+        "2.0"
+      ],
+      "platforms": [
+        "byteplus-las"
+      ],
+      "modes": [
+        "REF"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SEEDANCE-BYTEPLUS-LAS",
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "SOP-SEEDANCE-20-REF"
+      ]
+    },
+    {
+      "id": "TPL-SEEDANCE-20-T2V",
+      "title": "Seedance 2.0 LAS T2V模板",
+      "level": 4,
+      "kind": "template",
+      "version": "1.0.0",
+      "file": "documents/models/seedance/TPL-SEEDANCE-20-T2V.md",
+      "stages": [
+        "video"
+      ],
+      "models": [
+        "seedance"
+      ],
+      "model_versions": [
+        "2.0"
+      ],
+      "platforms": [
+        "byteplus-las"
+      ],
+      "modes": [
+        "T2V"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SEEDANCE-BYTEPLUS-LAS",
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "SOP-SEEDANCE-20-T2V"
+      ]
+    },
+    {
+      "id": "TPL-SEEDANCE-25-I2V",
+      "title": "Seedance 2.5 LAS I2V模板",
+      "level": 4,
+      "kind": "template",
+      "version": "1.0.0",
+      "file": "documents/models/seedance/TPL-SEEDANCE-25-I2V.md",
+      "stages": [
+        "video"
+      ],
+      "models": [
+        "seedance"
+      ],
+      "model_versions": [
+        "2.5"
+      ],
+      "platforms": [
+        "byteplus-las"
+      ],
+      "modes": [
+        "I2V"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SEEDANCE-BYTEPLUS-LAS",
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "SOP-SEEDANCE-25-I2V"
+      ]
+    },
+    {
+      "id": "TPL-SEEDANCE-25-REF",
+      "title": "Seedance 2.5 LAS REF模板",
+      "level": 4,
+      "kind": "template",
+      "version": "1.0.0",
+      "file": "documents/models/seedance/TPL-SEEDANCE-25-REF.md",
+      "stages": [
+        "video"
+      ],
+      "models": [
+        "seedance"
+      ],
+      "model_versions": [
+        "2.5"
+      ],
+      "platforms": [
+        "byteplus-las"
+      ],
+      "modes": [
+        "REF"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SEEDANCE-BYTEPLUS-LAS",
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "SOP-SEEDANCE-25-REF"
+      ]
+    },
+    {
+      "id": "TPL-SEEDANCE-25-T2V",
+      "title": "Seedance 2.5 LAS T2V模板",
+      "level": 4,
+      "kind": "template",
+      "version": "1.0.0",
+      "file": "documents/models/seedance/TPL-SEEDANCE-25-T2V.md",
+      "stages": [
+        "video"
+      ],
+      "models": [
+        "seedance"
+      ],
+      "model_versions": [
+        "2.5"
+      ],
+      "platforms": [
+        "byteplus-las"
+      ],
+      "modes": [
+        "T2V"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SEEDANCE-BYTEPLUS-LAS",
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "SOP-SEEDANCE-25-T2V"
+      ]
+    },
+    {
+      "id": "TPL-SHOT-IR",
+      "title": "模型无关镜头中间描述模板",
+      "level": 4,
+      "kind": "template",
+      "version": "1.0.0",
+      "file": "documents/common/TPL-SHOT-IR.md",
+      "stages": [
+        "storyboard"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "privacy": "ai_allowed",
+      "requires": [
+        "SOP-SHOT-ACTION",
+        "SOP-SHOT-CONTINUITY"
+      ]
+    },
+    {
+      "id": "TPL-STORYBOARD",
+      "title": "分镜与声画交接模板",
+      "level": 4,
+      "kind": "template",
+      "version": "1.0.0",
+      "file": "documents/common/TPL-STORYBOARD.md",
+      "stages": [
+        "storyboard"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "privacy": "ai_allowed",
+      "requires": [
+        "SOP-SHOT-CONTINUITY",
+        "SOP-SHOT-DIALOGUE",
+        "SOP-SOUND"
+      ]
+    },
+    {
+      "id": "TPL-WAN-22-I2V",
+      "title": "Wan 2.2 I2V准备模板",
+      "level": 4,
+      "kind": "template",
+      "version": "1.0.0",
+      "file": "documents/models/wan/TPL-WAN-22-I2V.md",
+      "stages": [
+        "video"
+      ],
+      "models": [
+        "wan"
+      ],
+      "model_versions": [
+        "2.2"
+      ],
+      "platforms": [
+        "open-source"
+      ],
+      "modes": [
+        "I2V"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "WAN-OPEN-2.2",
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "SOP-WAN-22-I2V"
+      ]
+    },
+    {
+      "id": "TPL-WAN-22-T2V",
+      "title": "Wan 2.2 T2V准备模板",
+      "level": 4,
+      "kind": "template",
+      "version": "1.0.0",
+      "file": "documents/models/wan/TPL-WAN-22-T2V.md",
+      "stages": [
+        "video"
+      ],
+      "models": [
+        "wan"
+      ],
+      "model_versions": [
+        "2.2"
+      ],
+      "platforms": [
+        "open-source"
+      ],
+      "modes": [
+        "T2V"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "WAN-OPEN-2.2",
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "SOP-WAN-22-T2V"
+      ]
+    },
+    {
+      "id": "TPL-WAN-26-REF",
+      "title": "Wan 2.6 REF准备模板",
+      "level": 4,
+      "kind": "template",
+      "version": "1.0.0",
+      "file": "documents/models/wan/TPL-WAN-26-REF.md",
+      "stages": [
+        "video"
+      ],
+      "models": [
+        "wan"
+      ],
+      "model_versions": [
+        "2.6"
+      ],
+      "platforms": [
+        "aliyun-model-studio"
+      ],
+      "modes": [
+        "REF"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "WAN-CLOUD-R2V-2.6",
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "SOP-WAN-26-REF"
+      ]
+    },
+    {
+      "id": "TPL-WAN-30-EDIT",
+      "title": "Wan 3.0 EDIT准备模板",
+      "level": 4,
+      "kind": "template",
+      "version": "1.0.0",
+      "file": "documents/models/wan/TPL-WAN-30-EDIT.md",
+      "stages": [
+        "video"
+      ],
+      "models": [
+        "wan"
+      ],
+      "model_versions": [
+        "3.0"
+      ],
+      "platforms": [
+        "aliyun-model-studio"
+      ],
+      "modes": [
+        "EDIT"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "WAN-CLOUD-3.0",
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "SOP-WAN-30-EDIT"
+      ]
+    },
+    {
+      "id": "TPL-WAN-30-EXTEND",
+      "title": "Wan 3.0 EXTEND准备模板",
+      "level": 4,
+      "kind": "template",
+      "version": "1.0.0",
+      "file": "documents/models/wan/TPL-WAN-30-EXTEND.md",
+      "stages": [
+        "video"
+      ],
+      "models": [
+        "wan"
+      ],
+      "model_versions": [
+        "3.0"
+      ],
+      "platforms": [
+        "aliyun-model-studio"
+      ],
+      "modes": [
+        "EXTEND"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "WAN-CLOUD-3.0",
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "SOP-WAN-30-EXTEND"
+      ]
+    },
+    {
+      "id": "TPL-WAN-30-I2V",
+      "title": "Wan 3.0 I2V准备模板",
+      "level": 4,
+      "kind": "template",
+      "version": "1.0.0",
+      "file": "documents/models/wan/TPL-WAN-30-I2V.md",
+      "stages": [
+        "video"
+      ],
+      "models": [
+        "wan"
+      ],
+      "model_versions": [
+        "3.0"
+      ],
+      "platforms": [
+        "aliyun-model-studio"
+      ],
+      "modes": [
+        "I2V"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "WAN-CLOUD-3.0",
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "SOP-WAN-30-I2V"
+      ]
+    },
+    {
+      "id": "TPL-WAN-30-REF",
+      "title": "Wan 3.0 REF准备模板",
+      "level": 4,
+      "kind": "template",
+      "version": "1.0.0",
+      "file": "documents/models/wan/TPL-WAN-30-REF.md",
+      "stages": [
+        "video"
+      ],
+      "models": [
+        "wan"
+      ],
+      "model_versions": [
+        "3.0"
+      ],
+      "platforms": [
+        "aliyun-model-studio"
+      ],
+      "modes": [
+        "REF"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "WAN-CLOUD-3.0",
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "SOP-WAN-30-REF"
+      ]
+    },
+    {
+      "id": "TPL-WAN-30-T2V",
+      "title": "Wan 3.0 T2V准备模板",
+      "level": 4,
+      "kind": "template",
+      "version": "1.0.0",
+      "file": "documents/models/wan/TPL-WAN-30-T2V.md",
+      "stages": [
+        "video"
+      ],
+      "models": [
+        "wan"
+      ],
+      "model_versions": [
+        "3.0"
+      ],
+      "platforms": [
+        "aliyun-model-studio"
+      ],
+      "modes": [
+        "T2V"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "WAN-CLOUD-3.0",
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "SOP-WAN-30-T2V"
+      ]
+    },
+    {
+      "id": "FR-GATE-PROJECT",
+      "title": "项目逐关放行与交接表",
+      "level": 4,
+      "kind": "template",
+      "version": "1.0.0",
+      "file": "documents/audit/FR-GATE-PROJECT.md",
+      "stages": [
+        "review",
+        "governance"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "privacy": "ai_allowed",
+      "requires": [
+        "PR-QC"
+      ],
+      "facets": []
+    },
+    {
+      "id": "FR-MODEL-QUALIFICATION",
+      "title": "模型与技法资格验证表",
+      "level": 4,
+      "kind": "template",
+      "version": "1.0.0",
+      "file": "documents/audit/FR-MODEL-QUALIFICATION.md",
+      "stages": [
+        "review",
+        "governance"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "privacy": "ai_allowed",
+      "requires": [
+        "PR-QC",
+        "PR-SOURCE"
+      ],
+      "facets": []
+    },
+    {
+      "id": "FR-DELIVERY-MASTER",
+      "title": "成片与最终文件交付检验表",
+      "level": 4,
+      "kind": "template",
+      "version": "1.0.0",
+      "file": "documents/audit/FR-DELIVERY-MASTER.md",
+      "stages": [
+        "review",
+        "governance"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "privacy": "ai_allowed",
+      "requires": [
+        "PR-QC",
+        "SOP-SEGMENT-CONTINUITY"
+      ],
+      "facets": []
+    },
+    {
+      "id": "FR-SEGMENT-HANDOFF",
+      "title": "分段生成与拼接交接附件",
+      "level": 4,
+      "kind": "template",
+      "version": "1.0.0",
+      "file": "documents/audit/FR-SEGMENT-HANDOFF.md",
+      "stages": [
+        "storyboard",
+        "review"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "privacy": "ai_allowed",
+      "requires": [
+        "SOP-SEGMENT-CONTINUITY"
+      ],
+      "facets": []
+    },
+    {
+      "id": "TPL-SCRIPT-FAMILY",
+      "title": "家庭Q版剧本模板",
+      "level": 4,
+      "kind": "template",
+      "version": "1.0.0",
+      "file": "documents/audit/TPL-SCRIPT-FAMILY.md",
+      "stages": [
+        "script"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [
+        "family-q"
+      ],
+      "status": "released",
+      "verification": "structural",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "privacy": "ai_allowed",
+      "requires": [
+        "TPL-SCRIPT",
+        "SOP-SCRIPT-FAMILY"
+      ],
+      "facets": []
+    },
+    {
+      "id": "TPL-SCRIPT-XIANXIA",
+      "title": "仙侠动作剧本模板",
+      "level": 4,
+      "kind": "template",
+      "version": "1.0.0",
+      "file": "documents/audit/TPL-SCRIPT-XIANXIA.md",
+      "stages": [
+        "script"
+      ],
+      "models": [
+        "common"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [
+        "xianxia"
+      ],
+      "status": "released",
+      "verification": "structural",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "privacy": "ai_allowed",
+      "requires": [
+        "TPL-SCRIPT",
+        "SOP-SCRIPT-XIANXIA"
+      ],
+      "facets": []
+    },
+    {
+      "id": "QM-IMAGE-OPENAI",
+      "title": "GPT Image 2 图像资产系列总规范",
+      "level": 1,
+      "kind": "manual",
+      "version": "1.0.2",
+      "file": "documents/image/QM-IMAGE-OPENAI.md",
+      "stages": [
+        "assets"
+      ],
+      "models": [
+        "gpt-image"
+      ],
+      "model_versions": [
+        "gpt-image-2-2026-04-21"
+      ],
+      "platforms": [
+        "openai-images-api"
+      ],
+      "modes": [
+        "T2I",
+        "EDIT",
+        "INPAINT"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "IMG-OPENAI-MODEL-20260909",
+        "IMG-OPENAI-GUIDE-20260909",
+        "IMG-OPENAI-GENERATE-20260909",
+        "IMG-OPENAI-EDIT-20260909"
+      ],
+      "requires": [
+        "QM-001"
+      ],
+      "facets": [],
+      "evidence_scope": "documentation_based_prompt_preparation_not_api_test"
+    },
+    {
+      "id": "QM-IMAGE-SEEDREAM",
+      "title": "Seedream 4.5 BytePlus 图像资产系列总规范",
+      "level": 1,
+      "kind": "manual",
+      "version": "1.0.0",
+      "file": "documents/image/QM-IMAGE-SEEDREAM.md",
+      "stages": [
+        "assets"
+      ],
+      "models": [
+        "seedream"
+      ],
+      "model_versions": [
+        "seedream-4-5-251128"
+      ],
+      "platforms": [
+        "byteplus-modelark"
+      ],
+      "modes": [
+        "T2I",
+        "EDIT",
+        "BATCH"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "IMG-SEEDREAM-ARK-20260909"
+      ],
+      "requires": [
+        "QM-001"
+      ],
+      "facets": [],
+      "evidence_scope": "documentation_based_prompt_preparation_not_api_test"
+    },
+    {
+      "id": "PR-IMAGE-CONTRACT",
+      "title": "图像模型适配、生成交接与资产放行程序",
+      "level": 2,
+      "kind": "procedure",
+      "version": "1.0.2",
+      "file": "documents/image/PR-IMAGE-CONTRACT.md",
+      "stages": [
+        "assets"
+      ],
+      "models": [
+        "gpt-image",
+        "seedream"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-ASSET",
+        "PR-QC"
+      ],
+      "facets": [],
+      "evidence_scope": "documentation_based_prompt_preparation_not_api_test"
+    },
+    {
+      "id": "SOP-IMAGE-OPENAI-T2I",
+      "title": "GPT Image 2 文生图及角色三视图SOP",
+      "level": 3,
+      "kind": "sop",
+      "version": "1.0.0",
+      "file": "documents/image/SOP-IMAGE-OPENAI-T2I.md",
+      "stages": [
+        "assets"
+      ],
+      "models": [
+        "gpt-image"
+      ],
+      "model_versions": [
+        "gpt-image-2-2026-04-21"
+      ],
+      "platforms": [
+        "openai-images-api"
+      ],
+      "modes": [
+        "T2I"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "IMG-OPENAI-MODEL-20260909",
+        "IMG-OPENAI-GUIDE-20260909",
+        "IMG-OPENAI-GENERATE-20260909",
+        "IMG-OPENAI-EDIT-20260909"
+      ],
+      "requires": [
+        "QM-IMAGE-OPENAI",
+        "PR-IMAGE-CONTRACT"
+      ],
+      "facets": [],
+      "evidence_scope": "documentation_based_prompt_preparation_not_api_test"
+    },
+    {
+      "id": "SOP-IMAGE-OPENAI-EDIT",
+      "title": "GPT Image 2 参考改图与局部修复SOP",
+      "level": 3,
+      "kind": "sop",
+      "version": "1.0.0",
+      "file": "documents/image/SOP-IMAGE-OPENAI-EDIT.md",
+      "stages": [
+        "assets"
+      ],
+      "models": [
+        "gpt-image"
+      ],
+      "model_versions": [
+        "gpt-image-2-2026-04-21"
+      ],
+      "platforms": [
+        "openai-images-api"
+      ],
+      "modes": [
+        "EDIT",
+        "INPAINT"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "IMG-OPENAI-MODEL-20260909",
+        "IMG-OPENAI-GUIDE-20260909",
+        "IMG-OPENAI-GENERATE-20260909",
+        "IMG-OPENAI-EDIT-20260909"
+      ],
+      "requires": [
+        "QM-IMAGE-OPENAI",
+        "PR-IMAGE-CONTRACT"
+      ],
+      "facets": [],
+      "evidence_scope": "documentation_based_prompt_preparation_not_api_test"
+    },
+    {
+      "id": "SOP-IMAGE-SEEDREAM",
+      "title": "Seedream 4.5 文生图、参考图与组图SOP",
+      "level": 3,
+      "kind": "sop",
+      "version": "1.0.0",
+      "file": "documents/image/SOP-IMAGE-SEEDREAM.md",
+      "stages": [
+        "assets"
+      ],
+      "models": [
+        "seedream"
+      ],
+      "model_versions": [
+        "seedream-4-5-251128"
+      ],
+      "platforms": [
+        "byteplus-modelark"
+      ],
+      "modes": [
+        "T2I",
+        "EDIT",
+        "BATCH"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "IMG-SEEDREAM-ARK-20260909"
+      ],
+      "requires": [
+        "QM-IMAGE-SEEDREAM",
+        "PR-IMAGE-CONTRACT"
+      ],
+      "facets": [],
+      "evidence_scope": "documentation_based_prompt_preparation_not_api_test"
+    },
+    {
+      "id": "FR-IMAGE-JOB",
+      "title": "图像任务与生成交接记录模板",
+      "level": 4,
+      "kind": "template",
+      "version": "1.0.0",
+      "file": "documents/image/FR-IMAGE-JOB.md",
+      "stages": [
+        "assets"
+      ],
+      "models": [
+        "gpt-image",
+        "seedream"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-IMAGE-CONTRACT"
+      ],
+      "facets": [],
+      "evidence_scope": "documentation_based_prompt_preparation_not_api_test"
+    },
+    {
+      "id": "FR-IMAGE-INSPECTION",
+      "title": "图像资产逐项验收与返工记录模板",
+      "level": 4,
+      "kind": "template",
+      "version": "1.0.0",
+      "file": "documents/image/FR-IMAGE-INSPECTION.md",
+      "stages": [
+        "assets"
+      ],
+      "models": [
+        "gpt-image",
+        "seedream"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-IMAGE-CONTRACT"
+      ],
+      "facets": [],
+      "evidence_scope": "documentation_based_prompt_preparation_not_api_test"
+    },
+    {
+      "id": "SOP-IMAGE-ASSET-PROMPT",
+      "title": "图像资产提示词选择、装配与定点返工作业指导",
+      "level": 3,
+      "kind": "sop",
+      "version": "1.0.0",
+      "file": "documents/image/SOP-IMAGE-ASSET-PROMPT.md",
+      "stages": [
+        "assets"
+      ],
+      "models": [
+        "gpt-image"
+      ],
+      "model_versions": [
+        "gpt-image-2-2026-04-21"
+      ],
+      "platforms": [
+        "openai-images-api"
+      ],
+      "modes": [
+        "T2I",
+        "EDIT"
+      ],
+      "styles": [],
+      "facets": [
+        "asset.turnaround",
+        "asset.portrait",
+        "asset.scene",
+        "asset.storyboard"
+      ],
+      "status": "released",
+      "verification": "structural",
+      "evidence_scope": "internal_workflow_using_community_methods_not_api_or_visual_test",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN",
+        "SRC-AWESOME-GPT-IMAGE2-20260909"
+      ],
+      "requires": [
+        "PR-IMAGE-CONTRACT",
+        "PR-ASSET",
+        "QM-IMAGE-OPENAI"
+      ]
+    },
+    {
+      "id": "TPL-IMAGE-TURNAROUND",
+      "title": "角色三视图图像提示词与验收模板",
+      "level": 4,
+      "kind": "template",
+      "version": "1.0.0",
+      "file": "documents/image/TPL-IMAGE-TURNAROUND.md",
+      "stages": [
+        "assets"
+      ],
+      "models": [
+        "gpt-image"
+      ],
+      "model_versions": [
+        "gpt-image-2-2026-04-21"
+      ],
+      "platforms": [
+        "openai-images-api"
+      ],
+      "modes": [
+        "T2I",
+        "EDIT"
+      ],
+      "styles": [],
+      "facets": [
+        "asset.turnaround"
+      ],
+      "status": "released",
+      "verification": "structural",
+      "evidence_scope": "internal_workflow_using_community_methods_not_api_or_visual_test",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN",
+        "SRC-AWESOME-GPT-IMAGE2-20260909"
+      ],
+      "requires": [
+        "SOP-IMAGE-ASSET-PROMPT"
+      ]
+    },
+    {
+      "id": "TPL-IMAGE-PORTRAIT",
+      "title": "人物形象、身体表情与身份参考图模板",
+      "level": 4,
+      "kind": "template",
+      "version": "1.0.0",
+      "file": "documents/image/TPL-IMAGE-PORTRAIT.md",
+      "stages": [
+        "assets"
+      ],
+      "models": [
+        "gpt-image"
+      ],
+      "model_versions": [
+        "gpt-image-2-2026-04-21"
+      ],
+      "platforms": [
+        "openai-images-api"
+      ],
+      "modes": [
+        "T2I",
+        "EDIT"
+      ],
+      "styles": [],
+      "facets": [
+        "asset.portrait"
+      ],
+      "status": "released",
+      "verification": "structural",
+      "evidence_scope": "internal_workflow_using_community_methods_not_api_or_visual_test",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN",
+        "SRC-AWESOME-GPT-IMAGE2-20260909"
+      ],
+      "requires": [
+        "SOP-IMAGE-ASSET-PROMPT"
+      ]
+    },
+    {
+      "id": "TPL-IMAGE-SCENE",
+      "title": "场景母版、空间地标与反打视角图模板",
+      "level": 4,
+      "kind": "template",
+      "version": "1.0.0",
+      "file": "documents/image/TPL-IMAGE-SCENE.md",
+      "stages": [
+        "assets"
+      ],
+      "models": [
+        "gpt-image"
+      ],
+      "model_versions": [
+        "gpt-image-2-2026-04-21"
+      ],
+      "platforms": [
+        "openai-images-api"
+      ],
+      "modes": [
+        "T2I",
+        "EDIT"
+      ],
+      "styles": [],
+      "facets": [
+        "asset.scene"
+      ],
+      "status": "released",
+      "verification": "structural",
+      "evidence_scope": "internal_workflow_using_community_methods_not_api_or_visual_test",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN",
+        "SRC-AWESOME-GPT-IMAGE2-20260909"
+      ],
+      "requires": [
+        "SOP-IMAGE-ASSET-PROMPT"
+      ]
+    },
+    {
+      "id": "TPL-IMAGE-STORYBOARD",
+      "title": "单镜分镜图、关键瞬间与首尾帧设计模板",
+      "level": 4,
+      "kind": "template",
+      "version": "1.0.0",
+      "file": "documents/image/TPL-IMAGE-STORYBOARD.md",
+      "stages": [
+        "assets"
+      ],
+      "models": [
+        "gpt-image"
+      ],
+      "model_versions": [
+        "gpt-image-2-2026-04-21"
+      ],
+      "platforms": [
+        "openai-images-api"
+      ],
+      "modes": [
+        "T2I",
+        "EDIT"
+      ],
+      "styles": [],
+      "facets": [
+        "asset.storyboard"
+      ],
+      "status": "released",
+      "verification": "structural",
+      "evidence_scope": "internal_workflow_using_community_methods_not_api_or_visual_test",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN",
+        "SRC-AWESOME-GPT-IMAGE2-20260909"
+      ],
+      "requires": [
+        "SOP-IMAGE-ASSET-PROMPT"
+      ]
+    },
+    {
+      "id": "PR-IMAGE-ROUTING",
+      "title": "图像用途、版式与交付路由程序",
+      "level": 2,
+      "kind": "procedure",
+      "version": "1.0.0",
+      "file": "documents/image/PR-IMAGE-ROUTING.md",
+      "stages": [
+        "assets"
+      ],
+      "models": [
+        "gpt-image",
+        "seedream"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "facets": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-IMAGE-CONTRACT"
+      ]
+    },
+    {
+      "id": "SOP-IMAGE-MULTIPANEL",
+      "title": "多格图、九宫格与故事板组织作业",
+      "level": 3,
+      "kind": "sop",
+      "version": "1.0.0",
+      "file": "documents/image/SOP-IMAGE-MULTIPANEL.md",
+      "stages": [
+        "assets"
+      ],
+      "models": [
+        "gpt-image",
+        "seedream"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "facets": [
+        "layout.three_view",
+        "layout.grid_2x2",
+        "layout.grid_3x3",
+        "layout.grid_4x4",
+        "layout.strip",
+        "layout.contact_sheet"
+      ],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-IMAGE-ROUTING"
+      ]
+    },
+    {
+      "id": "SOP-IMAGE-DESIGN-CHECKS",
+      "title": "图像用途专项设计与验收清单",
+      "level": 3,
+      "kind": "sop",
+      "version": "1.0.0",
+      "file": "documents/image/SOP-IMAGE-DESIGN-CHECKS.md",
+      "stages": [
+        "assets"
+      ],
+      "models": [
+        "gpt-image",
+        "seedream"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "facets": [
+        "asset.turnaround",
+        "asset.portrait",
+        "asset.expression",
+        "asset.pose_action",
+        "asset.costume",
+        "asset.prop",
+        "asset.vehicle",
+        "asset.creature",
+        "asset.scene",
+        "asset.spatial_plan",
+        "asset.atmosphere",
+        "asset.material",
+        "asset.storyboard",
+        "asset.storyboard_sequence",
+        "asset.keyframe",
+        "asset.style_board",
+        "asset.vfx",
+        "asset.graphic",
+        "asset.promotion",
+        "layout.single",
+        "layout.exploded",
+        "layout.cutaway",
+        "layout.plan"
+      ],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-IMAGE-ROUTING"
+      ]
+    },
+    {
+      "id": "FR-IMAGE-TASK-SPEC",
+      "title": "多用途图像任务与逐格计划模板",
+      "level": 4,
+      "kind": "template",
+      "version": "1.0.0",
+      "file": "documents/image/FR-IMAGE-TASK-SPEC.md",
+      "stages": [
+        "assets"
+      ],
+      "models": [
+        "gpt-image",
+        "seedream"
+      ],
+      "model_versions": [
+        "*"
+      ],
+      "platforms": [
+        "*"
+      ],
+      "modes": [
+        "*"
+      ],
+      "styles": [],
+      "facets": [],
+      "status": "released",
+      "verification": "structural",
+      "privacy": "ai_allowed",
+      "source_ids": [
+        "SRC-INTERNAL-DESIGN"
+      ],
+      "requires": [
+        "PR-IMAGE-ROUTING"
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "model": "h3",
+      "version": "h3",
+      "platform": "prompt-only",
+      "modes": [
+        "T2VA",
+        "I2VA",
+        "FL2VA",
+        "L2VA",
+        "Ref2VA"
+      ],
+      "status": "released",
+      "source_ids": [
+        "H3-OFFICIAL-SKILL"
+      ],
+      "execution_scope": "prompt_preparation_only"
+    },
+    {
+      "model": "seedance",
+      "version": "2.0",
+      "platform": "byteplus-las",
+      "modes": [
+        "T2V",
+        "I2V",
+        "REF"
+      ],
+      "status": "released",
+      "source_ids": [
+        "SEEDANCE-BYTEPLUS-LAS"
+      ],
+      "execution_scope": "prompt_preparation_not_api_test"
+    },
+    {
+      "model": "seedance",
+      "version": "2.5",
+      "platform": "byteplus-las",
+      "modes": [
+        "T2V",
+        "I2V",
+        "REF"
+      ],
+      "status": "released",
+      "source_ids": [
+        "SEEDANCE-BYTEPLUS-LAS"
+      ],
+      "execution_scope": "prompt_preparation_not_api_test"
+    },
+    {
+      "model": "wan",
+      "version": "2.2",
+      "platform": "open-source",
+      "modes": [
+        "T2V",
+        "I2V"
+      ],
+      "status": "released",
+      "source_ids": [
+        "WAN-OPEN-2.2"
+      ],
+      "execution_scope": "prompt_preparation_not_local_inference_test"
+    },
+    {
+      "model": "wan",
+      "version": "2.6",
+      "platform": "aliyun-model-studio",
+      "modes": [
+        "REF"
+      ],
+      "status": "released",
+      "source_ids": [
+        "WAN-CLOUD-R2V-2.6"
+      ],
+      "execution_scope": "prompt_preparation_not_api_test"
+    },
+    {
+      "model": "wan",
+      "version": "3.0",
+      "platform": "aliyun-model-studio",
+      "modes": [
+        "T2V",
+        "I2V",
+        "REF",
+        "EDIT",
+        "EXTEND"
+      ],
+      "status": "released",
+      "source_ids": [
+        "WAN-CLOUD-3.0"
+      ],
+      "execution_scope": "prompt_preparation_not_api_test"
+    },
+    {
+      "model": "gpt-image",
+      "version": "gpt-image-2-2026-04-21",
+      "platform": "openai-images-api",
+      "modes": [
+        "T2I",
+        "EDIT",
+        "INPAINT"
+      ],
+      "status": "released",
+      "source_ids": [
+        "IMG-OPENAI-MODEL-20260909",
+        "IMG-OPENAI-GUIDE-20260909",
+        "IMG-OPENAI-GENERATE-20260909",
+        "IMG-OPENAI-EDIT-20260909"
+      ],
+      "execution_scope": "prompt_preparation_not_api_test",
+      "account_available": "not_checked",
+      "constraints": {
+        "prompt_max_chars": 32000,
+        "n_min": 1,
+        "n_max": 10,
+        "reference_max": 16,
+        "size": {
+          "edge_multiple": 16,
+          "max_edge": 3840,
+          "min_pixels": 655360,
+          "max_pixels": 8294400,
+          "max_long_short_ratio": 3
+        },
+        "quality": [
+          "low",
+          "medium",
+          "high",
+          "auto"
+        ],
+        "output_format": [
+          "png",
+          "jpeg",
+          "webp"
+        ],
+        "omit": [
+          "input_fidelity"
+        ],
+        "transparent": "preview_only_png_or_webp",
+        "large_resolution": "above_2560x1440_experimental"
+      },
+      "artifact": "image",
+      "evidence_scope": "official_documentation_checked_not_api_test",
+      "verification": "structural"
+    },
+    {
+      "model": "seedream",
+      "version": "seedream-4-5-251128",
+      "platform": "byteplus-modelark",
+      "modes": [
+        "T2I",
+        "EDIT",
+        "BATCH"
+      ],
+      "status": "released",
+      "source_ids": [
+        "IMG-SEEDREAM-ARK-20260909"
+      ],
+      "execution_scope": "prompt_preparation_not_api_test",
+      "account_available": "not_checked",
+      "constraints": {
+        "size_presets": [
+          "2K",
+          "4K"
+        ],
+        "output_format": [
+          "jpeg"
+        ],
+        "reference_max": 14,
+        "input_plus_output_max": 15,
+        "input_max_mb": 30,
+        "input_max_pixels": 36000000,
+        "input_min_edge_exclusive": 14,
+        "input_aspect_min": 0.0625,
+        "input_aspect_max": 16,
+        "result_url_hours": 24,
+        "batch_parameter": "sequential_image_generation=auto",
+        "single_parameter": "sequential_image_generation=disabled"
+      },
+      "artifact": "image",
+      "evidence_scope": "official_documentation_checked_not_api_test",
+      "verification": "structural"
+    }
+  ],
+  "relations_file": "relations.json",
+  "upstream_version": "2.0.5",
+  "public_edition": "0.1.0"
+}

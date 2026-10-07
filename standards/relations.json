@@ -1,0 +1,268 @@
+[
+  {
+    "from_id": "FR-IMAGE-JOB",
+    "relation": "implements_when_applicable",
+    "to_id": "SOP-IMAGE-OPENAI-T2I",
+    "condition": "exact selected image profile and mode",
+    "reason": "同一记录格式供不同入口使用，不能把多个入口同时设为强依赖"
+  },
+  {
+    "from_id": "FR-IMAGE-JOB",
+    "relation": "implements_when_applicable",
+    "to_id": "SOP-IMAGE-OPENAI-EDIT",
+    "condition": "exact selected image profile and mode",
+    "reason": "同一记录格式供不同入口使用，不能把多个入口同时设为强依赖"
+  },
+  {
+    "from_id": "FR-IMAGE-JOB",
+    "relation": "implements_when_applicable",
+    "to_id": "SOP-IMAGE-SEEDREAM",
+    "condition": "exact selected image profile and mode",
+    "reason": "同一记录格式供不同入口使用，不能把多个入口同时设为强依赖"
+  },
+  {
+    "from_id": "FR-IMAGE-INSPECTION",
+    "relation": "implements_when_applicable",
+    "to_id": "SOP-IMAGE-OPENAI-T2I",
+    "condition": "exact selected image profile and mode",
+    "reason": "同一记录格式供不同入口使用，不能把多个入口同时设为强依赖"
+  },
+  {
+    "from_id": "FR-IMAGE-INSPECTION",
+    "relation": "implements_when_applicable",
+    "to_id": "SOP-IMAGE-OPENAI-EDIT",
+    "condition": "exact selected image profile and mode",
+    "reason": "同一记录格式供不同入口使用，不能把多个入口同时设为强依赖"
+  },
+  {
+    "from_id": "FR-IMAGE-INSPECTION",
+    "relation": "implements_when_applicable",
+    "to_id": "SOP-IMAGE-SEEDREAM",
+    "condition": "exact selected image profile and mode",
+    "reason": "同一记录格式供不同入口使用，不能把多个入口同时设为强依赖"
+  },
+  {
+    "from_id": "SOP-V2-EMBODIED",
+    "relation": "details_of",
+    "to_id": "SOP-ACTING",
+    "condition": "select corresponding professional facet",
+    "reason": "基础作业给整体约束，细项展开具体观察变量与返修，不废止基线或默认加载全部细项"
+  },
+  {
+    "from_id": "SOP-V2-EXPRESSION",
+    "relation": "details_of",
+    "to_id": "SOP-ACTING",
+    "condition": "select corresponding professional facet",
+    "reason": "基础作业给整体约束，细项展开具体观察变量与返修，不废止基线或默认加载全部细项"
+  },
+  {
+    "from_id": "SOP-V2-MICROEXPRESSION",
+    "relation": "details_of",
+    "to_id": "SOP-ACTING",
+    "condition": "select corresponding professional facet",
+    "reason": "基础作业给整体约束，细项展开具体观察变量与返修，不废止基线或默认加载全部细项"
+  },
+  {
+    "from_id": "SOP-V2-EYES",
+    "relation": "details_of",
+    "to_id": "SOP-ACTING",
+    "condition": "select corresponding professional facet",
+    "reason": "基础作业给整体约束，细项展开具体观察变量与返修，不废止基线或默认加载全部细项"
+  },
+  {
+    "from_id": "SOP-V2-BREATH",
+    "relation": "details_of",
+    "to_id": "SOP-ACTING",
+    "condition": "select corresponding professional facet",
+    "reason": "基础作业给整体约束，细项展开具体观察变量与返修，不废止基线或默认加载全部细项"
+  },
+  {
+    "from_id": "SOP-V2-LISTENING",
+    "relation": "details_of",
+    "to_id": "SOP-ACTING",
+    "condition": "select corresponding professional facet",
+    "reason": "基础作业给整体约束，细项展开具体观察变量与返修，不废止基线或默认加载全部细项"
+  },
+  {
+    "from_id": "SOP-V2-SUBTEXT",
+    "relation": "details_of",
+    "to_id": "SOP-ACTING",
+    "condition": "select corresponding professional facet",
+    "reason": "基础作业给整体约束，细项展开具体观察变量与返修，不废止基线或默认加载全部细项"
+  },
+  {
+    "from_id": "SOP-V2-CHARACTER-SHEET",
+    "relation": "details_of",
+    "to_id": "SOP-ASSET-TURNAROUND",
+    "condition": "select corresponding professional facet",
+    "reason": "基础作业给整体约束，细项展开具体观察变量与返修，不废止基线或默认加载全部细项"
+  },
+  {
+    "from_id": "SOP-V2-COSTUME",
+    "relation": "details_of",
+    "to_id": "SOP-ASSET-TURNAROUND",
+    "condition": "select corresponding professional facet",
+    "reason": "基础作业给整体约束，细项展开具体观察变量与返修，不废止基线或默认加载全部细项"
+  },
+  {
+    "from_id": "SOP-V2-SCENE",
+    "relation": "details_of",
+    "to_id": "SOP-ASSET-SCENE",
+    "condition": "select corresponding professional facet",
+    "reason": "基础作业给整体约束，细项展开具体观察变量与返修，不废止基线或默认加载全部细项"
+  },
+  {
+    "from_id": "SOP-V2-COLOR-MATERIAL",
+    "relation": "details_of",
+    "to_id": "SOP-ASSET-SCENE",
+    "condition": "select corresponding professional facet",
+    "reason": "基础作业给整体约束，细项展开具体观察变量与返修，不废止基线或默认加载全部细项"
+  },
+  {
+    "from_id": "SOP-V2-LIGHT",
+    "relation": "details_of",
+    "to_id": "SOP-ASSET-SCENE",
+    "condition": "select corresponding professional facet",
+    "reason": "基础作业给整体约束，细项展开具体观察变量与返修，不废止基线或默认加载全部细项"
+  },
+  {
+    "from_id": "SOP-V2-ACTION-CONTACT",
+    "relation": "details_of",
+    "to_id": "SOP-SHOT-ACTION",
+    "condition": "select corresponding professional facet",
+    "reason": "基础作业给整体约束，细项展开具体观察变量与返修，不废止基线或默认加载全部细项"
+  },
+  {
+    "from_id": "SOP-V2-LOCOMOTION",
+    "relation": "details_of",
+    "to_id": "SOP-SHOT-ACTION",
+    "condition": "select corresponding professional facet",
+    "reason": "基础作业给整体约束，细项展开具体观察变量与返修，不废止基线或默认加载全部细项"
+  },
+  {
+    "from_id": "SOP-V2-VFX-LIFECYCLE",
+    "relation": "details_of",
+    "to_id": "SOP-SHOT-ACTION",
+    "condition": "select corresponding professional facet",
+    "reason": "基础作业给整体约束，细项展开具体观察变量与返修，不废止基线或默认加载全部细项"
+  },
+  {
+    "from_id": "SOP-V2-VFX-OCCLUSION",
+    "relation": "details_of",
+    "to_id": "SOP-SHOT-ACTION",
+    "condition": "select corresponding professional facet",
+    "reason": "基础作业给整体约束，细项展开具体观察变量与返修，不废止基线或默认加载全部细项"
+  },
+  {
+    "from_id": "SOP-V2-TRANSFORM",
+    "relation": "details_of",
+    "to_id": "SOP-SHOT-ACTION",
+    "condition": "select corresponding professional facet",
+    "reason": "基础作业给整体约束，细项展开具体观察变量与返修，不废止基线或默认加载全部细项"
+  },
+  {
+    "from_id": "SOP-V2-CONTINUITY",
+    "relation": "details_of",
+    "to_id": "SOP-SHOT-CONTINUITY",
+    "condition": "select corresponding professional facet",
+    "reason": "基础作业给整体约束，细项展开具体观察变量与返修，不废止基线或默认加载全部细项"
+  },
+  {
+    "from_id": "SOP-V2-AXIS",
+    "relation": "details_of",
+    "to_id": "SOP-SHOT-CONTINUITY",
+    "condition": "select corresponding professional facet",
+    "reason": "基础作业给整体约束，细项展开具体观察变量与返修，不废止基线或默认加载全部细项"
+  },
+  {
+    "from_id": "SOP-V2-BLOCKING-POSITION",
+    "relation": "details_of",
+    "to_id": "SOP-SHOT-CONTINUITY",
+    "condition": "select corresponding professional facet",
+    "reason": "基础作业给整体约束，细项展开具体观察变量与返修，不废止基线或默认加载全部细项"
+  },
+  {
+    "from_id": "SOP-V2-PROP-HANDOFF",
+    "relation": "details_of",
+    "to_id": "SOP-SHOT-CONTINUITY",
+    "condition": "select corresponding professional facet",
+    "reason": "基础作业给整体约束，细项展开具体观察变量与返修，不废止基线或默认加载全部细项"
+  },
+  {
+    "from_id": "SOP-V2-DIRECTOR-INTENT",
+    "relation": "details_of",
+    "to_id": "SOP-SHOT-DIALOGUE",
+    "condition": "select corresponding professional facet",
+    "reason": "基础作业给整体约束，细项展开具体观察变量与返修，不废止基线或默认加载全部细项"
+  },
+  {
+    "from_id": "SOP-V2-COMPOSITION",
+    "relation": "details_of",
+    "to_id": "SOP-SHOT-DIALOGUE",
+    "condition": "select corresponding professional facet",
+    "reason": "基础作业给整体约束，细项展开具体观察变量与返修，不废止基线或默认加载全部细项"
+  },
+  {
+    "from_id": "SOP-V2-LENS",
+    "relation": "details_of",
+    "to_id": "SOP-SHOT-DIALOGUE",
+    "condition": "select corresponding professional facet",
+    "reason": "基础作业给整体约束，细项展开具体观察变量与返修，不废止基线或默认加载全部细项"
+  },
+  {
+    "from_id": "SOP-V2-FOCUS",
+    "relation": "details_of",
+    "to_id": "SOP-SHOT-DIALOGUE",
+    "condition": "select corresponding professional facet",
+    "reason": "基础作业给整体约束，细项展开具体观察变量与返修，不废止基线或默认加载全部细项"
+  },
+  {
+    "from_id": "SOP-V2-CAMERA-MOVE",
+    "relation": "details_of",
+    "to_id": "SOP-SHOT-DIALOGUE",
+    "condition": "select corresponding professional facet",
+    "reason": "基础作业给整体约束，细项展开具体观察变量与返修，不废止基线或默认加载全部细项"
+  },
+  {
+    "from_id": "SOP-V2-VOICE",
+    "relation": "details_of",
+    "to_id": "SOP-SOUND",
+    "condition": "select corresponding professional facet",
+    "reason": "基础作业给整体约束，细项展开具体观察变量与返修，不废止基线或默认加载全部细项"
+  },
+  {
+    "from_id": "SOP-V2-FOLEY",
+    "relation": "details_of",
+    "to_id": "SOP-SOUND",
+    "condition": "select corresponding professional facet",
+    "reason": "基础作业给整体约束，细项展开具体观察变量与返修，不废止基线或默认加载全部细项"
+  },
+  {
+    "from_id": "SOP-V2-MUSIC",
+    "relation": "details_of",
+    "to_id": "SOP-SOUND",
+    "condition": "select corresponding professional facet",
+    "reason": "基础作业给整体约束，细项展开具体观察变量与返修，不废止基线或默认加载全部细项"
+  },
+  {
+    "from_id": "SOP-V2-BEAT",
+    "relation": "details_of",
+    "to_id": "SOP-SCRIPT-GENERAL",
+    "condition": "select corresponding professional facet",
+    "reason": "基础作业给整体约束，细项展开具体观察变量与返修，不废止基线或默认加载全部细项"
+  },
+  {
+    "from_id": "SOP-V2-EDIT",
+    "relation": "details_of",
+    "to_id": "SOP-SEGMENT-CONTINUITY",
+    "condition": "select corresponding professional facet",
+    "reason": "基础作业给整体约束，细项展开具体观察变量与返修，不废止基线或默认加载全部细项"
+  },
+  {
+    "from_id": "SOP-V2-DEFECT",
+    "relation": "details_of",
+    "to_id": "SOP-QC",
+    "condition": "select corresponding professional facet",
+    "reason": "基础作业给整体约束，细项展开具体观察变量与返修，不废止基线或默认加载全部细项"
+  }
+]

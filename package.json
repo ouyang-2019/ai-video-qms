@@ -1,0 +1,14 @@
+{
+  "name": "ai-video-qms",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Portable four-tier quality system, Skills, Wiki and local RAG for AI video production",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test tests/qms.test.js",
+    "doctor": "node tools/qms/cli.js doctor"
+  }
+}

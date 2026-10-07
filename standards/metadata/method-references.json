@@ -1,0 +1,827 @@
+[
+  {
+    "document_id": "PR-V2-ACTION-VFX",
+    "references": [
+      {
+        "sha256": "a724c9b223e637e0cbe4ea93364d9e9838061f52d8453ac5d1692fce59ec6396",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "动作接触与特效因果设计程序：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "cs-action-vfx/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      }
+    ]
+  },
+  {
+    "document_id": "PR-V2-BLOCKING",
+    "references": [
+      {
+        "sha256": "d6c77652bc3e57c96a87f00002166114d4544442608e053b2932b38f9427bea7",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "站位视线与道具调度程序：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "cs-storyboard-director/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      },
+      {
+        "sha256": "a724c9b223e637e0cbe4ea93364d9e9838061f52d8453ac5d1692fce59ec6396",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "站位视线与道具调度程序：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "cs-action-vfx/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      }
+    ]
+  },
+  {
+    "document_id": "PR-V2-CAMERA-ART",
+    "references": [
+      {
+        "sha256": "0afa64d4a34faac8d5ca539a8dd2ce0bbd9dc2bd9d1baef869e1803e47f434cb",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "摄影美术与参考资产联审程序：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "higgsfield/skills/higgsfield-camera/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      },
+      {
+        "sha256": "88510080379074246c01938f46bddb32bbc5693b9e165ca7a17c165c9f0950f0",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "摄影美术与参考资产联审程序：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "cs-character-casting/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      }
+    ]
+  },
+  {
+    "document_id": "PR-V2-CONTINUITY-QC",
+    "references": [
+      {
+        "sha256": "d6c77652bc3e57c96a87f00002166114d4544442608e053b2932b38f9427bea7",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "跨镜头连续性与成片缺陷闭环程序：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "cs-storyboard-director/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      }
+    ]
+  },
+  {
+    "document_id": "PR-V2-PERFORMANCE",
+    "references": [
+      {
+        "sha256": "75bb8a1c55533319a86ad7ab7432dd633f5202f44cb3dcab12e78828f2457537",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "角色表演设计与排演程序：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "higgsfield/skills/higgsfield-acting/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      },
+      {
+        "sha256": "2af434e78c2056eae5615238875538432746b8d9ec8274ee7db48c09e598a33f",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "角色表演设计与排演程序：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "higgsfield/skills/higgsfield-facs/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      }
+    ]
+  },
+  {
+    "document_id": "PR-V2-SOUND-EDIT",
+    "references": [
+      {
+        "sha256": "3be02d56cd84f0a09c4a832ea6364aa94c888824957377d06c32dd870aa6a0fc",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "对白声音与剪辑整合程序：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "higgsfield/skills/higgsfield-audio/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      },
+      {
+        "sha256": "d6c77652bc3e57c96a87f00002166114d4544442608e053b2932b38f9427bea7",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "对白声音与剪辑整合程序：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "cs-storyboard-director/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      }
+    ]
+  },
+  {
+    "document_id": "PR-V2-STORY-DIRECTION",
+    "references": [
+      {
+        "sha256": "d6c77652bc3e57c96a87f00002166114d4544442608e053b2932b38f9427bea7",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "编剧与导演意图转译程序：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "cs-storyboard-director/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      }
+    ]
+  },
+  {
+    "document_id": "SOP-V2-ACTION-CONTACT",
+    "references": [
+      {
+        "sha256": "a724c9b223e637e0cbe4ea93364d9e9838061f52d8453ac5d1692fce59ec6396",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "动作接触、受力与反应：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "cs-action-vfx/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      }
+    ]
+  },
+  {
+    "document_id": "SOP-V2-AXIS",
+    "references": [
+      {
+        "sha256": "d6c77652bc3e57c96a87f00002166114d4544442608e053b2932b38f9427bea7",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "轴线、反打与跨轴交代：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "cs-storyboard-director/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      },
+      {
+        "sha256": "a724c9b223e637e0cbe4ea93364d9e9838061f52d8453ac5d1692fce59ec6396",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "轴线、反打与跨轴交代：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "cs-action-vfx/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      }
+    ]
+  },
+  {
+    "document_id": "SOP-V2-BEAT",
+    "references": [
+      {
+        "sha256": "d6c77652bc3e57c96a87f00002166114d4544442608e053b2932b38f9427bea7",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "场景因果与节拍编写：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "cs-storyboard-director/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      }
+    ]
+  },
+  {
+    "document_id": "SOP-V2-BLOCKING-POSITION",
+    "references": [
+      {
+        "sha256": "d6c77652bc3e57c96a87f00002166114d4544442608e053b2932b38f9427bea7",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "人物站位、走位与重心停点：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "cs-storyboard-director/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      },
+      {
+        "sha256": "a724c9b223e637e0cbe4ea93364d9e9838061f52d8453ac5d1692fce59ec6396",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "人物站位、走位与重心停点：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "cs-action-vfx/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      }
+    ]
+  },
+  {
+    "document_id": "SOP-V2-BREATH",
+    "references": [
+      {
+        "sha256": "75bb8a1c55533319a86ad7ab7432dd633f5202f44cb3dcab12e78828f2457537",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "呼吸、吞咽与身体停顿：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "higgsfield/skills/higgsfield-acting/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      },
+      {
+        "sha256": "2af434e78c2056eae5615238875538432746b8d9ec8274ee7db48c09e598a33f",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "呼吸、吞咽与身体停顿：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "higgsfield/skills/higgsfield-facs/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      }
+    ]
+  },
+  {
+    "document_id": "SOP-V2-CAMERA-MOVE",
+    "references": [
+      {
+        "sha256": "0afa64d4a34faac8d5ca539a8dd2ce0bbd9dc2bd9d1baef869e1803e47f434cb",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "运镜路径、动机与终点：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "higgsfield/skills/higgsfield-camera/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      },
+      {
+        "sha256": "88510080379074246c01938f46bddb32bbc5693b9e165ca7a17c165c9f0950f0",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "运镜路径、动机与终点：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "cs-character-casting/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      }
+    ]
+  },
+  {
+    "document_id": "SOP-V2-CHARACTER-SHEET",
+    "references": [
+      {
+        "sha256": "88510080379074246c01938f46bddb32bbc5693b9e165ca7a17c165c9f0950f0",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "角色三视图、比例与身份锚点：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "cs-character-casting/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      }
+    ]
+  },
+  {
+    "document_id": "SOP-V2-COLOR-MATERIAL",
+    "references": [
+      {
+        "sha256": "0afa64d4a34faac8d5ca539a8dd2ce0bbd9dc2bd9d1baef869e1803e47f434cb",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "色彩层次与表面材质：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "higgsfield/skills/higgsfield-camera/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      },
+      {
+        "sha256": "88510080379074246c01938f46bddb32bbc5693b9e165ca7a17c165c9f0950f0",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "色彩层次与表面材质：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "cs-character-casting/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      }
+    ]
+  },
+  {
+    "document_id": "SOP-V2-COMPOSITION",
+    "references": [
+      {
+        "sha256": "0afa64d4a34faac8d5ca539a8dd2ce0bbd9dc2bd9d1baef869e1803e47f434cb",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "景别、构图与注意中心：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "higgsfield/skills/higgsfield-camera/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      },
+      {
+        "sha256": "88510080379074246c01938f46bddb32bbc5693b9e165ca7a17c165c9f0950f0",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "景别、构图与注意中心：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "cs-character-casting/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      }
+    ]
+  },
+  {
+    "document_id": "SOP-V2-CONTINUITY",
+    "references": [
+      {
+        "sha256": "d6c77652bc3e57c96a87f00002166114d4544442608e053b2932b38f9427bea7",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "首尾状态继承与逐镜连续性检查：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "cs-storyboard-director/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      }
+    ]
+  },
+  {
+    "document_id": "SOP-V2-COSTUME",
+    "references": [
+      {
+        "sha256": "88510080379074246c01938f46bddb32bbc5693b9e165ca7a17c165c9f0950f0",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "服装材质、穿戴层次与动作连续性：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "cs-character-casting/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      }
+    ]
+  },
+  {
+    "document_id": "SOP-V2-DEFECT",
+    "references": [
+      {
+        "sha256": "d6c77652bc3e57c96a87f00002166114d4544442608e053b2932b38f9427bea7",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "成片缺陷定位、纠正与复验：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "cs-storyboard-director/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      }
+    ]
+  },
+  {
+    "document_id": "SOP-V2-DIRECTOR-INTENT",
+    "references": [
+      {
+        "sha256": "d6c77652bc3e57c96a87f00002166114d4544442608e053b2932b38f9427bea7",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "导演视点与信息揭示：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "cs-storyboard-director/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      }
+    ]
+  },
+  {
+    "document_id": "SOP-V2-EDIT",
+    "references": [
+      {
+        "sha256": "3be02d56cd84f0a09c4a832ea6364aa94c888824957377d06c32dd870aa6a0fc",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "动作衔接、转场与剪辑节奏：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "higgsfield/skills/higgsfield-audio/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      },
+      {
+        "sha256": "d6c77652bc3e57c96a87f00002166114d4544442608e053b2932b38f9427bea7",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "动作衔接、转场与剪辑节奏：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "cs-storyboard-director/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      }
+    ]
+  },
+  {
+    "document_id": "SOP-V2-EMBODIED",
+    "references": [
+      {
+        "sha256": "75bb8a1c55533319a86ad7ab7432dd633f5202f44cb3dcab12e78828f2457537",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "情绪意图转可见身体行为：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "higgsfield/skills/higgsfield-acting/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      },
+      {
+        "sha256": "2af434e78c2056eae5615238875538432746b8d9ec8274ee7db48c09e598a33f",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "情绪意图转可见身体行为：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "higgsfield/skills/higgsfield-facs/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      }
+    ]
+  },
+  {
+    "document_id": "SOP-V2-EXPRESSION",
+    "references": [
+      {
+        "sha256": "2af434e78c2056eae5615238875538432746b8d9ec8274ee7db48c09e598a33f",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "面部表情形态与表情参考图：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "higgsfield/skills/higgsfield-facs/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      },
+      {
+        "sha256": "88510080379074246c01938f46bddb32bbc5693b9e165ca7a17c165c9f0950f0",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "面部表情形态与表情参考图：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "cs-character-casting/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      }
+    ]
+  },
+  {
+    "document_id": "SOP-V2-EYES",
+    "references": [
+      {
+        "sha256": "75bb8a1c55533319a86ad7ab7432dd633f5202f44cb3dcab12e78828f2457537",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "目光目标、视线转移与眨眼：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "higgsfield/skills/higgsfield-acting/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      },
+      {
+        "sha256": "2af434e78c2056eae5615238875538432746b8d9ec8274ee7db48c09e598a33f",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "目光目标、视线转移与眨眼：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "higgsfield/skills/higgsfield-facs/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      }
+    ]
+  },
+  {
+    "document_id": "SOP-V2-FOCUS",
+    "references": [
+      {
+        "sha256": "0afa64d4a34faac8d5ca539a8dd2ce0bbd9dc2bd9d1baef869e1803e47f434cb",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "焦点归属、景深与转焦：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "higgsfield/skills/higgsfield-camera/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      },
+      {
+        "sha256": "88510080379074246c01938f46bddb32bbc5693b9e165ca7a17c165c9f0950f0",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "焦点归属、景深与转焦：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "cs-character-casting/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      }
+    ]
+  },
+  {
+    "document_id": "SOP-V2-FOLEY",
+    "references": [
+      {
+        "sha256": "3be02d56cd84f0a09c4a832ea6364aa94c888824957377d06c32dd870aa6a0fc",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "拟音、环境声与声源空间：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "higgsfield/skills/higgsfield-audio/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      },
+      {
+        "sha256": "d6c77652bc3e57c96a87f00002166114d4544442608e053b2932b38f9427bea7",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "拟音、环境声与声源空间：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "cs-storyboard-director/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      }
+    ]
+  },
+  {
+    "document_id": "SOP-V2-LENS",
+    "references": [
+      {
+        "sha256": "0afa64d4a34faac8d5ca539a8dd2ce0bbd9dc2bd9d1baef869e1803e47f434cb",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "机位距离、焦段意图与透视：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "higgsfield/skills/higgsfield-camera/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      },
+      {
+        "sha256": "88510080379074246c01938f46bddb32bbc5693b9e165ca7a17c165c9f0950f0",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "机位距离、焦段意图与透视：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "cs-character-casting/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      }
+    ]
+  },
+  {
+    "document_id": "SOP-V2-LIGHT",
+    "references": [
+      {
+        "sha256": "0afa64d4a34faac8d5ca539a8dd2ce0bbd9dc2bd9d1baef869e1803e47f434cb",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "光源方向、阴影与交互照明：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "higgsfield/skills/higgsfield-camera/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      },
+      {
+        "sha256": "88510080379074246c01938f46bddb32bbc5693b9e165ca7a17c165c9f0950f0",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "光源方向、阴影与交互照明：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "cs-character-casting/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      }
+    ]
+  },
+  {
+    "document_id": "SOP-V2-LISTENING",
+    "references": [
+      {
+        "sha256": "75bb8a1c55533319a86ad7ab7432dd633f5202f44cb3dcab12e78828f2457537",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "听者反应与群像表演：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "higgsfield/skills/higgsfield-acting/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      },
+      {
+        "sha256": "2af434e78c2056eae5615238875538432746b8d9ec8274ee7db48c09e598a33f",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "听者反应与群像表演：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "higgsfield/skills/higgsfield-facs/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      }
+    ]
+  },
+  {
+    "document_id": "SOP-V2-LOCOMOTION",
+    "references": [
+      {
+        "sha256": "a724c9b223e637e0cbe4ea93364d9e9838061f52d8453ac5d1692fce59ec6396",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "行走奔跑跳跃与落地：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "cs-action-vfx/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      }
+    ]
+  },
+  {
+    "document_id": "SOP-V2-MICROEXPRESSION",
+    "references": [
+      {
+        "sha256": "2af434e78c2056eae5615238875538432746b8d9ec8274ee7db48c09e598a33f",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "细微面部动作与短暂表演节拍：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "higgsfield/skills/higgsfield-facs/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      },
+      {
+        "sha256": "75bb8a1c55533319a86ad7ab7432dd633f5202f44cb3dcab12e78828f2457537",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "细微面部动作与短暂表演节拍：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "higgsfield/skills/higgsfield-acting/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      }
+    ]
+  },
+  {
+    "document_id": "SOP-V2-MUSIC",
+    "references": [
+      {
+        "sha256": "3be02d56cd84f0a09c4a832ea6364aa94c888824957377d06c32dd870aa6a0fc",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "音乐动机、节奏与跨镜声轨：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "higgsfield/skills/higgsfield-audio/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      },
+      {
+        "sha256": "d6c77652bc3e57c96a87f00002166114d4544442608e053b2932b38f9427bea7",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "音乐动机、节奏与跨镜声轨：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "cs-storyboard-director/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      }
+    ]
+  },
+  {
+    "document_id": "SOP-V2-PROP-HANDOFF",
+    "references": [
+      {
+        "sha256": "d6c77652bc3e57c96a87f00002166114d4544442608e053b2932b38f9427bea7",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "道具持有、使用与交接：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "cs-storyboard-director/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      },
+      {
+        "sha256": "a724c9b223e637e0cbe4ea93364d9e9838061f52d8453ac5d1692fce59ec6396",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "道具持有、使用与交接：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "cs-action-vfx/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      }
+    ]
+  },
+  {
+    "document_id": "SOP-V2-SCENE",
+    "references": [
+      {
+        "sha256": "0afa64d4a34faac8d5ca539a8dd2ce0bbd9dc2bd9d1baef869e1803e47f434cb",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "场景空间、尺度与环境状态：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "higgsfield/skills/higgsfield-camera/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      },
+      {
+        "sha256": "88510080379074246c01938f46bddb32bbc5693b9e165ca7a17c165c9f0950f0",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "场景空间、尺度与环境状态：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "cs-character-casting/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      }
+    ]
+  },
+  {
+    "document_id": "SOP-V2-SUBTEXT",
+    "references": [
+      {
+        "sha256": "75bb8a1c55533319a86ad7ab7432dd633f5202f44cb3dcab12e78828f2457537",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "潜台词与行为反差：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "higgsfield/skills/higgsfield-acting/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      }
+    ]
+  },
+  {
+    "document_id": "SOP-V2-TRANSFORM",
+    "references": [
+      {
+        "sha256": "a724c9b223e637e0cbe4ea93364d9e9838061f52d8453ac5d1692fce59ec6396",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "变身召唤与法阵空间设计：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "cs-action-vfx/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      }
+    ]
+  },
+  {
+    "document_id": "SOP-V2-VFX-LIFECYCLE",
+    "references": [
+      {
+        "sha256": "a724c9b223e637e0cbe4ea93364d9e9838061f52d8453ac5d1692fce59ec6396",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "特效来源、阶段与消散：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "cs-action-vfx/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      }
+    ]
+  },
+  {
+    "document_id": "SOP-V2-VFX-OCCLUSION",
+    "references": [
+      {
+        "sha256": "a724c9b223e637e0cbe4ea93364d9e9838061f52d8453ac5d1692fce59ec6396",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "特效遮挡、碰撞与交互光：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "cs-action-vfx/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      }
+    ]
+  },
+  {
+    "document_id": "SOP-V2-VOICE",
+    "references": [
+      {
+        "sha256": "3be02d56cd84f0a09c4a832ea6364aa94c888824957377d06c32dd870aa6a0fc",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "声线身份、语气重音与对白停顿：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "higgsfield/skills/higgsfield-audio/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      },
+      {
+        "sha256": "75bb8a1c55533319a86ad7ab7432dd633f5202f44cb3dcab12e78828f2457537",
+        "captured_at": "2026-09-09",
+        "reference_granularity": "whole_skill_as_explicitly_cited",
+        "adopted_scope": "声线身份、语气重音与对白停顿：内部流程、可观察设计、检验与返修；不采纳平台能力保证",
+        "not_adopted": "来源中平台承诺、个人经验的普适性、支付或执行指令",
+        "status": "source_identity_pinned_not_claiming_clause_equivalence",
+        "method_name": "higgsfield/skills/higgsfield-acting/SKILL.md",
+        "distribution": "metadata_only_not_redistributed"
+      }
+    ]
+  }
+]

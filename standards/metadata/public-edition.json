@@ -1,0 +1,1017 @@
+{
+  "schema_version": 1,
+  "public_release": "0.1.0",
+  "source_registry_version": "2.0.5",
+  "generation_executed": false,
+  "documents": [
+    {
+      "id": "QM-001",
+      "file": "documents/governance/QM-001.md",
+      "original_sha256": "0b950b43aab7d06cb0797862b73902c93813a4d86444e3c8870e799fb405780c",
+      "public_sha256": "01494ca1fa713f2b6669ace21fc520b24c59d2065463b61037b8721684ec20c5",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "QM-H3",
+      "file": "documents/models/h3/QM-H3.md",
+      "original_sha256": "114df1c383f3570ee47dab42974070a9b00452ad18cbd77b62c1a589973ac366",
+      "public_sha256": "275872a7cde60faa5fe4f435381d283e12477e44537d4dfd9d86b5d33a659eed",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "QM-SEEDANCE",
+      "file": "documents/models/seedance/QM-SEEDANCE.md",
+      "original_sha256": "215d6d33c9c112d7ec543688fb8f29da6653efcf277fc33c8e218a82f85ce74a",
+      "public_sha256": "6f75067e905de9233b2f091f379d74aff6b6255aa36d86e7429014983485cf37",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "QM-WAN",
+      "file": "documents/models/wan/QM-WAN.md",
+      "original_sha256": "76fb2509e6bfe1cb83ec4bb46c4b6df0d4e5bb1ca5582c420884d2d7938a1108",
+      "public_sha256": "64b318abaf5e4cbf2e2a2cf0118871790fbcb61c21fd7b542920a05eaec87998",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "PR-ASSET",
+      "file": "documents/common/PR-ASSET.md",
+      "original_sha256": "34ba443440ca91e36cc2aab6c2dc761d886d7c6f9b15fe196fdf72ee93600b46",
+      "public_sha256": "2bda2d9fe0663bfb2e4868cb4a1c83bd2ac0e039cf64edc9e23f8a212786f1cb",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "PR-H3",
+      "file": "documents/models/h3/PR-H3.md",
+      "original_sha256": "88a436fede80b0d002b58ed3509ce63baa90cdd3c9e68b21ab94d8d1463cfc24",
+      "public_sha256": "6c986464030cbc140c44dcc98e7aa401b0c9162362c409946c648fcbe16e0f1a",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "PR-QC",
+      "file": "documents/governance/PR-QC.md",
+      "original_sha256": "904e7f986d9ac95ba253b54735cdb9635b60fd658173f2421bf346d2d84fa448",
+      "public_sha256": "c2d0db8bb74c5516e4f6e26cc8802c62b1ee300ed82ce74c5299a4ebd4e003df",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "PR-SCRIPT",
+      "file": "documents/common/PR-SCRIPT.md",
+      "original_sha256": "8e3e0d85d81d29c43f7725249690356c757c0d8665b14d078859441bc6a54a61",
+      "public_sha256": "740a5016c957f199ea806cc2695f20cf39e5bfa9f5a91b6d6fdf8fd7925911ce",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "PR-SEEDANCE",
+      "file": "documents/models/seedance/PR-SEEDANCE.md",
+      "original_sha256": "e37b23a113804977975cbe3ed79421e5924e9e2e7a1314e4f55de06b2d0abc8f",
+      "public_sha256": "02e224745a8fb6c5a95b7bf3dc2eb10d27a4fa0c3f10b2f5910104dfe1e206ff",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "PR-SOURCE",
+      "file": "documents/governance/PR-SOURCE.md",
+      "original_sha256": "fb29b28433f66925951a60c2eb6521e1c3951c0f15ebb86a43affbab7bb48393",
+      "public_sha256": "d6117be699159d21138438db78fa602f1dad7cc3a1a3a663fc8dc6c55bac20c1",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "PR-STORYBOARD",
+      "file": "documents/common/PR-STORYBOARD.md",
+      "original_sha256": "2fd9dae422b85aa6ff761a5bf4aa1867e0db7841196a0ccec9f3a0734e367aac",
+      "public_sha256": "1893df1e517c1ea96859178a5b2fb91371fe9667b5767b4a8667a13fbfa6b11e",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "PR-V2-ACTION-VFX",
+      "file": "documents/production/PR-V2-ACTION-VFX.md",
+      "original_sha256": "663ed63b08e16f4a9dec7e86a2cfdc31dc0713c302958bee040890669f837b7e",
+      "public_sha256": "51e5d5206e7609b8d52c227742344c3ee643d6e3762c51bc4b4e1ccbdfe58a78",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "PR-V2-BLOCKING",
+      "file": "documents/production/PR-V2-BLOCKING.md",
+      "original_sha256": "c629300599e7d437c83ef7850b7055cb0d84aa58690295a72e454d8cca77e77e",
+      "public_sha256": "e4e7a7fd9777577bd68dbac2ca2d8ec58bddf15e7cfb6fb99b75ec07b50054e1",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "PR-V2-CAMERA-ART",
+      "file": "documents/production/PR-V2-CAMERA-ART.md",
+      "original_sha256": "f2dd7987066f5f78eec8ea81412254ab625ecf946858f418b99b1f08347555b2",
+      "public_sha256": "c323a9086fa5802ce9b926669465e5564932e9d87264326e9d463abbbfee4693",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "PR-V2-CONTINUITY-QC",
+      "file": "documents/production/PR-V2-CONTINUITY-QC.md",
+      "original_sha256": "b861fed03f9e326dc5b0f0492d16666fd82c8d05688843ba7963fdb68e2751d9",
+      "public_sha256": "86eeb8b89f15116baa0faf237df8d00cdcf2a3ed8ea200829252953f9808ccf8",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "PR-V2-CORPUS",
+      "file": "documents/governance/PR-V2-CORPUS.md",
+      "original_sha256": "5236e83fcd9866faa88b475e5353f3eb454c52f9b6650f46c4a8e8a88bf273a2",
+      "public_sha256": "1bf20de77b34a9d77a679b3f56ecb1d6537a1740c51033442ed8efecde14bb0c",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "PR-V2-PERFORMANCE",
+      "file": "documents/production/PR-V2-PERFORMANCE.md",
+      "original_sha256": "b53270fb1717e766ec47d5de4ed6f1709bb24e108e300dcf4af4706daed2d962",
+      "public_sha256": "9a3adf607ea0f4f60bb9b4a808565929197c4071c8de9d2a3a9eb9b6da34992d",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "PR-V2-SOUND-EDIT",
+      "file": "documents/production/PR-V2-SOUND-EDIT.md",
+      "original_sha256": "f70b8d077b25e9d1ae7cb54e9d6009bd965d1c86296228d64853322fdfe5b7b9",
+      "public_sha256": "019349ae9e794ff4ac77f390ef1091353032c535c72a93591e50e6eec15951cb",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "PR-V2-STORY-DIRECTION",
+      "file": "documents/production/PR-V2-STORY-DIRECTION.md",
+      "original_sha256": "a39cc95995b5867e1c591fe12774dc4c15e620cf566e6727f7657c10bb189f63",
+      "public_sha256": "ad7cf1239f97c0e4326d05a294d0155fac4919e0428746aa4ddcbef3e8ebe906",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "PR-WAN-CLOUD",
+      "file": "documents/models/wan/PR-WAN-CLOUD.md",
+      "original_sha256": "86ae8a7c727987809c41b654830f4a43f4da76a0ce20b37177837d215d70d614",
+      "public_sha256": "b8be57cb52aeb6f57c311522e71ed54de73e75c39c0327dbe33f23a8b661b2a8",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "PR-WAN-OPEN",
+      "file": "documents/models/wan/PR-WAN-OPEN.md",
+      "original_sha256": "a81d016da0f32ba53aaf275c7075fb1640caab8079be864ee58ed10389a04ae1",
+      "public_sha256": "420c2784f8fb6c7a45f90dd8c0706c4a6cdb23d806d9f7394c8b37570c9e7722",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-ACTING",
+      "file": "documents/common/SOP-ACTING.md",
+      "original_sha256": "83cac65c17483945b7b84f68a79d3e34be727c38f30018938ff4957c8f691cd3",
+      "public_sha256": "b08c6ab052f3d09584e049dd589ed23c69f91c6578fc45e0a4decec9e0f95c54",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-ASSET-SCENE",
+      "file": "documents/common/SOP-ASSET-SCENE.md",
+      "original_sha256": "d8f6fb90f9247a68b8917a5f16afca9f41efd684413894171470579bb08384b6",
+      "public_sha256": "818490d6431971f9bebf0644e9a3f8ef759abe2ad8a89e109b47c2e14b059eef",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-ASSET-TURNAROUND",
+      "file": "documents/common/SOP-ASSET-TURNAROUND.md",
+      "original_sha256": "1ac4f023d078119d3a4c6781ce98050dc5fd76de74902446b3e9c32a1c5dcb85",
+      "public_sha256": "9b7a2c49ee223dba8c79ad1a0e07609a95975b6c047ba249a7ebbe30ffa033ef",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-H3-FL2VA",
+      "file": "documents/models/h3/SOP-H3-FL2VA.md",
+      "original_sha256": "3a9af39e988a1e8f547e21d94a5467c613804e4e57463bc9ea347e69e759f33a",
+      "public_sha256": "df0919a0382037a66ea0d9e366cbbfcde482ae69f61dcf372fbe246c0131d99a",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-H3-I2VA",
+      "file": "documents/models/h3/SOP-H3-I2VA.md",
+      "original_sha256": "7a6f46058fb0b8609ff0bd4477560ec0bde50c174dea2b0fa4786a33617ae5ab",
+      "public_sha256": "0c11f2e9404202afa3a39ff72c657b1b9876edd8fdd6406e268ee43a3045aa21",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-H3-L2VA",
+      "file": "documents/models/h3/SOP-H3-L2VA.md",
+      "original_sha256": "ee7f71609b6ba5d005286e419964ff15b8db7e284415bfbabba57e2819986de6",
+      "public_sha256": "761ce356c659aa9ee5b9aa82df655625d2857fe80b05f3fc575f5856c83e787c",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-H3-REF2VA",
+      "file": "documents/models/h3/SOP-H3-REF2VA.md",
+      "original_sha256": "7afdc60b001ab782e12467de90914df87c6c4f9fb0f18229c06f3bb8a3c140fa",
+      "public_sha256": "a535067b89cf3039c4a0f2176f7c908a0f53e417e7dda6e49e59df58b84ac516",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-H3-T2VA",
+      "file": "documents/models/h3/SOP-H3-T2VA.md",
+      "original_sha256": "0a42883c97e3bcc7d8053481a8c13ee14951752886143a040b6ec239199b25aa",
+      "public_sha256": "e8c3df99fef06e81cfe378bf6bcd8dac296d9b4de74e181ce474581b7dd49dee",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-QC",
+      "file": "documents/governance/SOP-QC.md",
+      "original_sha256": "38d4d09f70cc57d85db695e9785ae3f0a62b2e130a1523ddc577ba10dcc13783",
+      "public_sha256": "edbc86f2b9a3940574d355de47f8efd6a78c3eca616a2f311dc00d9537e2d92f",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-SCRIPT-FAMILY",
+      "file": "documents/common/SOP-SCRIPT-FAMILY.md",
+      "original_sha256": "377fd0728b0eeb7a1d8dd6e9cb6efaa2ab088248c70fc26e27b90cd2137dda42",
+      "public_sha256": "d2a81133c12780fb9591490b0e645cdfe9a46d4ffca1fc1fa96b7a549d6f7cdc",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-SCRIPT-GENERAL",
+      "file": "documents/common/SOP-SCRIPT-GENERAL.md",
+      "original_sha256": "bd134403f77cc2f655e29f485206cad3bb7117016efaaadf75a95413fb85c6c9",
+      "public_sha256": "3592c728435e450b0cf9659ac203d775e80bcd8501f91a3159888faaafad220e",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-SCRIPT-XIANXIA",
+      "file": "documents/common/SOP-SCRIPT-XIANXIA.md",
+      "original_sha256": "64d671b314cbebbf9844d0ae74886b624431e1d35c3f20d0d2b210bd417c0a5b",
+      "public_sha256": "a3c9cf16393cbd0f5ea6a263b7b1cf986fcddc46f86c7ae22cec260cfbb60473",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-SEEDANCE-20-I2V",
+      "file": "documents/models/seedance/SOP-SEEDANCE-20-I2V.md",
+      "original_sha256": "a72bbba3aa232811e02b3c0cee485c086a1be763d0b1890725ba2b482ae4df8f",
+      "public_sha256": "86d2799947f16be3efb3a56cc192af48057465af7524f2f0c5b93f12040b490f",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-SEEDANCE-20-REF",
+      "file": "documents/models/seedance/SOP-SEEDANCE-20-REF.md",
+      "original_sha256": "f1c4e590000b63c30ec1d68f70f1184df6ae252a7ece4fec39493f47087d9485",
+      "public_sha256": "2e901c0a9af31e6fc6a77e1bbcac8fc5a70572f0ed127d55a3582374b842a0ed",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-SEEDANCE-20-T2V",
+      "file": "documents/models/seedance/SOP-SEEDANCE-20-T2V.md",
+      "original_sha256": "38a4dd4b5131c0768e4ba2ec6116bf9787e87f9c70db35a017915144aa4613b2",
+      "public_sha256": "e2c1ab214233f43a002e6e9c683061f6353e0e6273ced3fd7ccee2b16123ae5d",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-SEEDANCE-25-I2V",
+      "file": "documents/models/seedance/SOP-SEEDANCE-25-I2V.md",
+      "original_sha256": "c0ce05e61cb0c89acf17628920bc845fabe522244359c809d0f3272b5619ed85",
+      "public_sha256": "3e1330f5fa528512910263a405852fa5c873e2448fac7e3c34753915a9e23221",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-SEEDANCE-25-REF",
+      "file": "documents/models/seedance/SOP-SEEDANCE-25-REF.md",
+      "original_sha256": "cd5a7f517385d0e19ac2a8c6c8f46c3b6c59414cba211683f54562629131a943",
+      "public_sha256": "9d326cd6c6fc9b13f8c248afa49dbc91cc1c7de13868c716821bb8f4930b6e52",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-SEEDANCE-25-T2V",
+      "file": "documents/models/seedance/SOP-SEEDANCE-25-T2V.md",
+      "original_sha256": "5f93052b0da85d2193a2e4a4f6c31c1651d5c6c0862361fdefe300fe1002c70b",
+      "public_sha256": "9f29f51d75ac1446776f0dce09d65689e4b88589885a04f27dc78fd80ed87102",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-SEGMENT-CONTINUITY",
+      "file": "documents/common/SOP-SEGMENT-CONTINUITY.md",
+      "original_sha256": "60ecd6d2a4be116365415b1c6c6d92d3b5ea8ef5e8bb0e0971b5a86b6eabe82a",
+      "public_sha256": "dd41f27f811581dbd632834f6460ba0d6f39a512079c44687462cbade6c53177",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-SHOT-ACTION",
+      "file": "documents/common/SOP-SHOT-ACTION.md",
+      "original_sha256": "dc46d6fb687b6925b57049f208bb8e5780d2250030701be31d8449a32b5414f9",
+      "public_sha256": "8b2fc82cd33bf91f5d9abba594001f27c8f1e0faafedaabd3222f7b6c7edc453",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-SHOT-CONTINUITY",
+      "file": "documents/common/SOP-SHOT-CONTINUITY.md",
+      "original_sha256": "4e6f962e64fde17757cf423b9a6cda786071655362248aa4d0a71a1d9ace6682",
+      "public_sha256": "e766908293344d886c57a6fd8fbaf46f17045ab3f04ce58fbe1db32aa1574bc4",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-SHOT-DIALOGUE",
+      "file": "documents/common/SOP-SHOT-DIALOGUE.md",
+      "original_sha256": "2e8bc6d24b7cd1bb9c9c687ec9cdbe4e000d9d7fa632ab424df395ecf44d4a1c",
+      "public_sha256": "2bb790ef646e710504946cb3383457be130a3c3b201e30ef3bd6666b22ce35e7",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-SOUND",
+      "file": "documents/common/SOP-SOUND.md",
+      "original_sha256": "5ec6938e58845995ed6b7fde42d572321d0f25b0eed17fe0308e5cbaadbe7cc9",
+      "public_sha256": "ff2a2ea51f4eac01774826732a64043957d7131d47271ff6f6356613a25c346b",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-SOURCE-REVIEW",
+      "file": "documents/governance/SOP-SOURCE-REVIEW.md",
+      "original_sha256": "85557662c8a3c77453ef384e6c4f6b38095ee57340769e77f3e3296561e56961",
+      "public_sha256": "66ac6059072d7e05e85f2bf7e21c5bb67fbc87f4a6fa69cccd237b5dc809cc7f",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-V2-ACTION-CONTACT",
+      "file": "documents/production/SOP-V2-ACTION-CONTACT.md",
+      "original_sha256": "90cfe73e2878af2b250e22728d768f2caf411ef9064f0a2518ffac997f41a442",
+      "public_sha256": "ec13545be559e06556ba378888383b987bee83792e3de2b131551ef42971716b",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-V2-AXIS",
+      "file": "documents/production/SOP-V2-AXIS.md",
+      "original_sha256": "c3eaea61371ac74963c833a5f5754eac133d95de7d6c68037b0222a09eb7c666",
+      "public_sha256": "1d669dd6c917e75f25258be18b4446f670085e6fe90f6797bb1c06e83a333f91",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-V2-BEAT",
+      "file": "documents/production/SOP-V2-BEAT.md",
+      "original_sha256": "b8c761295017f06a6c617d44f795f98d33d4a51cfa42b7cf605652f2a571cb34",
+      "public_sha256": "ac155e3174ea4318c332d9f96cd191d7b8e7899317e74ee7b53ad298946f9e87",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-V2-BLOCKING-POSITION",
+      "file": "documents/production/SOP-V2-BLOCKING-POSITION.md",
+      "original_sha256": "ce7d8449362e4e5e3b4bfda385839c6a363b5a3598bc6bfdfa011020b77ef530",
+      "public_sha256": "e508490a06b62a0c726c660ff6aafc3b5c48bba710a50b2c7526cd237e45eb27",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-V2-BREATH",
+      "file": "documents/production/SOP-V2-BREATH.md",
+      "original_sha256": "3f5e08e69ae2ab10db359ebd92687163bcdd62ade70febf0d0a06953a31ed096",
+      "public_sha256": "201b9a5f754a78127b3c4328ed505288338b6609a5f327c135d010a77c774d83",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-V2-CAMERA-MOVE",
+      "file": "documents/production/SOP-V2-CAMERA-MOVE.md",
+      "original_sha256": "c2f527d5168ae9aca618c3537d0ffcaf5964aa2982b354524b55149a57fb4168",
+      "public_sha256": "8e60a91c13f2d6e96baebec77ba2aaf6f81e2fcfd4c506d73eb617062ac0f5e2",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-V2-CHARACTER-SHEET",
+      "file": "documents/production/SOP-V2-CHARACTER-SHEET.md",
+      "original_sha256": "ea89cb5fa2787eeb2175c6f341e90396cf2878e4a1676b60fd1f8391f30415af",
+      "public_sha256": "bf81412dc2dce09927cebb3c63f4bda8d34137e1be7856912587a7caee856485",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-V2-COLOR-MATERIAL",
+      "file": "documents/production/SOP-V2-COLOR-MATERIAL.md",
+      "original_sha256": "b13c19bf7deb0fe4f56c90c525467f21b13ba7f4b9f08a81dd8634063f5fe4dc",
+      "public_sha256": "e17bcf035ce7ce3f8eaf67d30b3351adaf9ba598d00f88befc51ecd3abf3fda2",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-V2-COMPOSITION",
+      "file": "documents/production/SOP-V2-COMPOSITION.md",
+      "original_sha256": "e1db4c32ad861610dd5936685751587789984b9e27ba60596a1e8b4562578e46",
+      "public_sha256": "45912ef35ef89a252bc0a80ba0959d6482778433860c8864ace6b9e047595901",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-V2-CONTINUITY",
+      "file": "documents/production/SOP-V2-CONTINUITY.md",
+      "original_sha256": "f926190c2813b1fdf36783564b451b742ef82f7ecf8a5859f0369140df3ff713",
+      "public_sha256": "4f74d36fbaebf051ff4ac2eca769ca88f7d1a426936ef19fa5bc1170ee7a9b32",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-V2-COSTUME",
+      "file": "documents/production/SOP-V2-COSTUME.md",
+      "original_sha256": "6f6bb9bb6a13b598a2c83b94d3c11d7dee40ac3b7bf46142b1f66974f57c43a9",
+      "public_sha256": "bf734b9b5eca7e097761717f05637731dbfc89115663271f18adb88d50076296",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-V2-DEFECT",
+      "file": "documents/production/SOP-V2-DEFECT.md",
+      "original_sha256": "d3b6de40e28f007e6f67aa6da98ef471c4bff67d4d5d509783fc85eb5dc988bd",
+      "public_sha256": "6149069466a462c55c9e89ca18f1d46c78ea6e05396ca69267c9fa2cc281fbdb",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-V2-DIRECTOR-INTENT",
+      "file": "documents/production/SOP-V2-DIRECTOR-INTENT.md",
+      "original_sha256": "d092d280d2204795b05b9c0523fa01bda77cf51c5f314e65e748cccecf59d5e0",
+      "public_sha256": "1a6eb2fcbb02041fee567841c28d890827fb23df185e422eba71b4ce5768a318",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-V2-EDIT",
+      "file": "documents/production/SOP-V2-EDIT.md",
+      "original_sha256": "caceb7be8894abd93a8ee80f3d6f66bab0c00237bbd4f58334fa34a09d745e3d",
+      "public_sha256": "1ccc072b0d8e156de0667906f0d45af1a0886cdb7103db16dd7fbdc091870aad",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-V2-EMBODIED",
+      "file": "documents/production/SOP-V2-EMBODIED.md",
+      "original_sha256": "f58c2746d6cbcc234df4d298eaf6f5ac2ca415fe27a92f661d23cf9615279677",
+      "public_sha256": "7b95af8110aeb2316b1f23d4d1327c956872f6f849b0a5d5b31d5b67adfb8629",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-V2-EXPRESSION",
+      "file": "documents/production/SOP-V2-EXPRESSION.md",
+      "original_sha256": "4f45817e15a08d07e42c1dafcda1776611511d8877ce0c06fdede4e25aa6f794",
+      "public_sha256": "d151581b517ce16fc034bcf550d3566c652899d9d2a615220ead080973a6b627",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-V2-EYES",
+      "file": "documents/production/SOP-V2-EYES.md",
+      "original_sha256": "338dd0cedf7c4c09dfcfa3fba3441ca05c09578d501ff059dedcda06d6e5b4ec",
+      "public_sha256": "27bd870de36c8c2cdc1e8cd6e86a5c405044bbe2a67c97cf6f63b723295665d6",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-V2-FOCUS",
+      "file": "documents/production/SOP-V2-FOCUS.md",
+      "original_sha256": "2ab92cf787d606b87c7629a3d1d71cab672865df132c27881d228ef02535dfbf",
+      "public_sha256": "2d3cd182371eb715edd456f9781ecbb64abf0735c198e8fb7d335c4155fddfd0",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-V2-FOLEY",
+      "file": "documents/production/SOP-V2-FOLEY.md",
+      "original_sha256": "f1ecdfa3ecc2e9694c934389ebc193e73e4799dc632520357017673b329b2154",
+      "public_sha256": "9728fd6f7476543e4f6acafcd945a737939f68f2da7f7c71caf73fc1118bb4cc",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-V2-LENS",
+      "file": "documents/production/SOP-V2-LENS.md",
+      "original_sha256": "54d4cf92d2047eacd868ffed99b8bde127f7f1c77296f99702a629e72695dcf9",
+      "public_sha256": "620ff3c025e6ff87f03d2d414df95284862734c9ba6910a828172a2f9f18b8ab",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-V2-LIGHT",
+      "file": "documents/production/SOP-V2-LIGHT.md",
+      "original_sha256": "b3d7d4790ce686c570042bed49702f8d6a05caf4c753bacca74a312ef3eeef8f",
+      "public_sha256": "9fd3f6c761d61ebe0b45d9841622c94af3bffa200da69ceac822ae37c0dd8122",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-V2-LISTENING",
+      "file": "documents/production/SOP-V2-LISTENING.md",
+      "original_sha256": "1df877da9978b504e0477142e7beedda9ff6eefc1007ede492c5fbfb123e6620",
+      "public_sha256": "4ce537ff1c11b313d53a850f58093c25fd4ea866ce6c62963d9323e10162877a",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-V2-LOCOMOTION",
+      "file": "documents/production/SOP-V2-LOCOMOTION.md",
+      "original_sha256": "e29643888d928c11a9e7be5516bff213cee715eb817c2a1619e0c325d1a1f91d",
+      "public_sha256": "3e5c84ab6732c8120f89d67701bc1d6e1d8bdec8a9d93ea612db48f3e17cf2fb",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-V2-MICROEXPRESSION",
+      "file": "documents/production/SOP-V2-MICROEXPRESSION.md",
+      "original_sha256": "21d57d299329db0ce302e31ac2add83970a4574c3a23fcf9c6220a258123048a",
+      "public_sha256": "4c7e80a8f37f37e0d1ebcd948231eeba4e812eefd6a0a88ee601f660a0bb7a8d",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-V2-MUSIC",
+      "file": "documents/production/SOP-V2-MUSIC.md",
+      "original_sha256": "12a2c1d69a8e7a4b75e4d6104150cb6bf10c27b3169da74e1201cf50b4d9e103",
+      "public_sha256": "e75345b74970235330dece9f5543c6cdbd2cd083c0fc7f09cd775d733339ac41",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-V2-PROP-HANDOFF",
+      "file": "documents/production/SOP-V2-PROP-HANDOFF.md",
+      "original_sha256": "cbaabc2a28d06599b1cc89914ca397a52b6500ebece318eb497ea2edf5076f0b",
+      "public_sha256": "33ea917608379e4608524707d3e0cdf5ccc472b14d893298e5346f8e51b33a38",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-V2-SCENE",
+      "file": "documents/production/SOP-V2-SCENE.md",
+      "original_sha256": "2dbfe07910907947cbfa61a066a313b2f4496f74ecfd72b6d188c5f7ce82eb2a",
+      "public_sha256": "6e0203eb99aee98cd5529453b1531b798a50c7adaa6fc2bdaca03593d7c4c3e4",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-V2-SUBTEXT",
+      "file": "documents/production/SOP-V2-SUBTEXT.md",
+      "original_sha256": "05cf6e4b3ad1a59fc63725489330b9ecde7d743b1b560f3925c278ad5de74fde",
+      "public_sha256": "db56b4b9cba5f1de1b3ae16f4e17dd5da5c31863002e463fb968b1ba199907aa",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-V2-TRANSFORM",
+      "file": "documents/production/SOP-V2-TRANSFORM.md",
+      "original_sha256": "2412ac57214d336457553c97a24a129af087440ca43189dd35ca15065276df64",
+      "public_sha256": "6e817e6f349bb43148af3bd10427f15c88b5ff00ccd4006ff1ddf23c196076be",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-V2-VFX-LIFECYCLE",
+      "file": "documents/production/SOP-V2-VFX-LIFECYCLE.md",
+      "original_sha256": "bd0079d2b9d023f2b60d17e4acc252328f31bdf0efc423d1619ef21f38dae644",
+      "public_sha256": "58a8be35252c19b14851198362d7825584dfc421c3c1368392609e2a6ab143d6",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-V2-VFX-OCCLUSION",
+      "file": "documents/production/SOP-V2-VFX-OCCLUSION.md",
+      "original_sha256": "a3d03e50a59ab18754f8829c92dc722b5521e2786f8a13857e2de9a6d49ac416",
+      "public_sha256": "a7d4f9c786019915fa03ae903ce25ae0919a2d0f762f2080056fbe2cb4648386",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-V2-VOICE",
+      "file": "documents/production/SOP-V2-VOICE.md",
+      "original_sha256": "a1b3815024258c39a37aa9c05f5c28bc4366010ff611d00e3135393134607275",
+      "public_sha256": "fd427fd2cb48ce12433aee8ad74c6fb7890afab7a0e15a71dba90dbb544d58a4",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-WAN-22-I2V",
+      "file": "documents/models/wan/SOP-WAN-22-I2V.md",
+      "original_sha256": "82668f212901e382890b04e2045390959b139309ff236b83b18bfab7867ce324",
+      "public_sha256": "215399e504ba58cf5c3b843a7ebec1a2e04646c1591005ed8be6be23aa5621e1",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-WAN-22-T2V",
+      "file": "documents/models/wan/SOP-WAN-22-T2V.md",
+      "original_sha256": "555f25144315c5a8a455565311941954aee52418146a5bec858a801f52a4fd67",
+      "public_sha256": "30d9ba44e9fb03da8025cd2408bf6f7ec7de69f21cadd59c556ae52c61f69f86",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-WAN-26-REF",
+      "file": "documents/models/wan/SOP-WAN-26-REF.md",
+      "original_sha256": "49c7f866740705727bbd93f67c1d08ead87615e1d8028132430a87a4f1797ca8",
+      "public_sha256": "7aa51874c604271fad64d8a2e6c5732956866ba84fb041be6ff34e7e8a3d7eb5",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-WAN-30-EDIT",
+      "file": "documents/models/wan/SOP-WAN-30-EDIT.md",
+      "original_sha256": "b56281b0824f9eb712fba9e94a4f91c07c12e554228460c3bbeb4e4b3966dd5f",
+      "public_sha256": "abf1f08b36361a84d9c2fc5d255e5ad85048a3f48a807a553f508905fec12759",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-WAN-30-EXTEND",
+      "file": "documents/models/wan/SOP-WAN-30-EXTEND.md",
+      "original_sha256": "b7b0e5da38e98953d7df0d1126c817ad3d7f965787febfda061a970663788fae",
+      "public_sha256": "f6e10316c5da55895981fa11919451114c32ae2f584ad2536f5616a4c179641b",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-WAN-30-I2V",
+      "file": "documents/models/wan/SOP-WAN-30-I2V.md",
+      "original_sha256": "b4f20641c77ee48481ae00485484201ff6f6452be005f4f6fc3390e1c5e531cc",
+      "public_sha256": "e8746c17de0f4fba70ec11dcd6a0f7cdded01cf9925ecd97a582f2d76b75e50c",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-WAN-30-REF",
+      "file": "documents/models/wan/SOP-WAN-30-REF.md",
+      "original_sha256": "593f1078901931e413ad3bf9b2ae73a66452757ce3e1fd193520d966012ede59",
+      "public_sha256": "32eb74954f6ba5bd5b0984b9eeda876cd59ea3b52698716381d4e0c624dc1a1a",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-WAN-30-T2V",
+      "file": "documents/models/wan/SOP-WAN-30-T2V.md",
+      "original_sha256": "1f3161c632c2551ecaccd13bc31323e8e119c1d2a04ae8862198b7553dcf02a1",
+      "public_sha256": "5bfd1764df438c6868ba07d373f829217436fb5d68123c38e31bf7eeeca121be",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "FR-V2-ACTION-VFX",
+      "file": "documents/production/FR-V2-ACTION-VFX.md",
+      "original_sha256": "1db5fdb0065ecbda111f1388bf427fd0cc4c9515aab687fde0458877ed34a651",
+      "public_sha256": "0685a8ee50159422412847a4f2f43022d2e699badc4504680143b0a53269f5b5",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "FR-V2-ASSET",
+      "file": "documents/production/FR-V2-ASSET.md",
+      "original_sha256": "6f55ad509bb8e25b2f5cb28c51385a8cda5de7ada9bdf6f68d3a3a2ced577e44",
+      "public_sha256": "b5b328a4be870f79afe4f9f57b3fee5ef434319b19a43180d43bc4e5f838f770",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "FR-V2-AUDIO-EDIT",
+      "file": "documents/production/FR-V2-AUDIO-EDIT.md",
+      "original_sha256": "1f96e36ed5322e6682c8f2409d33b83d4a159ece30e87da9d2c89ba314c881eb",
+      "public_sha256": "e38322a2b6d04007af6d471baeb241eafbe4c32d5af955e4340648ecdfa1365e",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "FR-V2-PERFORMANCE",
+      "file": "documents/production/FR-V2-PERFORMANCE.md",
+      "original_sha256": "ceb95191a54ebbe200d996b08d078fe6936e9e085c841e58a5a1747ba2dc7c71",
+      "public_sha256": "73e6098372f9fafbaefb3aab87e2b861f026024097a10d722fa38eca490eb73b",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "FR-V2-QC",
+      "file": "documents/production/FR-V2-QC.md",
+      "original_sha256": "d2989f47d3518de090282756e00c26007199652e2ea804478a06b82f9d0f1565",
+      "public_sha256": "1ec0678e8f775b262977b94e3e19cacab7a39569554256f97ccc5d915d7ea2a9",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "FR-V2-SCENE",
+      "file": "documents/production/FR-V2-SCENE.md",
+      "original_sha256": "a1d349abcbabfae56881d23b6ebfd3cdc2a3cad985d76ecbaeceb1ac7cb823d7",
+      "public_sha256": "01f97faaf4f8813e63f158ab6ce0ff48b7836ab7969da3c34a768abbab975d6f",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "FR-V2-SHOT",
+      "file": "documents/production/FR-V2-SHOT.md",
+      "original_sha256": "906167c1d8f5652d2782ed44eedfc4f1e550dee65cce0bfa02c909ecb4b61381",
+      "public_sha256": "afa7a8e7161fbc8aa19ee583d8cff69ea1655f9efa2dc0d5fd33033709cef1ea",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "FR-V2-SPACE-PROP",
+      "file": "documents/production/FR-V2-SPACE-PROP.md",
+      "original_sha256": "ec0bea87dcc41e26d565dc330ef2bfe446882705d94f5bf9d9380f602083ff84",
+      "public_sha256": "cc13980c3e7e46d01fe1b6aa9ee484582238a722e18b191adecb7ab6bce1a04c",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "TPL-ASSET",
+      "file": "documents/common/TPL-ASSET.md",
+      "original_sha256": "808347171af441da3ad3d5c390234e9f49dab1716445bc5efd82cc3b860e49b0",
+      "public_sha256": "07625777058090c6266d58df71b3c8443c163fa3d4f8d9f1d147cd10dc837de8",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "TPL-BRIEF",
+      "file": "documents/common/TPL-BRIEF.md",
+      "original_sha256": "a9549373d4688dda6818e43ba6d8e208de21d0796a9426dd63e4407606bf3c2b",
+      "public_sha256": "dfd154d25fe4b093c588d09896283ec7a48067637cafcb7726e9330198d95c5a",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "TPL-CHANGE",
+      "file": "documents/governance/TPL-CHANGE.md",
+      "original_sha256": "69731c98aff23669f0f6474feee6bfc1574d1d4d01b2f672648aa4ee9a93e443",
+      "public_sha256": "0c8d10753dc7d524902074102f29eac72efe6fd73f3cdd46191964996c0ae561",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "TPL-GENERATION-RECORD",
+      "file": "documents/governance/TPL-GENERATION-RECORD.md",
+      "original_sha256": "91e85eb5865c36409975c7a77b06e3f17524b0a9f9af2ed5ade07eec65d84f58",
+      "public_sha256": "28c637aa9dcc2fcc6403f3ae484b0f0e2ae86ee432591d400a74eb30bae62573",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "TPL-H3-FL2VA",
+      "file": "documents/models/h3/TPL-H3-FL2VA.md",
+      "original_sha256": "f07417eeb5567ea4a54f50f69f6c3f7493c9063bbddbcb9eb7f41ea25f1f1ac1",
+      "public_sha256": "93d05088342397e2d867bc48d0f459f5aa4daef5344cadd282fd30429fe91f18",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "TPL-H3-I2VA",
+      "file": "documents/models/h3/TPL-H3-I2VA.md",
+      "original_sha256": "0f5f84509885bf1c68ea1d4219cf22eadd078321f30cf0d300097b1b1b9b455f",
+      "public_sha256": "4e85faec3771b5768087b7a92327699be8e9aad2074292593126efbbcc87114c",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "TPL-H3-L2VA",
+      "file": "documents/models/h3/TPL-H3-L2VA.md",
+      "original_sha256": "0191fda830542f711aa76f46b734d795089d2066a45264f090b89042137fdb40",
+      "public_sha256": "cb398e1908d37c165a4fe77be5f66901c6891da78ec9fe082c0dea8557ca832f",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "TPL-H3-REF2VA",
+      "file": "documents/models/h3/TPL-H3-REF2VA.md",
+      "original_sha256": "9f136a5be527e020501f152fc19f9139d63a0920cbe03b922441303c7fe90330",
+      "public_sha256": "88aff7c4813f3086bb170e26c2c3426786ce867566336b52e61a8b28db3d8960",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "TPL-H3-T2VA",
+      "file": "documents/models/h3/TPL-H3-T2VA.md",
+      "original_sha256": "c85c14b8be1d241142beaabf0f617173c1f0a0853824399ce4818d1c53dc2025",
+      "public_sha256": "d4a1edb40b367f59de330e0621af5bedc4165523cdc13917e9ab77af19c3b7b9",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "TPL-QC",
+      "file": "documents/governance/TPL-QC.md",
+      "original_sha256": "2e9a76d00e400b2a6797a223a4ced702aba3f169642c154fa02320e83a0d65ee",
+      "public_sha256": "4eec4859fb3006f7f2067a321db6f35185c9ac5005098a0bc384451002d9a930",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "TPL-SCRIPT",
+      "file": "documents/common/TPL-SCRIPT.md",
+      "original_sha256": "9d1a6dc412583fb1d6a397cbe7d36e2eee26f47865f314e9e2af26fec6bc4b53",
+      "public_sha256": "add1ad8b1817893b28b1d38c6df519d66e0459de99b92c36d50c61681959708f",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "TPL-SEEDANCE-20-I2V",
+      "file": "documents/models/seedance/TPL-SEEDANCE-20-I2V.md",
+      "original_sha256": "aecd9c77b06ac408f25abd56ed82469aef9c3ddcd7c887e83647a1c9b5dbf627",
+      "public_sha256": "a7ab74ec6c531d397bd659b3d9522e11062179fcb41cc98a0abec594f1d5acec",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "TPL-SEEDANCE-20-REF",
+      "file": "documents/models/seedance/TPL-SEEDANCE-20-REF.md",
+      "original_sha256": "6bd1fb405925485b68faa5af335c1abe1ef5e0039dc5aa124b500a5717d35c42",
+      "public_sha256": "cffb46fd8207eebd355e602263567ac93f2261f5f768b0af81e98266e85bbd5d",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "TPL-SEEDANCE-20-T2V",
+      "file": "documents/models/seedance/TPL-SEEDANCE-20-T2V.md",
+      "original_sha256": "f5140696ade5cbffc7ef5db3ec6c098b636ebf5b809ad23fb80cb6eb3f41548f",
+      "public_sha256": "9081602c6f3fbc67a553368f09a4febb4e3f2c40f512c9509325bb328ec80580",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "TPL-SEEDANCE-25-I2V",
+      "file": "documents/models/seedance/TPL-SEEDANCE-25-I2V.md",
+      "original_sha256": "d62bb274fdbc4b4a61175cdacf4ce82af4097949533a3bb71b10b21910c85e88",
+      "public_sha256": "e117e6c8df890ba1f26e5805a6b861d0b9800b39c121c13bb3668b9df99d3204",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "TPL-SEEDANCE-25-REF",
+      "file": "documents/models/seedance/TPL-SEEDANCE-25-REF.md",
+      "original_sha256": "a46463ad55e8f85e5b166200f78c539da63b33bd960283ca93921fd72a7fbc28",
+      "public_sha256": "802968486dfdd04e069afea4a38ee56c04c05a3470fb3ad1ee002c268dc469ad",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "TPL-SEEDANCE-25-T2V",
+      "file": "documents/models/seedance/TPL-SEEDANCE-25-T2V.md",
+      "original_sha256": "3efd58560732c284d49fb54531f24cede52313b45b0e396c5030b49286a27515",
+      "public_sha256": "3c442d3165ceba81abe2a2197cff2653607e5e4b4544e66a76e583cb1a553b1e",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "TPL-SHOT-IR",
+      "file": "documents/common/TPL-SHOT-IR.md",
+      "original_sha256": "d3b913fbd15a3d03ea900443d8e1efb47f4fc1bbd4061da2032b16d86438849c",
+      "public_sha256": "769d0bdfe1500f7207302d61d7e076c704b9d3b8f0b9a7444780ede3278b097f",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "TPL-STORYBOARD",
+      "file": "documents/common/TPL-STORYBOARD.md",
+      "original_sha256": "d03da71d37c3adc8dc2d42cfdcd31dc0bafe54a19697a8cb49420bce751706a9",
+      "public_sha256": "cd20b7f04ad5ca59695745d7bc01e88fbd8a081e7b2e1e8570d2666578954dd2",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "TPL-WAN-22-I2V",
+      "file": "documents/models/wan/TPL-WAN-22-I2V.md",
+      "original_sha256": "e295c977ead3961fe2af76a350ece4ae62c8e7a1457e95b12069a070cf8ce5c9",
+      "public_sha256": "7d278e1024f27ba32d17d2205d28dbf193e78221a143aa6ee189b98426aa4c1c",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "TPL-WAN-22-T2V",
+      "file": "documents/models/wan/TPL-WAN-22-T2V.md",
+      "original_sha256": "940364c7f4030791ef8ce254af4b3694781c6b79a96a32e26510bf931ed7d1c4",
+      "public_sha256": "70a872f70c455a6efe2dd5ab9f2de3dc7bd7ce7b5202aec7b52ba83e867e9f19",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "TPL-WAN-26-REF",
+      "file": "documents/models/wan/TPL-WAN-26-REF.md",
+      "original_sha256": "1eae69e693d3652e5debb932f6ea33484bdb0f7b02b889e3118416a02cd7ef77",
+      "public_sha256": "f7376852039b6da3a38f38478a4173bba9cb6902573fc2b336996ecfcd199438",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "TPL-WAN-30-EDIT",
+      "file": "documents/models/wan/TPL-WAN-30-EDIT.md",
+      "original_sha256": "eb04d02a856eb4ab387be90a839abce8dca1c90fb7b3769eb9a8eb8e115fddfc",
+      "public_sha256": "19f19b08d6f601ae18260e528d53360a3690bfe10ec61f687a89a3daf2796767",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "TPL-WAN-30-EXTEND",
+      "file": "documents/models/wan/TPL-WAN-30-EXTEND.md",
+      "original_sha256": "3a9314b09a37ecb992ec2c59afb1a1d53471c6698b1a4920c4590d33035bf571",
+      "public_sha256": "927ebe68252e3696fe25490dde888673ab1b5ee3b122288c4b6a1629292ec8b9",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "TPL-WAN-30-I2V",
+      "file": "documents/models/wan/TPL-WAN-30-I2V.md",
+      "original_sha256": "3b009b95bc96063338779a66c191ea3eb5463302c8415583156519ff5476acda",
+      "public_sha256": "70591808e247417955d11ded680997b79b6a595f2072ac9c3ef1d4a1aede02a0",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "TPL-WAN-30-REF",
+      "file": "documents/models/wan/TPL-WAN-30-REF.md",
+      "original_sha256": "2fa58b78a85c1fd0a6444ec90ca555f49784f5bfe6e3b35735b66022c04fe57e",
+      "public_sha256": "df5701c57db79537f7430d2e4ec287285c9a6c52d533c9183a42451c46140730",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "TPL-WAN-30-T2V",
+      "file": "documents/models/wan/TPL-WAN-30-T2V.md",
+      "original_sha256": "fd1529457f07ed03772afeaff9a70721b6cf1d15e0f9a879db43ac4a9baf3950",
+      "public_sha256": "47c1f73d4096adfb12f91ed2050c1d3d3a87a230e5734262312af02a48f96da1",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "FR-GATE-PROJECT",
+      "file": "documents/audit/FR-GATE-PROJECT.md",
+      "original_sha256": "7ab162d9c2105e4892f82fa9e1a86246d1161c4f0dcb20d9c415690594a02249",
+      "public_sha256": "a2b110d1656754af0c5abb93bcb1099494962e70ad2e35f71fe916c5ea397ae7",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "FR-MODEL-QUALIFICATION",
+      "file": "documents/audit/FR-MODEL-QUALIFICATION.md",
+      "original_sha256": "02b1b02ec4303f3fb76b23846a56d5332ee2a27f57d4dbe39aaff8811709a047",
+      "public_sha256": "3a0f79336a3f9208b70358e3549b652b90b544a69ba2a45ff75e3cf0019a6858",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "FR-DELIVERY-MASTER",
+      "file": "documents/audit/FR-DELIVERY-MASTER.md",
+      "original_sha256": "fc660981d3ddc68706560a9796f9f1dfc3f2282b5775c1a47535369af28832c1",
+      "public_sha256": "06f1a17b1b865c3b079bbbc740a007871d888750709c3635c370dbd79ec57a3e",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "FR-SEGMENT-HANDOFF",
+      "file": "documents/audit/FR-SEGMENT-HANDOFF.md",
+      "original_sha256": "a4cb4fca984cfb4ffbaa2ba0c00a62ed860f4019bfc5451a4b73d711cba254e4",
+      "public_sha256": "5b6d2e6a623cfed8d2fbe5f4be23e640e3c6ffbbc9a7c1b934f9072ad06b8308",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "TPL-SCRIPT-FAMILY",
+      "file": "documents/audit/TPL-SCRIPT-FAMILY.md",
+      "original_sha256": "009d10cf70faf099dd49ca8b358b865e8a71d613c3dbe6cc382be366ebcd9268",
+      "public_sha256": "c689dcce9c661bdf0b2047eccc33fa2e48bec00824d7173105d1c4b97a2925a8",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "TPL-SCRIPT-XIANXIA",
+      "file": "documents/audit/TPL-SCRIPT-XIANXIA.md",
+      "original_sha256": "0093c5274632831a03d2fae05e257c0ef8d7429bf77fc7200a605482631f97a1",
+      "public_sha256": "14fbb83603092586f6e476a900f026b446d132b27818a087303a015d77c61277",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "QM-IMAGE-OPENAI",
+      "file": "documents/image/QM-IMAGE-OPENAI.md",
+      "original_sha256": "8d173b2d610990f9fd85bc6e2671d56f30db175a8aab64f17ce8714b8268ec38",
+      "public_sha256": "fea59b038b48632a6a635071dbd791e8037efe6c7b02ab9fd687dbcbf87cb23e",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "QM-IMAGE-SEEDREAM",
+      "file": "documents/image/QM-IMAGE-SEEDREAM.md",
+      "original_sha256": "85cb6c3f7dd1adda8d96f38de84c843fa9f6350bed3f94f31c62250670592592",
+      "public_sha256": "53263a63a60ee52c0efcbc3c53fe43428be8ec479b0399d2037526f2f78fd3b4",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "PR-IMAGE-CONTRACT",
+      "file": "documents/image/PR-IMAGE-CONTRACT.md",
+      "original_sha256": "0c401e58711914f89114a6c96419282283a9f3747cb1aea75438e1ae50049236",
+      "public_sha256": "99fcc6672ffd02ba2190637eec89a28defcdf3a06e4717deb43b70248562861a",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-IMAGE-OPENAI-T2I",
+      "file": "documents/image/SOP-IMAGE-OPENAI-T2I.md",
+      "original_sha256": "7e0034ab7fed68adffd95f9d811968a8f67979a640040a82ca8f9b01e2dc79d1",
+      "public_sha256": "fcbd3861da2a0c1ef31f28d533b5ce1b0009a9486f00978cc20a9885173cd371",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-IMAGE-OPENAI-EDIT",
+      "file": "documents/image/SOP-IMAGE-OPENAI-EDIT.md",
+      "original_sha256": "c7e04033d8971948f34743ce35a3002602bed0113b31a38a9e5705e5ad873f15",
+      "public_sha256": "f1143a5117e26349df3b4eaf8da45f1e7105dd4af776d108c922c6ef9ec37203",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-IMAGE-SEEDREAM",
+      "file": "documents/image/SOP-IMAGE-SEEDREAM.md",
+      "original_sha256": "c22373b1c244caaf02dd93028932b63722c3905fe480d6eec280774102e8db9c",
+      "public_sha256": "a512f5651a3831038d84a70299aff6e8fb02bf220f90630adebc0a519a9975cf",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "FR-IMAGE-JOB",
+      "file": "documents/image/FR-IMAGE-JOB.md",
+      "original_sha256": "607d92873b27a193b0412eff3ce8271c2ba9d17c933916d63a6ec770690bf85b",
+      "public_sha256": "27bb26344047b8199d2e43d12090ddf03efc0df1eb3ac69f79d690638d832651",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "FR-IMAGE-INSPECTION",
+      "file": "documents/image/FR-IMAGE-INSPECTION.md",
+      "original_sha256": "264eb801a82bc4b478e20183e5fceb3497d769f1c06bb6354ae24be5b5733b08",
+      "public_sha256": "454835bec69ef23c577f86441d8afcb5a5be499edf8c4985790afd34f65b2998",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-IMAGE-ASSET-PROMPT",
+      "file": "documents/image/SOP-IMAGE-ASSET-PROMPT.md",
+      "original_sha256": "fd24549ff3e070d2285a50225f156d2cddd72e7b81bbda3bc115549b59c1b3be",
+      "public_sha256": "e0fcf47ee131d102186bb94d7a9425926392fdee78dee06a2dea048bd60c74e7",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "TPL-IMAGE-TURNAROUND",
+      "file": "documents/image/TPL-IMAGE-TURNAROUND.md",
+      "original_sha256": "9d6f221b5b5df2f0458bb715b67c51166f1b65295262cb067dfdf4b0e8e07812",
+      "public_sha256": "f9d9e89963a84efdbfaf57dcb002796780d17e7b039aa8da3537562a634af4bf",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "TPL-IMAGE-PORTRAIT",
+      "file": "documents/image/TPL-IMAGE-PORTRAIT.md",
+      "original_sha256": "75170d9b67e6f89337407262fbeeda18e962612d0f97adc4049dc1f7b3953222",
+      "public_sha256": "95a861105a4b16f6cbcacd283eaf6da7de38c6b358900232714a19d46ffb82b1",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "TPL-IMAGE-SCENE",
+      "file": "documents/image/TPL-IMAGE-SCENE.md",
+      "original_sha256": "4bf68efff0f226f1074c31a9c3783213870fbce6c88c8e83d3e8725d30626bef",
+      "public_sha256": "e635b77563f2999ee75e449aacdf5bc4f338864c3c079dda78ee36287f4f68d1",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "TPL-IMAGE-STORYBOARD",
+      "file": "documents/image/TPL-IMAGE-STORYBOARD.md",
+      "original_sha256": "4d1bb25e4d8a28be6c0cd31275ad0cea1349842b94e91fe61a674dab4c3c26d3",
+      "public_sha256": "b328ccda03b80814e29cdabc9b86f050be3aba83eb2bd9275603dc09ef051664",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "PR-IMAGE-ROUTING",
+      "file": "documents/image/PR-IMAGE-ROUTING.md",
+      "original_sha256": "8d50b6c61ea132caa54b162662d14cf308e16480be6dcf4ce0eeb8af17ad0a52",
+      "public_sha256": "98c38ebdcd77d2170244560dedf5a648e462cdf58018bb8ba93f352a7cbd11d8",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-IMAGE-MULTIPANEL",
+      "file": "documents/image/SOP-IMAGE-MULTIPANEL.md",
+      "original_sha256": "c8eeb5fd960791c53109840bd5bc5c5da7c4027456dd0549bb57b0abe291d2c1",
+      "public_sha256": "45e7ea9e86a90366777b58c243daccc596850a7fbf39f00a74c979e2a5640e78",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "SOP-IMAGE-DESIGN-CHECKS",
+      "file": "documents/image/SOP-IMAGE-DESIGN-CHECKS.md",
+      "original_sha256": "718b43378f5de776cf9b82185310cb00fdb2fc3a2ebf22a33b85eb117ccbfa79",
+      "public_sha256": "15bc2e2496f732b6dd57402456eaeae2d0570325724258160511a8ee8ef8d95d",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    },
+    {
+      "id": "FR-IMAGE-TASK-SPEC",
+      "file": "documents/image/FR-IMAGE-TASK-SPEC.md",
+      "original_sha256": "a34b4770e89d5484645d39e39f803328c9293dcbd6ed200b66e053fda9038605",
+      "public_sha256": "db75ec2294748e30efc2be557aea8a56490bff20d2ab856470a7509034065e90",
+      "changes": "public_edition metadata; portable method references; local image-library routing text; LF canonical distribution line endings"
+    }
+  ],
+  "excluded": [
+    "private corpus and media",
+    "production records",
+    "third-party source snapshots",
+    "local path configuration",
+    "automation state",
+    "unactivated 2.0.6 candidate"
+  ]
+}

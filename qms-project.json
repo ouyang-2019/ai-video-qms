@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "name": "ai-video-qms",
+  "version": "0.1.0",
+  "standards_version": "2.0.5-public.1",
+  "upstream_standards_version": "2.0.5",
+  "runtime": {"python": ">=3.10", "node": ">=20"},
+  "generation_executed": false
+}

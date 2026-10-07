@@ -1,0 +1,7 @@
+interface:
+  display_name: "短剧微表演"
+  short_description: "把情绪写成可观察微表情和肢体"
+  brand_color: "#2563EB"
+  default_prompt: "使用 $shortdrama-micro-performance 把这个情绪节拍改写成可观察的镜头表演。"
+policy:
+  allow_implicit_invocation: true

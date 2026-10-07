@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "file": "examples/methods/embodied-pause.md",
+      "title": "情绪转身体停顿",
+      "stages": [
+        "craft",
+        "script"
+      ],
+      "facets": [
+        "performance.body",
+        "performance.breath"
+      ],
+      "url": "https://github.com/ouyang-2019/ai-video-qms/blob/main/examples/methods/embodied-pause.md",
+      "sha256": "0c2ca933115682a0bbf2904686da097f8dc3cdbd316c91847b8b2283cc81af1d",
+      "license_status": "MIT",
+      "privacy": "ai_allowed",
+      "reason": "本版本原创示例逐条全文方法复核；不等同生成与视听验收"
+    },
+    {
+      "file": "examples/methods/gaze-target.md",
+      "title": "目光目标与视线先后",
+      "stages": [
+        "craft",
+        "storyboard"
+      ],
+      "facets": [
+        "performance.eyes",
+        "blocking.interaction"
+      ],
+      "url": "https://github.com/ouyang-2019/ai-video-qms/blob/main/examples/methods/gaze-target.md",
+      "sha256": "040bcc8cd65f49598ff0d062ec8646dfedbfab276c3295e4e12f27cad1a64a47",
+      "license_status": "MIT",
+      "privacy": "ai_allowed",
+      "reason": "本版本原创示例逐条全文方法复核；不等同生成与视听验收"
+    },
+    {
+      "file": "examples/methods/prop-handoff.md",
+      "title": "杯子持有与接触状态",
+      "stages": [
+        "craft",
+        "storyboard"
+      ],
+      "facets": [
+        "props.state",
+        "props.handoff",
+        "action.contact"
+      ],
+      "url": "https://github.com/ouyang-2019/ai-video-qms/blob/main/examples/methods/prop-handoff.md",
+      "sha256": "4bb8673f57657f11649d55e9e74fd29da5d81c9ff2310c817cbd75483ccf0635",
+      "license_status": "MIT",
+      "privacy": "ai_allowed",
+      "reason": "本版本原创示例逐条全文方法复核；不等同生成与视听验收"
+    },
+    {
+      "file": "examples/methods/spatial-baseline.md",
+      "title": "场景拓扑与反打母版",
+      "stages": [
+        "assets",
+        "storyboard"
+      ],
+      "facets": [
+        "art.scene",
+        "continuity.state"
+      ],
+      "url": "https://github.com/ouyang-2019/ai-video-qms/blob/main/examples/methods/spatial-baseline.md",
+      "sha256": "060a0e3d45b9e803fdf4316fd53e9690f4f120e1d1893e40f8a4ce9f4db44002",
+      "license_status": "MIT",
+      "privacy": "ai_allowed",
+      "reason": "本版本原创示例逐条全文方法复核；不等同生成与视听验收"
+    },
+    {
+      "file": "examples/methods/nine-panel-storyboard.md",
+      "title": "九宫格故事板时序",
+      "stages": [
+        "assets",
+        "storyboard"
+      ],
+      "facets": [
+        "asset.storyboard_sequence",
+        "layout.grid_3x3"
+      ],
+      "url": "https://github.com/ouyang-2019/ai-video-qms/blob/main/examples/methods/nine-panel-storyboard.md",
+      "sha256": "73097eea24c9e78483546934c77fec250f02456c8816a259554e254632a8c51e",
+      "license_status": "MIT",
+      "privacy": "ai_allowed",
+      "reason": "本版本原创示例逐条全文方法复核；不等同生成与视听验收"
+    },
+    {
+      "file": "examples/methods/minimal-repair.md",
+      "title": "最小返修与证据闭环",
+      "stages": [
+        "review"
+      ],
+      "facets": [
+        "quality.inspect",
+        "continuity.state"
+      ],
+      "url": "https://github.com/ouyang-2019/ai-video-qms/blob/main/examples/methods/minimal-repair.md",
+      "sha256": "0942c2d7ee84bf9ed22ede1190fb34decaf50f3361934a18d65455fe2ab244dd",
+      "license_status": "MIT",
+      "privacy": "ai_allowed",
+      "reason": "本版本原创示例逐条全文方法复核；不等同生成与视听验收"
+    }
+  ],
+  "validation": "original methods reviewed for routing; no generated media validation"
+}

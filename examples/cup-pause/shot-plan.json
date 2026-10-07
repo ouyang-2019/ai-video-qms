@@ -1,0 +1,177 @@
+{
+  "project_id": "example-cup-pause",
+  "intent": "通过一次手部停顿与目光转移呈现角色A接受邀请前的迟疑",
+  "audience": "普通短剧观众",
+  "continuity_baseline": "原创匿名角色A；一只白色杯子杯柄向画面右；右手负责杯柄；木桌与窗位置固定",
+  "model": {
+    "model": "h3",
+    "version": "h3",
+    "platform": "prompt-only",
+    "mode": "T2VA"
+  },
+  "shots": [
+    {
+      "id": "S01",
+      "duration_seconds": 6,
+      "story_change": "A从迟疑转为以握柄动作接受邀请",
+      "start_state": "杯子在桌上、杯柄向右、A右手未接触",
+      "end_state": "右手握柄、杯底仍接触桌面、A视线回画外",
+      "departments": {
+        "writing": {
+          "status": "designed",
+          "design": "收到画外邀请后，A先停止手部，再看杯子，随后握柄表示接受",
+          "acceptance": "刺激、反应与决定按顺序出现，没有新人物或新剧情",
+          "facets": [
+            "script.beat",
+            "directing.intent"
+          ]
+        },
+        "performance": {
+          "status": "designed",
+          "design": "只用手指停顿、目光转移、一次浅呼吸和轻微下颌松动",
+          "acceptance": "信号可见，保持同一身份，禁止仅以紧张一词代替行为",
+          "facets": [
+            "performance.body",
+            "performance.eyes",
+            "performance.breath",
+            "performance.microexpression"
+          ]
+        },
+        "blocking": {
+          "status": "designed",
+          "design": "A始终坐在桌前，杯子在右手可及区域，身体不换朝向",
+          "acceptance": "头、肩、手与杯子位置连续，视线落点能解释",
+          "facets": [
+            "blocking.position"
+          ]
+        },
+        "props": {
+          "status": "designed",
+          "design": "一只完整杯子在桌上；右手接触杯柄后才握紧，结尾杯底仍在桌上",
+          "acceptance": "不换手、不多杯、不穿模，不在接触前移动",
+          "facets": [
+            "props.state",
+            "props.handoff"
+          ]
+        },
+        "wardrobe": {
+          "status": "designed",
+          "design": "A穿纯色长袖，袖口与皮肤分界固定",
+          "acceptance": "姿态变化不改变衣服颜色或左右袖结构",
+          "facets": [
+            "art.costume"
+          ]
+        },
+        "environment": {
+          "status": "designed",
+          "design": "木桌前缘水平，窗位在世界左前，不在本镜增加其他门窗",
+          "acceptance": "固定地标与人物尺度不漂移",
+          "facets": [
+            "art.scene"
+          ]
+        },
+        "camera": {
+          "status": "designed",
+          "design": "固定中近景，脸和右手同画面，焦点覆盖目光与接触点",
+          "acceptance": "没有额外切镜或无动机推拉，关键手势不裁切",
+          "facets": [
+            "camera.composition",
+            "camera.focus"
+          ]
+        },
+        "lighting": {
+          "status": "designed",
+          "design": "窗侧软光，杯柄和手指保持可读，阴影方向稳定",
+          "acceptance": "不随动作闪烁或反转光源",
+          "facets": [
+            "art.light"
+          ]
+        },
+        "action": {
+          "status": "designed",
+          "design": "右手靠近杯柄，接触后手指闭合；杯底持续承担重量",
+          "acceptance": "接触顺序合理，杯子未悬浮，手腕连续",
+          "facets": [
+            "action.contact"
+          ]
+        },
+        "vfx": {
+          "status": "not_applicable",
+          "reason": "日常室内反应，没有特效事件"
+        },
+        "voice": {
+          "status": "not_applicable",
+          "reason": "本镜无对白；邀请用前镜已发生事实，禁止本镜新增语句"
+        },
+        "sound": {
+          "status": "designed",
+          "design": "保留安静室内底噪和手指接触杯柄的轻响",
+          "acceptance": "没有陌生对白或夸张碰撞声，接触声不提前",
+          "facets": [
+            "audio.foley"
+          ]
+        },
+        "editing": {
+          "status": "designed",
+          "design": "完整6秒单镜，在握柄后短暂停留再结束",
+          "acceptance": "没有跳剪，停顿可以看清",
+          "facets": [
+            "edit.rhythm"
+          ]
+        },
+        "continuity": {
+          "status": "designed",
+          "design": "首态杯子静置右手未接触；尾态右手握柄而杯底仍在桌面",
+          "acceptance": "同一人物/杯子/手别/光向，首尾状态可供下镜继承",
+          "facets": [
+            "continuity.state"
+          ]
+        }
+      },
+      "performances": [
+        {
+          "character_id": "A",
+          "objective": "接受邀请但需要一拍决定",
+          "stimulus": "前镜中的邀请已出现，本镜不重复对白",
+          "baseline": "坐姿稳定，手在桌边，眉眼放松",
+          "beats": [
+            {
+              "start": 0,
+              "end": 2,
+              "body": "保持坐姿，右手自然放在桌边",
+              "gaze": "看画外邀请者的方向",
+              "face": "眉眼与嘴维持放松基线",
+              "breath": "自然呼吸"
+            },
+            {
+              "start": 2,
+              "end": 3,
+              "body": "右手向杯柄靠近后短暂停住",
+              "gaze": "视线从画外对象移向杯柄",
+              "face": "嘴唇保持合拢，下颌轻微收紧",
+              "breath": "短浅吸气后保持一拍"
+            },
+            {
+              "start": 3,
+              "end": 4,
+              "body": "手腕不动，手指缓慢落向杯柄",
+              "gaze": "目光停在杯柄接触点",
+              "face": "下颌从轻微收紧恢复放松",
+              "breath": "缓慢呼气"
+            },
+            {
+              "start": 4,
+              "end": 6,
+              "body": "右手接触杯柄并闭合手指，杯底不离桌",
+              "gaze": "先看手与杯柄，再回到画外邀请者方向",
+              "face": "嘴角仅少量上扬，保持原身份",
+              "breath": "恢复自然呼吸"
+            }
+          ]
+        }
+      ],
+      "assets": [],
+      "evidence_ids": []
+    }
+  ]
+}

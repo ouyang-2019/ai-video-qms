@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "title": "AI Video QMS Wiki",
+  "tasks": {
+    "script": {
+      "title": "剧本开发",
+      "page": "wiki/workflow.md",
+      "stage": "script",
+      "facets": ["script.beat", "directing.intent"],
+      "skills": ["ai-video-qms", "ai-video-fullchain"],
+      "templates": ["TPL-SCRIPT", "TPL-SCRIPT-FAMILY", "TPL-SCRIPT-XIANXIA"]
+    },
+    "adaptation": {
+      "title": "改编与系列化",
+      "page": "wiki/workflow.md",
+      "stage": "script",
+      "facets": ["script.structure", "continuity.state"],
+      "skills": ["ai-video-qms", "ai-video-fullchain"],
+      "templates": ["TPL-SCRIPT", "FR-GATE-PROJECT"]
+    },
+    "dialogue": {
+      "title": "对白与潜台词",
+      "page": "wiki/craft.md",
+      "stage": "script",
+      "facets": ["script.dialogue", "performance.objective", "audio.prosody"],
+      "skills": ["ai-video-qms", "ai-video-fullchain"],
+      "templates": ["TPL-SCRIPT", "TPL-SHOT-IR"]
+    },
+    "storyboard": {
+      "title": "分镜与镜头设计",
+      "page": "wiki/craft.md",
+      "stage": "storyboard",
+      "facets": ["directing.storyboard", "blocking.axis", "props.state", "camera.motion", "continuity.state"],
+      "skills": ["ai-video-qms", "ai-video-fullchain"],
+      "templates": ["TPL-STORYBOARD", "TPL-SHOT-IR", "FR-SEGMENT-HANDOFF"]
+    },
+    "micro-performance": {
+      "title": "微表情与情境表演",
+      "page": "wiki/craft.md",
+      "stage": "craft",
+      "facets": ["performance.microexpression", "performance.eyes", "performance.breath"],
+      "skills": ["ai-video-qms", "shortdrama-micro-performance"],
+      "templates": ["TPL-SHOT-IR", "FR-V2-PERFORMANCE"]
+    },
+    "assets": {
+      "title": "图像与资产设计",
+      "page": "wiki/image-assets.md",
+      "stage": "assets",
+      "facets": [],
+      "skills": ["ai-video-qms", "ai-video-fullchain"],
+      "templates": ["TPL-ASSET"]
+    },
+    "video": {
+      "title": "视频模型提示词编译",
+      "page": "wiki/models-and-quality.md",
+      "stage": "video",
+      "facets": [],
+      "skills": ["ai-video-qms", "ai-video-fullchain"],
+      "templates": ["TPL-SHOT-IR"]
+    },
+    "review": {
+      "title": "审核、返修与归档",
+      "page": "wiki/evidence-and-boundary.md",
+      "stage": "review",
+      "facets": ["quality.inspect", "continuity.state"],
+      "skills": ["ai-video-qms", "ai-video-fullchain", "shortdrama-production-qa"],
+      "templates": ["TPL-QC", "TPL-GENERATION-RECORD", "FR-DELIVERY-MASTER", "FR-MODEL-QUALIFICATION"]
+    }
+  }
+}

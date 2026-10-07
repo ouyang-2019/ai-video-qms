@@ -1,0 +1,6 @@
+[project]
+name = "ai-video-qms"
+version = "0.1.0"
+description = "Portable AI video quality system tools"
+requires-python = ">=3.10"
+license = {text = "MIT"}

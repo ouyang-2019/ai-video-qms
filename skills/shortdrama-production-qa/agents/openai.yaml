@@ -1,0 +1,7 @@
+interface:
+  display_name: "短剧制作QA"
+  short_description: "短剧从剧本到审核返修的质量闭环"
+  brand_color: "#2563EB"
+  default_prompt: "使用 $shortdrama-production-qa 为这个短剧建立可追溯的剧本到审核生产计划。"
+policy:
+  allow_implicit_invocation: true
